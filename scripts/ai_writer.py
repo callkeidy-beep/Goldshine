@@ -136,26 +136,31 @@ SCHEMA = {
 class _Text(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.parts, self.desc, self._in_p, self._skip = [], "", False, 0
+        self.parts, self.loose, self.desc, self._in_p, self._skip = [], [], "", False, 0
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag == "meta" and a.get("property") in ("og:description",) and a.get("content"):
             self.desc = a["content"]
-        if tag in ("script", "style"):
+        if tag in ("script", "style", "nav", "header", "footer", "noscript"):
             self._skip += 1
         if tag == "p":
             self._in_p = True
 
     def handle_endtag(self, tag):
-        if tag in ("script", "style") and self._skip:
+        if tag in ("script", "style", "nav", "header", "footer", "noscript") and self._skip:
             self._skip -= 1
         if tag == "p":
             self._in_p = False
 
     def handle_data(self, data):
-        if self._in_p and not self._skip and len(data.strip()) > 20:
-            self.parts.append(data.strip())
+        t = data.strip()
+        if self._skip:
+            return
+        if self._in_p and len(t) > 20:
+            self.parts.append(t)
+        elif len(t) > 40 and t.endswith(("다.", "다", ".", "요.", "”", '"')):
+            self.loose.append(t)  # <p>를 쓰지 않는 모바일·AMP 기사용
 
 
 def article_text(url: str, limit: int = 2500) -> str:
@@ -167,7 +172,9 @@ def article_text(url: str, limit: int = 2500) -> str:
         r.encoding = r.apparent_encoding or r.encoding
         p = _Text()
         p.feed(r.text)
-        body = " ".join(p.parts) or p.desc
+        body = " ".join(p.parts)
+        if len(body) < 300:
+            body = " ".join(p.parts + p.loose) or p.desc
         return re.sub(r"\s+", " ", body)[:limit]
     except Exception:
         return ""
