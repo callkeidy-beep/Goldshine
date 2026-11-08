@@ -552,16 +552,6 @@
       "kind": "news"
     },
     {
-      "title": "강남은 내리고 경기 남부는 뛴다···엇갈리는 수도권 집값",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrREhYRENLTVNRWE9qTVpYV1cwSzRlY0FJZDRPMXhsS2hkeDBoTHhLR3dPT0gtT1JEWThmZG5ZcDY3c2piQlY1QUdUTlI1ejdEZV9WMGRjc2NhZklJWndtRVF3WkRERFRTLUE?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:08:56+09:00",
-      "press": "뉴스웨이",
-      "id": "33f1662e39",
-      "source_id": "gn-gangnam-price",
-      "kind": "news"
-    },
-    {
       "title": "집값 올랐으니 2.2억은 나라에 줘라?…강남 반포현대 재초환 '예고장' 온다",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNFkwMF9CLUhFR01aNWEyVFhzTG1JMGhlTW56UXBBYTc0WGU0UnZGVUxIQ3BpSmE1TER2VENJUFlvZkpoUVBNNmlJaldFYXl0Z2xjVkUtdUc0d2xsZG9MYjdSN0tUWkxYVGdjelIzQW9MWWRIQ1FYYno4WUxEcThLbA?oc=5",
       "summary": "",
@@ -852,6 +842,16 @@
       "kind": "news"
     },
     {
+      "title": "은마아파트 조합원 1인당 재초환 4.6억… 서울 재건축시장 '빨간불' - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MSlVRYnN1R05sOW1BRnVDVzNCdUtTbFFVd29FUmRvRWZLMWVfdmlLOXlsdVBOWWwyeXpXTmpUX2hIcUJSa1lQVEpaVVh6ZnhKaVJXaGExWTlLV2hYWk9SZ0stYlJMNE9icEHSAW9BVV95cUxPOGVDOS0tSWJFbjdxY2lJWGFneGEyVzhTQ1Rvc1k1aTc2THNVNHdTOHJnYjIyd0VRR1ZoMmtZYnpDYzlkM3NScTBSb0ZEMUwySjg5bnp0WEhHRm9PdUxHNXJ4RDhrbUFXX3Buc25QRG8?oc=5",
+      "summary": "",
+      "published": "2026-11-06T14:50:15+09:00",
+      "press": "머니투데이",
+      "id": "5b298cb4eb",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
       "title": "6억 원 넘게 떨어졌다... 강남 3구, 중소형 아파트도 하락 거래",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sMHRoejU4WkUyM1ViTDl6eElpR2JJb21Ba2tQWVBqR2xKYnhDZl9lVzBLOE90NDMwOVNrNUZ4dDFLejhJWktIeFdSVEdQRnlGWFYwQU8xVnVWOVl4SE02bjhOYmpjRTFHVmNmUDlBQ2x0Y2_SAXNBVV95cUxPbDB0aHo1OFpFMjNVYkw5enhJaUdiSW9tQWtrUFlQakdsSmJ4Q2ZfZVcwSzhPdDQzMDlTazVGeHQxS3o4SVpLSHhXUlRHUEZ5RlhWMEFPMVZ1VjlZeEhNNm44TmJqY0UxR1ZjZlA5QUNsdGNv?oc=5",
       "summary": "",
@@ -882,22 +882,22 @@
       "kind": "news"
     },
     {
-      "title": "은마 재초환 평균 4억6334만원…재건축 부담, 집값보다 사업성이 가른다",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDTzZTVmdZa2ZMODZGaHlfeVhoYkFDUWtpWHBuZHgxX1R3Nmd6bndFZTd0SlNZaHEtN1U2LW1RZTVuaHNmOUcwUGJ4S0JBeTVGZjJvWTJLbC0zQms?oc=5",
-      "summary": "",
-      "published": "2026-11-06T21:39:06+09:00",
-      "press": "에너지경제신문",
-      "id": "1c392287ae",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "은마 1인당 재초환 4.6억 폭탄…공사비 인상 겹쳐 강남 재건축 ‘비상’",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pbTNIQVlSY096RFczNk1Vc3VsOFE3d3dKMVhqdDMtak5pZXNvQnI0UTFuQi1JTElZbDJsRkVQaV9weHFVZWxOMUhtMV9HellTdkHSAVNBVV95cUxOR2lnODhIb1dJb3VyUHlPYmlYNUUwa2V5eGJhVHdGSHNpV2p5cUxaVkNzVnItZFd6dlNaVDBZYk1sdUlRbXZZdDZpdmh6TUExemtySQ?oc=5",
       "summary": "",
       "published": "2026-11-07T10:32:13+09:00",
       "press": "서울경제",
       "id": "81b6398f8d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "은마 재초환 평균 4억6334만원…재건축 부담, 집값보다 사업성이 가른다",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDTzZTVmdZa2ZMODZGaHlfeVhoYkFDUWtpWHBuZHgxX1R3Nmd6bndFZTd0SlNZaHEtN1U2LW1RZTVuaHNmOUcwUGJ4S0JBeTVGZjJvWTJLbC0zQms?oc=5",
+      "summary": "",
+      "published": "2026-11-06T21:39:06+09:00",
+      "press": "에너지경제신문",
+      "id": "1c392287ae",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -1072,16 +1072,6 @@
       "kind": "news"
     },
     {
-      "title": "전국 아파트 매매 0.07%·전세 0.10% 상승… 강남 3구 하락세",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9ZNlJtTUtRdGxPdXgwcDhTcTZzX3BQbWhITUJJd2tTbjhtWlVOdXFRYkJfSGIxTUttS0dxeUNPWG9OREFo?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:10:00+09:00",
-      "press": "국토매일",
-      "id": "d2898f9111",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "[부동산라운지-10월 3주]서울 아파트 매매시장 상승폭 둔화…강남3구 하락에도 외곽은 오름세",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13T2tWRkVjbmlVYnl5WEljWmFIWXVkWXNMZ1pIRzV0WU51S1VvQXNva0FUZkg0NEZ6elQ5VEZxYmlycEVocHlPQXp1R3c4RmhKMnNjcDJWMkpVX3VCR2dpY3h1N3FOaGNIQmJtaEFTSWU?oc=5",
       "summary": "",
@@ -1152,16 +1142,6 @@
       "kind": "news"
     },
     {
-      "title": "서울 아파트 매매 91주째 상승했으나 강도는 둔화…송파 전셋값 8개월 만에 하락",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12ek85dW5MWGRzTlVObEYwRWFtUzBvYktqT2M5U3daa01kZ1FvTHFKTzBBaERYRHNlOVNBai05SVZadXQyN2hNbjhRRk9SdlR5MjEzZXpBUVpqSGlZdXE4WmFWUUlDNVBtZFln0gFUQVVfeXFMUDllZDFxSnZrTmxwYmZRNGVfc0V6bHFVNXZMajgtdWQwUmRjaW8wcG0tWXpBTHZFSzAxaDU4SW9OYUJlOXp4M050bXZfWm9RbnVWSmJN?oc=5",
-      "summary": "",
-      "published": "2026-11-05T17:13:55+09:00",
-      "press": "세계일보",
-      "id": "ae73b11a78",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "이혼해 강남아파트 받은 아내…“위장 이혼이지?” 美서 날벼락, “아파트 돌려줘!” 소송까지",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83S1dhdmJrUkhwYy1nNWtiaEFYQTBSdTA1U1NKcGdva0hOSnVwZmZ4R2pWakZSTFU2V21nZGo3b01aOUhTOG9WcGtHeXpKQ09EXzVIejZB?oc=5",
       "summary": "",
@@ -1172,22 +1152,12 @@
       "kind": "news"
     },
     {
-      "title": "서울 아파트값 역대 최장 91주 상승⋯강남3구는 하락",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1leXZzS052blJqR05yNFYwNTQtWTJtTlRnV0M4VW5fYzEtWWNMaGczTGtWc211UW1MM3NpYVI2UEllb25tRmhEUDhaM0lHYlNaR1lnLU14dk0?oc=5",
+      "title": "서울 아파트 매매 91주째 상승했으나 강도는 둔화…송파 전셋값 8개월 만에 하락",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12ek85dW5MWGRzTlVObEYwRWFtUzBvYktqT2M5U3daa01kZ1FvTHFKTzBBaERYRHNlOVNBai05SVZadXQyN2hNbjhRRk9SdlR5MjEzZXpBUVpqSGlZdXE4WmFWUUlDNVBtZFln0gFUQVVfeXFMUDllZDFxSnZrTmxwYmZRNGVfc0V6bHFVNXZMajgtdWQwUmRjaW8wcG0tWXpBTHZFSzAxaDU4SW9OYUJlOXp4M050bXZfWm9RbnVWSmJN?oc=5",
       "summary": "",
-      "published": "2026-11-05T16:11:20+09:00",
-      "press": "국민일보",
-      "id": "f8fe1d398a",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
-      "title": "서울 아파트값 상승폭 3주 연속 축소...강남3구는 하락세 지속",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByNmxjSzVTT3dsa1NOV3Y5UXpKTWJ3Ujl3WU45NTQzZ1A4OVVTQWxFVXYyWVBYczFmWWxCTDVwUHhTYVRPR3JaMHZ2aWFubjZzTk1qUFB4V3BudGQ1dVdyUHoyWWs?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:03:59+09:00",
-      "press": "https://www.ppss.kr/",
-      "id": "0fb22740a1",
+      "published": "2026-11-05T17:13:55+09:00",
+      "press": "세계일보",
+      "id": "ae73b11a78",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -1449,6 +1419,16 @@
       "press": "파이낸셜뉴스",
       "id": "4d68fa12dc",
       "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "김동현 100억에 산 아파트…한 달도 안 돼 88억 '뚝' [이송렬의 부동산한입]",
+      "link": "https://www.hankyung.com/article/2026110586266",
+      "summary": "",
+      "published": "2026-11-08T16:00:02+09:00",
+      "press": "한국경제 부동산",
+      "id": "f4b9cf2efc",
+      "source_id": "rss-hankyung",
       "kind": "news"
     },
     {
@@ -1908,16 +1888,6 @@
       "published": "2026-11-04T17:15:51+09:00",
       "press": "한국경제 부동산",
       "id": "ee154b86d5",
-      "source_id": "rss-hankyung",
-      "kind": "news"
-    },
-    {
-      "title": "지방 청약 1위는 '세종'…연내 3600가구 공급",
-      "link": "https://www.hankyung.com/article/2026110462331",
-      "summary": "",
-      "published": "2026-11-04T17:14:46+09:00",
-      "press": "한국경제 부동산",
-      "id": "849a2edd85",
       "source_id": "rss-hankyung",
       "kind": "news"
     },
@@ -2982,16 +2952,6 @@
       "kind": "news"
     },
     {
-      "title": "은마아파트 조합원 1인당 재초환 4.6억… 서울 재건축시장 '빨간불' - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84ZUM5LS1JYkVuN3FjaUlYYWd4YTJXOFNDVG9zWTVpNzZMc1U0d1M4cmdiMjJ3RVFHVmgya1liekNjOWQzc1JxMFJvRkQxTDJKODluenRYSEdGb091TEc1cnhEOGttQVdfcG5zblBEb9IBb0FVX3lxTE84ZUM5LS1JYkVuN3FjaUlYYWd4YTJXOFNDVG9zWTVpNzZMc1U0d1M4cmdiMjJ3RVFHVmgya1liekNjOWQzc1JxMFJvRkQxTDJKODluenRYSEdGb091TEc1cnhEOGttQVdfcG5zblBEbw?oc=5",
-      "summary": "",
-      "published": "2026-11-06T14:50:15+09:00",
-      "press": "머니투데이",
-      "id": "99396ab2bb",
-      "source_id": "gn-gangnam-gu",
-      "kind": "news"
-    },
-    {
       "title": "은마도 4.6억 재초환 통지 … 서울 53개 단지 재초환 비상",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yYkpkQ2tGb1RSbkJXZWItNVNQdjRKUFhaaGE0Tnd1clpKY29oN09XYldyTVkyUGZRakRlLTJ2ZlprSVljTm9ud2ZmLThyeWZrQmdtakFfY1M?oc=5",
       "summary": "",
@@ -3078,16 +3038,6 @@
       "published": "2026-11-07T10:30:00+09:00",
       "press": "뉴시스",
       "id": "393f8798bc",
-      "source_id": "gn-togeo",
-      "kind": "news"
-    },
-    {
-      "title": "혼돈의 주택시장, 정부 꺼낼 수 있는 ‘규제’ 카드 있나",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95U3VNQXRFYUtsZ2V6UWhDUjdLTTFvTDRTU0NUclFtV1VSLTE2emtweG5ZSkNtNzRCcXZsNUQ1MDZucnlvM0VLMEt6cmlhSFNYeXAxNEFDcjN6TnBPWU9pdUk0NA?oc=5",
-      "summary": "",
-      "published": "2026-11-08T09:00:00+09:00",
-      "press": "에너지경제신문",
-      "id": "46cfa33c0c",
       "source_id": "gn-togeo",
       "kind": "news"
     },
@@ -3222,6 +3172,16 @@
       "kind": "news"
     },
     {
+      "title": "아파트 전세 비싸 빌라 찾았더니…동대문 1년 새 25% 뛰었다 [부동산360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vN2ZNcUROam00aE14SFRxcXJLZ0dOS3BPdm5SSExsWXhKZUJvd255My1OdU9UYXpqTWtGVUZlMDllb290MDI5TDNGSWJXRjlycnhoQnVR?oc=5",
+      "summary": "",
+      "published": "2026-11-08T11:00:00+09:00",
+      "press": "헤럴드경제",
+      "id": "d501a1d3c9",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
       "title": "일원한솔 재건축, 설계 경쟁 '토문·희림' 2파전…사업성·남향 배치 승부",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nbDBpc0JlTUNIMUk3NHVyVE9zcUtUXzRrSDJ4UGxZX2wxcHZQYWcwZ05Ja1hrQU56dTgtV2dEVXJGeTRFbWNGeFZEVGVmWnBKYXI1MFVCNF94WUE2ZzRtdThFSlBJRFZj?oc=5",
       "summary": "",
@@ -3262,12 +3222,12 @@
     {
       "source": "gn-gangnam-price",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "source": "gn-gangnam-apt",
       "ok": true,
-      "count": 67
+      "count": 65
     },
     {
       "source": "gn-policy",
@@ -3312,7 +3272,7 @@
     {
       "source": "gn-gangnam-gu",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "source": "gn-gaepo-jungbi",
@@ -3322,12 +3282,12 @@
     {
       "source": "gn-togeo",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "source": "gn-jeonse",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "source": "gn-ilwon",
