@@ -1,4 +1,6 @@
-# 개포 데일리 — 마이클 에디션
+# Goldshine
+
+개포동 중개사무소의 아침 부동산 이야기. (이전 이름: 개포 데일리 — 마이클 에디션)
 
 지인용과 같은 엔진에 마이클의 글 원칙(『묘사의 힘』, 짧은 문장, 성인의 아이러니)을 `config.yaml`의 `writing.rules`와 `comic.rules`에 넣은 판입니다.
 
@@ -60,14 +62,14 @@
 
 ### 5. 첫 실행
 1. **Actions** 탭을 엽니다. 노란 안내가 나오면 **I understand my workflows, go ahead and enable them**을 누릅니다.
-2. 왼쪽 **개포 데일리 (매일 아침)** → **Run workflow** → **Run workflow**.
+2. 왼쪽 **Goldshine (매일 아침)** → **Run workflow** → **Run workflow**.
 3. 3~5분 뒤 홈페이지를 새로고침하면 오늘의 3편이 보입니다.
 
 이후로는 매일 오전 7시에 저절로 돕니다.
 
 ### 6. 휴대폰 알림 (선택)
 GitHub 앱에서 저장소를 열고 **Watch → All activity**를 누릅니다.
-매일 아침 「[개포 데일리] 날짜」 알림이 옵니다. 그 이슈에 댓글로 `1:4 2:3 3:5 c1:5 c2:3 c3:4`만 달아도 점수가 들어갑니다. 숫자만은 글 점수, `c`가 붙으면 4컷 점수입니다.
+매일 아침 「[Goldshine] 날짜」 알림이 옵니다. 그 이슈에 댓글로 `1:4 2:3 3:5 c1:5 c2:3 c3:4`만 달아도 점수가 들어갑니다. 숫자만은 글 점수, `c`가 붙으면 4컷 점수입니다.
 
 ---
 
@@ -138,7 +140,7 @@ AI에게 주는 4컷 규칙입니다. 평소 말로 적으면 됩니다.
 ### 더 깊이 바꾸고 싶을 때
 - 인물 그림: `docs/index.html`의 `GUEST`, `BOSS` (SVG 그림)
 - 칸 배치, 글자 크기: `docs/index.html`의 `.panel` 스타일
-- 4컷 대신 다른 형식(한 장 그림, 지도 일기 등): `scripts/ai_writer.py`의 `SYSTEM` 글과 `docs/index.html`의 `comicNode`를 함께 바꿉니다. Claude에게 "개포 데일리 4컷을 ○○ 형식으로 바꿔줘"라고 맡기면 됩니다.
+- 4컷 대신 다른 형식(한 장 그림, 지도 일기 등): `scripts/ai_writer.py`의 `SYSTEM` 글과 `docs/index.html`의 `comicNode`를 함께 바꿉니다. Claude에게 "Goldshine 4컷을 ○○ 형식으로 바꿔줘"라고 맡기면 됩니다.
 
 ## 어떻게 학습하나요
 

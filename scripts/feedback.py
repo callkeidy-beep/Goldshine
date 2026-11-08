@@ -112,13 +112,13 @@ def apply_source(cmd: str, arg: str, body: str) -> str:
 def main() -> int:
     title = os.environ.get("ISSUE_TITLE", "")
     body = os.environ.get("ISSUE_BODY", "") or ""
-    m = re.match(r"\s*\[(점수|개포 데일리|출처추가|출처끄기|출처켜기|출처삭제)\]\s*(.*)$", title)
+    m = re.match(r"\s*\[(점수|Goldshine|개포 데일리|출처추가|출처끄기|출처켜기|출처삭제)\]\s*(.*)$", title)
     if not m:
         print("처리할 형식이 아닙니다.")
         return 0
     cmd, arg = m.group(1), m.group(2).strip()
-    # "[개포 데일리] 날짜" 알림 이슈에 단 댓글도 점수로 받습니다
-    msg = apply_scores(title, body) if cmd in ("점수", "개포 데일리") else apply_source(cmd, arg, body)
+    # "[Goldshine] 날짜" 알림 이슈(예전 이름 "[개포 데일리]" 포함)에 단 댓글도 점수로 받습니다
+    msg = apply_scores(title, body) if cmd in ("점수", "Goldshine", "개포 데일리") else apply_source(cmd, arg, body)
     build()
     print(msg)
     return 0

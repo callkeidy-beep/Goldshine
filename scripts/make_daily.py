@@ -25,7 +25,7 @@ def trend_chart(cfg: dict, category: str, day: str) -> dict:
         labels.append(d[5:].replace("-", "/"))
         values.append(n)
     return {"type": "line", "title": f"최근 7일 '{category}' 기사 수", "unit": "건",
-            "labels": labels, "values": values, "note": "개포 데일리가 매일 모은 기사 기준"}
+            "labels": labels, "values": values, "note": "Goldshine이 매일 모은 기사 기준"}
 
 
 def main() -> int:

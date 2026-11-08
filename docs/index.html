@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>개포 데일리</title>
+<title>Goldshine</title>
 <meta name="description" content="개포동 중개사무소의 오늘의 부동산 이야기 3편">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -183,7 +183,7 @@ form.add .full{grid-column:1/-1}
 <header>
   <div class="wrap">
     <div class="mast">
-      <div class="brand"><h1 id="siteTitle">개포 데일리</h1><p id="siteSub">개포동 사무실의 아침 부동산 이야기</p></div>
+      <div class="brand"><h1 id="siteTitle">Goldshine</h1><p id="siteSub">개포동 사무실의 아침 부동산 이야기</p></div>
       <div class="datebar">
         <button id="prevDay" aria-label="이전 날">‹</button>
         <span class="d" id="curDay">—</span>
@@ -449,7 +449,7 @@ form.add .full{grid-column:1/-1}
     toon.forEach(p => { if (r[p.slot].cmemo) lines.push(`cmemo${p.slot}: ${one(r[p.slot].cmemo)}`); });
     // 직접 고친 4컷은 그 대본을 함께 보냅니다. 점수가 높으면 다음 4컷의 본보기가 됩니다.
     toon.forEach(p => { const e = store.get(editKey(p.slot), null); if (e) lines.push(`comic${p.slot}: ${JSON.stringify(e)}`); });
-    lines.push('', '— 개포 데일리 홈페이지에서 보냄. 아래 Submit을 누르면 반영됩니다.');
+    lines.push('', '— Goldshine 홈페이지에서 보냄. 아래 Submit을 누르면 반영됩니다.');
     openIssue(`[점수] ${day}`, lines.join('\n'), () => {
       demoAddScores(post.map(p => ({kind:'post', date:day, slot:p.slot, id:p.id, category:p.category, title:p.title, keywords:p.keywords||[], score:r[p.slot].score, memo:r[p.slot].memo||''}))
         .concat(toon.map(p => ({kind:'comic', date:day, slot:p.slot, id:p.id, category:p.category, title:p.title, score:r[p.slot].cscore, memo:r[p.slot].cmemo||'', comic:comicOf(p).comic, edited:!!store.get(editKey(p.slot), null)}))));

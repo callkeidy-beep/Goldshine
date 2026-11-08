@@ -1,4 +1,4 @@
-name: 개포 데일리 (매일 아침)
+name: Goldshine (매일 아침)
 
 on:
   schedule:
@@ -46,8 +46,8 @@ jobs:
 
       - name: 저장
         run: |
-          git config user.name "gaepo-daily"
-          git config user.email "gaepo-daily@users.noreply.github.com"
+          git config user.name "goldshine"
+          git config user.email "goldshine@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "오늘의 추천 $(TZ=Asia/Seoul date +%F)"
           git pull --rebase --autostash
@@ -61,4 +61,4 @@ jobs:
           OWNER=${GITHUB_REPOSITORY%%/*}; REPO=${GITHUB_REPOSITORY#*/}
           URL="https://${OWNER}.github.io/${REPO}/"
           printf '오늘의 3편이 올라왔습니다.\n\n%s\n\n이 이슈에 댓글로 점수를 달아도 됩니다. 글은 `1:4 2:3 3:5`, 4컷은 `c1:5 c2:3 c3:4`.\n' "$URL" > body.md
-          gh issue create --title "[개포 데일리] ${DAY}" --body-file body.md || true
+          gh issue create --title "[Goldshine] ${DAY}" --body-file body.md || true

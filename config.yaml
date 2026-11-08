@@ -1,8 +1,8 @@
-# 개포 데일리 — 마이클 에디션 설정
+# Goldshine 설정 (마이클 에디션)
 # 글과 4컷의 결은 아래 writing.rules, comic.rules 에서 바꿉니다.
 
 site:
-  title: 개포 데일리
+  title: Goldshine
   region: 서울 강남구 개포동
 
 # 키워드 묶음. 점수(weight)가 높을수록 먼저 추천됩니다.

@@ -13,7 +13,7 @@ import requests
 
 from common import DATA, KST, clean_text, load_config, norm_title, read_json, short_id, today, write_json
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; gaepo-daily/1.0)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; goldshine/1.0)"}
 TIMEOUT = 20
 
 
