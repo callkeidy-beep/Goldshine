@@ -54,6 +54,13 @@ def main() -> int:
             note = f"AI 작성 실패로 무료판을 썼습니다: {str(e)[:160]}"
             print(note, file=sys.stderr)
 
+    # 같은 날 다시 돌렸는데 AI가 실패했다면, 이미 있는 AI 초안을 무료판으로 덮어쓰지 않습니다
+    existing = read_json(DOCS / "data" / "days" / f"{day}.json", {})
+    if not posts and existing.get("mode") == "ai" and not existing.get("sample"):
+        print(f"AI 작성 실패 — 오늘 이미 만든 AI 초안을 그대로 둡니다. ({note[:120]})")
+        build()
+        return 0
+
     if not posts:
         deal_mult = scoring.category_multiplier(stats, "실거래")
         picks = scoring.diverse_top(ranked, 3)
