@@ -23,5 +23,20 @@ def main() -> int:
     return 0
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "--resolve" not in sys.argv:
     sys.exit(main())
+
+
+def check_resolve(query: str = "개포동", n: int = 6) -> None:
+    """구글뉴스 링크를 원문 주소로 바꾸고 본문을 읽을 수 있는지 확인합니다."""
+    import gnews
+    from ai_writer import article_text
+    from collect import fetch_google_news
+    for it in fetch_google_news(query)[:n]:
+        real = gnews.resolve(it["link"])
+        text = article_text(real) if real else ""
+        print(f"{'RESOLVED' if real else 'NOLINK  '} {len(text):>5}자  {it['title'][:30]}  →  {real[:80]}")
+
+
+if __name__ == "__main__" and "--resolve" in sys.argv:
+    check_resolve()

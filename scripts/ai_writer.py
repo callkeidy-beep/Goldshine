@@ -11,6 +11,8 @@ from html.parser import HTMLParser
 import anthropic
 import requests
 
+import gnews
+
 SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을 중개해 온 사장님이다.
 사장님은 중년 여성이다. 키가 크고 예쁘며 피부가 곱다. 성격이 밝고 다정해서 손님이 편하게 속을 털어놓는다.
 안경이나 돋보기를 쓰는 묘사, 남성으로 읽히는 묘사는 하지 않는다. 사장님의 몸짓은 미소, 따뜻한 차를 내미는 손, 고개를 끄덕이는 모습처럼 그린다.
@@ -44,6 +46,11 @@ SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을
 - 4컷 대사에도 같은 원칙을 지킨다.
 
 [사실 원칙]
+- "본문_확보"가 true인 기사를 우선 고른다.
+- "본문_확보"가 false인 기사는 제목과 요약에 적힌 사실만 쓴다. 누가 누구에게 돈을 빌려줬는지, 왜 그렇게 됐는지 같은
+  구조와 원인을 짐작해 쓰지 않는다. 제목 속 말이 두 가지로 읽힐 수 있으면(예: "집주인 대출") 풀어 설명하지 않는다.
+  그 기사로 1000자 가까이 쓰기 어렵다면 고르지 않는다.
+- 일반 상식이라도 자료에 없는 수치(비율, 금리, 기준)는 쓰지 않는다.
 - 숫자, 날짜, 단지명, 금액은 주어진 자료에 있는 것만 쓴다. 없으면 쓰지 않는다.
 - 자료에 없는 내용을 추측해 사실처럼 쓰지 않는다.
 - 세금, 대출 이야기는 "세무사·은행과 확인하세요"를 덧붙인다.
@@ -202,11 +209,22 @@ def comic_feedback(c: dict) -> list[str]:
 def build_prompt(cfg: dict, day: str, cands: list[dict], deals: list[dict], stats: dict) -> str:
     blocks = []
     for c in cands:
+        # 구글뉴스 링크는 원문 주소를 찾아 본문을 읽고, 블로그 출처 링크도 원문으로 바꿉니다
+        if "news.google.com" in c.get("link", ""):
+            real = gnews.resolve(c["link"])
+            if real:
+                c["link"] = real
+        text = article_text(c["link"])
+        c["has_article"] = len(text) >= 300
         blocks.append({
             "candidate_id": c["id"], "category": c["category"], "title": c["title"],
             "press": c.get("press", ""), "published": c.get("published", ""),
-            "summary": c.get("summary", ""), "article": article_text(c["link"]),
+            "summary": c.get("summary", ""),
+            "본문_확보": c["has_article"],
+            "article": text,
         })
+    got = sum(1 for c in cands if c.get("has_article"))
+    print(f"  원문 본문 확보: {got}/{len(cands)}건")
     deal_note = ""
     if deals:
         deal_note = "\n[최근 실거래 (만원 단위)]\n" + "\n".join(

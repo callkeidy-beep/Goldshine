@@ -19,3 +19,6 @@ jobs:
       - name: 후보 출처 점검
         working-directory: scripts
         run: python check_sources.py ../tests/source_candidates.json
+      - name: 구글뉴스 원문 찾기 점검
+        working-directory: scripts
+        run: python check_sources.py --resolve
