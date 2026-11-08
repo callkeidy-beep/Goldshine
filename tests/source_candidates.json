@@ -1,0 +1,17 @@
+[
+  {"id": "rss-sedaily", "name": "서울경제 부동산", "type": "rss", "url": "https://www.sedaily.com/rss/realestate", "include": []},
+  {"id": "rss-etoday", "name": "이투데이 부동산", "type": "rss", "url": "https://rss.etoday.co.kr/eto/land_news.xml", "include": []},
+  {"id": "rss-mt", "name": "머니투데이 부동산", "type": "rss", "url": "https://rss.mt.co.kr/mt_news_estate.xml", "include": []},
+  {"id": "rss-korea-molit", "name": "정책브리핑 · 국토교통부", "type": "rss", "url": "https://www.korea.kr/rss/dept_molit.xml", "include": []},
+  {"id": "rss-korea-seoul", "name": "정책브리핑 · 정책뉴스", "type": "rss", "url": "https://www.korea.kr/rss/policy.xml", "include": ["부동산", "주택", "아파트", "전세", "대출", "재건축"]},
+  {"id": "gn-gangnam-gu", "name": "구글뉴스 · 강남구청 재건축", "type": "google_news", "query": "강남구청 재건축", "include": []},
+  {"id": "gn-gaepo-jungbi", "name": "구글뉴스 · 개포 정비사업", "type": "google_news", "query": "개포 정비사업", "include": []},
+  {"id": "gn-honors", "name": "구글뉴스 · 디에이치아너힐즈", "type": "google_news", "query": "디에이치아너힐즈", "include": []},
+  {"id": "gn-gaepo-xi", "name": "구글뉴스 · 개포자이프레지던스", "type": "google_news", "query": "개포자이프레지던스", "include": []},
+  {"id": "gn-gaepo-forest", "name": "구글뉴스 · 개포래미안포레스트", "type": "google_news", "query": "개포래미안포레스트", "include": []},
+  {"id": "gn-ilwon", "name": "구글뉴스 · 일원동 재건축", "type": "google_news", "query": "일원동 재건축", "include": []},
+  {"id": "gn-suseo", "name": "구글뉴스 · 수서역 개발", "type": "google_news", "query": "수서역 개발", "include": []},
+  {"id": "gn-togeo", "name": "구글뉴스 · 강남 토지거래허가", "type": "google_news", "query": "강남 토지거래허가구역", "include": []},
+  {"id": "gn-jeonse", "name": "구글뉴스 · 강남 전세", "type": "google_news", "query": "강남 전세", "include": []},
+  {"id": "gn-sintong", "name": "구글뉴스 · 신속통합기획 강남", "type": "google_news", "query": "신속통합기획 강남", "include": []}
+]
