@@ -376,19 +376,28 @@ def write(cfg: dict, day: str, cands: list[dict], deals: list[dict], stats: dict
     text = call(cfg, user)
     posts = [normalize(p) for p in parse_json(text).get("posts", [])][:3]
     posts = [p for p in posts if p["title"] and p["body"]]
-    # 문체가 원칙에서 벗어나면, 고칠 점을 알려 주고 한 번 다시 쓰게 합니다
-    issues = style_problems(posts) if len(posts) == 3 else []
-    if issues:
-        print("  문체 다시 쓰기: " + " / ".join(issues))
-        retry = (user + "\n\n[처음 쓴 초안]\n" + text + "\n\n[고칠 점]\n- " + "\n- ".join(issues)
-                 + "\n\n같은 기사 3편을 유지하고, 고칠 점을 모두 반영해 다시 써라.")
+    # 문체·분량·인용이 원칙에서 벗어나면 고칠 점을 알려 주고 최대 두 번 다시 쓰게 합니다.
+    # 가장 문제가 적은 초안(같으면 더 긴 초안)을 고릅니다.
+    def rank(ps):
+        return (len(style_problems(ps)), -sum(len(x["body"]) for x in ps))
+    best, best_text = posts, text
+    for attempt in range(2):
+        issues = style_problems(best) if len(best) == 3 else []
+        if not issues:
+            break
+        print(f"  문체 다시 쓰기 {attempt + 1}: " + " / ".join(issues))
+        retry = (user + "\n\n[처음 쓴 초안]\n" + best_text + "\n\n[고칠 점]\n- " + "\n- ".join(issues)
+                 + "\n\n같은 기사 3편을 유지하고, 고칠 점을 모두 반영해 다시 써라. 본문은 반드시 900자 이상이다.")
         try:
-            again = [normalize(p) for p in parse_json(call(cfg, retry)).get("posts", [])][:3]
+            again_text = call(cfg, retry)
+            again = [normalize(p) for p in parse_json(again_text).get("posts", [])][:3]
             again = [p for p in again if p["title"] and p["body"]]
-            if len(again) == 3 and len(style_problems(again)) < len(issues):
-                posts = again
-        except Exception as e:  # 다시 쓰기가 실패하면 처음 초안을 그대로 씁니다
-            print(f"  다시 쓰기 실패, 처음 초안 사용: {str(e)[:120]}")
+            if len(again) == 3 and rank(again) < rank(best):
+                best, best_text = again, again_text
+        except Exception as e:  # 다시 쓰기가 실패하면 그때까지의 가장 나은 초안을 씁니다
+            print(f"  다시 쓰기 실패: {str(e)[:120]}")
+            break
+    posts = best
     if len(posts) < 3:
         raise RuntimeError(f"AI가 쓸 만한 글을 {len(posts)}편만 만들었습니다")
 
