@@ -27,14 +27,14 @@
 ### 1. 저장소 만들기
 1. github.com에 가입하고 로그인합니다.
 2. 오른쪽 위 **+ → New repository**를 누릅니다.
-3. Repository name에 `gaepo-daily`를 입력합니다.
+3. Repository name에 `Goldshine`을 입력합니다.
 4. **Public**을 고릅니다. 무료 계정은 공개 저장소에서만 홈페이지(GitHub Pages)를 열 수 있습니다.
 5. **Create repository**를 누릅니다.
 
 ### 2. 파일 올리기
-1. `gaepo-daily.zip`의 압축을 풉니다.
+1. `Goldshine.zip`의 압축을 풉니다.
 2. 저장소 화면의 **uploading an existing file** 링크를 누릅니다.
-3. 풀린 `gaepo-daily` 폴더 **안의** 항목을 모두 선택해 끌어다 놓습니다.
+3. 풀린 `Goldshine` 폴더 **안의** 항목을 모두 선택해 끌어다 놓습니다.
    `.github` `data` `docs` `scripts` `config.yaml` `requirements.txt` `README.md` `.gitignore`
    - 맥: Finder에서 `Cmd + Shift + .` 를 눌러야 `.github`가 보입니다.
    - 윈도우: 탐색기 **보기 → 숨긴 항목**에 체크합니다.
@@ -45,7 +45,7 @@
 1. 저장소 **Settings → Pages**로 갑니다.
 2. Source: **Deploy from a branch**
 3. Branch: **main**, 폴더: **/docs** → **Save**
-4. 1~2분 뒤 `https://내아이디.github.io/gaepo-daily/` 에서 예시 화면이 열립니다.
+4. 1~2분 뒤 `https://내아이디.github.io/Goldshine/` 에서 예시 화면이 열립니다.
 
 ### 4. 키 넣기 (선택)
 **Settings → Secrets and variables → Actions → New repository secret**
