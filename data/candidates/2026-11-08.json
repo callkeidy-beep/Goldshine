@@ -572,12 +572,12 @@
       "kind": "news"
     },
     {
-      "title": "은행 대신 집주인에게 돈 빌린다…강남 고가 아파트에 번지는 '셀러 파이낸싱'",
+      "title": "집주인이 은행도 아니고 24억을 빌려줘?…강남 아파트서 벌어진 기이한 현상",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aU01JcWFSRDROTHQ4cGh0NmN0WTkwekdCS2Z0ZFk0a1lHU1pCNFBIYjhMd3FWTnFmUkFEaGMxRlNHeXVhM0dpcTJDRGJlcUJrSkJNMVE3MjVRTHpDQWVjcQ?oc=5",
       "summary": "",
       "published": "2026-11-08T15:01:17+09:00",
       "press": "아시아경제",
-      "id": "5487b96da4",
+      "id": "d2ca7fc849",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -612,6 +612,16 @@
       "kind": "news"
     },
     {
+      "title": "강남3구 제외한 서울 아파트값, 李정부 출범 후 17.2% 올랐다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZcVlMWU5jdnJnT2xIRnNDOXZSa1NoVW1pc0dqN2U2aXR5MWg1OXJEelh6OUkyUmJyYjFCUnN4UUxnMFd5NFpJQ2pnRFVwRXFfSEF0OWRkQVY?oc=5",
+      "summary": "",
+      "published": "2026-11-08T14:09:53+09:00",
+      "press": "매일경제",
+      "id": "9bc897422b",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
       "title": "서울 아파트 매물 3개월 새 33% 증가…집값 안정 효과는 미지수",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTbXhuRGM4YVdYUkNEMEpZUHgwdHhjODM1Y2xBQ1hiSFFKVnJQVEdBVHJvR0hFYXhOUW9VQ0FiRjZ6SGtQS3pVYmYxYk1HZUwwZGJpYnA4QWYyd9IBWEFVX3lxTE1JbXRUYzYxNE5HbnFqaXdmWVh0QWRkTzB4bTJ2QlJvRHpnMkxJa1JKcTEzU2VPR1FzYUg3cE1RVUF5c01Xei1TcE1UamVqaGJpQWhMeHlXbno?oc=5",
       "summary": "",
@@ -642,12 +652,12 @@
       "kind": "news"
     },
     {
-      "title": "李정부 출범 후 강남3구 뺀 서울 아파트값 17.2% 올랐다",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZcVlMWU5jdnJnT2xIRnNDOXZSa1NoVW1pc0dqN2U2aXR5MWg1OXJEelh6OUkyUmJyYjFCUnN4UUxnMFd5NFpJQ2pnRFVwRXFfSEF0OWRkQVY?oc=5",
+      "title": "‘폭락’한다는 강남 아파트, 왜 체감되지 않을까[부동산 취재로그]",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWHlFdmV1SjhBNFpXb0E0amlud2ZFWnFDaEsxR3p1OUs0b3pYS3FSUTEzNHhTUmpORTlNOW41YmwyNWptYUNjckkxcXhQdks2MGJpdXRJa1R5WEpjcEo0U0FNQ0RBTG1qQzBWU2RGVEhRN1ZHMWhFWEp5Q3gxUnNxYg?oc=5",
       "summary": "",
-      "published": "2026-11-08T14:09:53+09:00",
-      "press": "매일경제",
-      "id": "59272eb4eb",
+      "published": "2026-11-07T07:00:03+09:00",
+      "press": "이데일리",
+      "id": "6a01b5b66a",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -658,16 +668,6 @@
       "published": "2026-11-08T00:00:44+09:00",
       "press": "더구루",
       "id": "511e54c768",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
-      "title": "‘폭락’한다는 강남 아파트, 왜 체감되지 않을까[부동산 취재로그]",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWHlFdmV1SjhBNFpXb0E0amlud2ZFWnFDaEsxR3p1OUs0b3pYS3FSUTEzNHhTUmpORTlNOW41YmwyNWptYUNjckkxcXhQdks2MGJpdXRJa1R5WEpjcEo0U0FNQ0RBTG1qQzBWU2RGVEhRN1ZHMWhFWEp5Q3gxUnNxYg?oc=5",
-      "summary": "",
-      "published": "2026-11-07T07:00:03+09:00",
-      "press": "이데일리",
-      "id": "6a01b5b66a",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -768,16 +768,6 @@
       "published": "2026-11-06T15:17:18+09:00",
       "press": "데일리굿뉴스",
       "id": "5e00a785e8",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
-      "title": "강남3구 하락 지속에 서울 아파트 상승폭 3주째 축소",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42OGtlTDI0TmV1OTVXcThPUFFKVTdqNTltZUtXdWpBZ3NMRXd4Sk04VW5BVF9zYS1zWnBVQXhRdkswcFIxWkR3Mmc5TGFZWnJMN21DdEpxdmNiYmZCNms3RGRCanZhdUVXSFE?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:33:21+09:00",
-      "press": "천지일보",
-      "id": "40d3a1a52e",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -912,16 +902,6 @@
       "kind": "news"
     },
     {
-      "title": "강남구, 은마조합에 2조원대 재초환 예정액 통지…1인당 ‘4.6억’",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZZ3RUc3h1akZEMFpkVGdaT21RbG5mWUVOQVZqZEpTYVRYSDh5YUpYR1diLVNOWHVnQXJEczNBbXJRWjNEYzBURm5HZGxuRU9FNWp3dGQzSFFCOG5mVW54cHN5V1pZSkRWSTNISUVn?oc=5",
-      "summary": "",
-      "published": "2026-11-06T17:19:04+09:00",
-      "press": "아시아투데이",
-      "id": "07bef72c04",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "공사비·추가 분담금·재초환까지…강남 재건축 지연 우려",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FblRvMjg1VzNKWHhmRWVCZVppVG9TVnF2Q1lHNDQwWXB2Ry1jc192dlc2ME53cHRCbWpRYmxOOC1GUmJXWVZUS0dvQXRzbzhiN1HSAVNBVV95cUxObnNwbU9uVG84bzRaUUJMZ3hDNjA5U1Y2OFo5dmJ5MWdFSWlFV0xTdzZPaUI3N191VktlUk1acXByTXMxTHo4MXdaSnY0Q1hxeDlEZw?oc=5",
       "summary": "",
@@ -968,16 +948,6 @@
       "published": "2026-11-06T18:32:00+09:00",
       "press": "한국경제TV",
       "id": "3866bc2051",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
-      "title": "서울 아파트값 상승률 3주째 둔화…강남3구 약세 속 경기 0.20%↑",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTSm9GRlNjcjJpU1lTVV9HdzJqeHJEUXJKR1lHUUphYTRvc2ROMTZTa2xyNjVLOXFRdnZvbEVSRVhsRXFSZEZ4b0I1QkpBMlpKb2FXLW9sZnN4MWVhUEw0cXY2WFJHT21XV0E?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:45:28+09:00",
-      "press": "금융소비자뉴스",
-      "id": "8ef7fdbbf2",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -1192,16 +1162,6 @@
       "kind": "news"
     },
     {
-      "title": "서울 아파트값 91주째 상승…0.07% 올라 : 부동산",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5MRWc4T2lRTURvZTRIZnFMeGxXWFZiZTdjU01aVl9BUFFJRWNDcnpfMTVkWXkycmlSU29oZ1lGZE9aRDRNQlRsSFA2TQ?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:25:49+09:00",
-      "press": "재경일보",
-      "id": "7602c7d3a4",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "서울 강남 아파트 가격지표 엇갈려, 부동산 통계 신뢰성 논란 확대",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa3ZVSDVJb0E1ZGtZOFFOdlkzVzB0RlpwajZFWEZOLTNHZEJTNk1Gc1ZHVXpwaHFEVmVwWldPMmRnUFpGRzRZYm5HNkhnVFk1QkRmWHp6eUcyZEUtTUphdW43Ry03SE9KZ3hGaDY1NkNuZklGNXl4MXJEajJNc0hCeHMybUZXUHhqdG0xTzRJcUdmbWxJVzNkVHRxSUV6RlpoX0c3T2dn?oc=5",
       "summary": "",
@@ -1262,22 +1222,22 @@
       "kind": "news"
     },
     {
-      "title": "대통령도, 장관도, 시장도…뜨거운 '부동산 SNS'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RbmFZSkc5MkwtMXhRUFRQLUIzTHNTT0k0LTFpOEpVR1pRSGwwZUdGTXp1MmNmVldzRzBteTFUWE9Zei1ERGdCSkNXNHJ2dDB4aUFSYkJPS1FmQ1l6NEEzc1cwSHZNc3BscTd4ZENmMFk?oc=5",
-      "summary": "",
-      "published": "2026-11-08T09:00:02+09:00",
-      "press": "비즈워치",
-      "id": "3a817c05b6",
-      "source_id": "gn-policy",
-      "kind": "news"
-    },
-    {
       "title": "[칼럼] 부동산은 살아 있다",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WRW5iRnNOVXhzN1ZqV3NfZUhPbUFhaWk1ckxCN09mT3B5Z01Yc0hWdXVYWnZ0SFExczVRcnYzMGEzYTRoRHVkWHNoNEVIbGhJbUdqaWE4TXU1UXFHczhVdFZmVjBoVm9oaFHSAW5BVV95cUxNXzhIR0JDLXkzOXo1Tldob2FobG5HTFYybG9fNk5kd2JnLWIxQndtQlkxOU5EV0RIWkE3bG1hdVExSlVfNWdLSjlFVHluYURETjNwaDhtMUxXc1dJb0NPVWpMZlVpNUwxVnFSd01Sdw?oc=5",
       "summary": "",
       "published": "2026-11-07T07:30:00+09:00",
       "press": "더메디컬",
       "id": "4475b1ccb4",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "대통령도, 장관도, 시장도…뜨거운 '부동산 SNS'",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RbmFZSkc5MkwtMXhRUFRQLUIzTHNTT0k0LTFpOEpVR1pRSGwwZUdGTXp1MmNmVldzRzBteTFUWE9Zei1ERGdCSkNXNHJ2dDB4aUFSYkJPS1FmQ1l6NEEzc1cwSHZNc3BscTd4ZENmMFk?oc=5",
+      "summary": "",
+      "published": "2026-11-08T09:00:02+09:00",
+      "press": "비즈워치",
+      "id": "3a817c05b6",
       "source_id": "gn-policy",
       "kind": "news"
     },
@@ -1912,16 +1872,6 @@
       "kind": "news"
     },
     {
-      "title": "강남3구 제외한 서울 아파트값, 李정부 출범 후 17.2% 올랐다",
-      "link": "https://www.mk.co.kr/news/realestate/12201679",
-      "summary": "강남·서초·송파구 제외 17개월간 22개 자치구 아파트값 17.2% 상승강남 3구(강남·서초·송파구)를 제외한 서울 아파트값이 최근 17개월간 17% 이상 오른 것으로 나타났다. ..",
-      "published": "2026-11-08T23:09:53+09:00",
-      "press": "매일경제 부동산",
-      "id": "547e5e7167",
-      "source_id": "rss-mk",
-      "kind": "news"
-    },
-    {
       "title": "종로구 창신쌍용1 54.7㎡ 8억 8700만원… 최근 3년 신고가 [MAI부동산]",
       "link": "https://www.mk.co.kr/news/realestate/12201635",
       "summary": "MAI 부동산 2026년 11월 7일 국토교통부 실거래가 시스템에 신규 등록된 서울 종로구 창신동 창신쌍용1단지 전용 54.7㎡가 8억 8,700만 원에 거래되며 해당 단지·면적 ..",
@@ -2422,12 +2372,12 @@
       "kind": "news"
     },
     {
-      "title": "경기 집값 상승률, 8주째 서울 추월…비규제지역도 들썩",
+      "title": "집값 상승률 ‘톱10’ 경기 남부가 휩쓸었다…8주째 서울 추월",
       "link": "https://www.donga.com/news/Economy/article/all/20261108/134985816/1",
       "summary": "경기 아파트 매매가격이 8주 연속 서울보다 높은 상승률을 보였다. 서울은 강남구 등 고가 지역 위주로 매물이 쌓이며 상승세가 둔화하는 가운데 경기는 이른바 ‘반도체 벨트’로 불리는 남부 지역과 인근 비(非)규제지역까지 매수세가 몰린 결과로 풀이된다.8일 한국부동산원 주간아파트가격동향에 따르면 경기 아파트값 상승률은 9월 둘째 주 0.18%로 서울(0.16%)을 넘어서기 시작한 이후 이달 첫째 주까지 8주 연속 서울보다 높은 것으로 집계됐다. 두 지역 상승률 격차도 10월 첫째 주 0.06%포인트에서 이달 첫째 주 0.13%포인트로 벌어졌다.아파트값 상승세는 경기 남부 지역에 집중되고 있다. 이달 첫째 주 상승률 상위 10곳은 경기 용인시 기흥구(0.60%), 군포시(0.57%), 안양시 동안구(0.55%),",
       "published": "2026-11-08T15:55:00+09:00",
       "press": "동아일보 경제",
-      "id": "6f15e3cf43",
+      "id": "1b7f717a7f",
       "source_id": "rss-donga",
       "kind": "news"
     },
@@ -3042,16 +2992,6 @@
       "kind": "news"
     },
     {
-      "title": "국토부, ‘대출한도 축소’ 허위 게시글에 “사실 아냐, 수사의뢰”",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51N2s2ekpRYmctZTBWU05tTW1BN3JmVEo5MzBuSEhzNWxhejZzU1I1VVBHbzg4d01ZN0cwZXRvMl9pa2dtZU9PUm01STdsN2tyR2pvTkdwTl9uWWFpLXFn0gFfQVVfeXFMTnU3azZ6SlFiZy1lMFZTTm1NbUE3cmZUSjkzMG5ISHM1bGF6NnNTUjVVUEdvODh3TVk3RzBldG8yX2lrZ21lT09SbTVJN2w3a3JHam9OR3BOX25ZYWktcWc?oc=5",
-      "summary": "",
-      "published": "2026-11-06T15:19:00+09:00",
-      "press": "경향신문",
-      "id": "19f90389d0",
-      "source_id": "gn-togeo",
-      "kind": "news"
-    },
-    {
       "title": "경기도 부동산이 뜨겁다... 집값 상승률 톱10 싹쓸이",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVmVfdERLTGM4TGU3cDVJLXVtbl9oZnRWTGZSbUJCWkpwWkhvcFI1ZjRaemVSbXFGSjg1SGdRUHJ4YVh5WnpZaGt4cFBSeGRaVEhyNGFqaWJGNWVhVkFwUUlzNEllQ2EzOWs0RWQ4VUc5T1M1WkpPY0NSNmM5S2UwdGxRMnhnVWFp?oc=5",
       "summary": "",
@@ -3102,16 +3042,6 @@
       "kind": "news"
     },
     {
-      "title": "한국부동산원, 서울 아파트 전세 0.17% 상승···매매 상승률 두 배",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CUUF1SVVvY0xHRzRFenA5TFZJd3Y5b3ZsRXd5QURZMEZQcHFCbkFPeW84ZHJBNU44RVB3amR6LS11WHFYU3lHLVhfSDhuc0N4VV82LU9IN0VjNzBMSVNBcHVmN09tVFFQWUo1OA?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:31:15+09:00",
-      "press": "스마트비즈",
-      "id": "af7d186253",
-      "source_id": "gn-jeonse",
-      "kind": "news"
-    },
-    {
       "title": "강남구 -0.35%, 분당 +0.79%…같은 수도권, 다른 집값",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlY0w2TmhlXzU3Nng1bnlOTEYyblM0M2xQUXM4aHBhR2hodm5xWkM2cnBKRVVSdTE4RmFHa1Jua2VJVGR6VksyX3pIbXFzbkIyTDE4Vw?oc=5",
       "summary": "",
@@ -3142,22 +3072,22 @@
       "kind": "news"
     },
     {
-      "title": "전국 집값 0.08% 제자리…서울 둔화·경기 반등 속 엇갈린 시장",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWdzVkZEJZVWQzalR3QXRaN3hsMFdNNVNZNXpHTWMyR3BXQ1NOaWtTTnBkUHhQb0tyb25EODJydlREMFFvbGp6NUV6T0lfUEF1Z0piWg?oc=5",
-      "summary": "",
-      "published": "2026-11-07T17:23:38+09:00",
-      "press": ":: 위즈경제 ::",
-      "id": "d6c82a3253",
-      "source_id": "gn-jeonse",
-      "kind": "news"
-    },
-    {
       "title": "[서울살이 2030 ①] 서울 아파트값 90주째 상승…월세에 월급 쓰는 2030",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwU3FkUnM1ZGdHZHBvRHBtSjFfMzRPS1lwUm10WVJPc2dYN3JNT3JGUXlQVm1RZ3ExUDc4TVZqZFVWRUdPa0tITWxsQjc5cGU0M25xaGtXVDJGdTlxOTVuQzlUR21yekU?oc=5",
       "summary": "",
       "published": "2026-11-07T17:00:00+09:00",
       "press": "자본시장뉴스",
       "id": "79397ac021",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "전국 집값 0.08% 제자리…서울 둔화·경기 반등 속 엇갈린 시장",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWdzVkZEJZVWQzalR3QXRaN3hsMFdNNVNZNXpHTWMyR3BXQ1NOaWtTTnBkUHhQb0tyb25EODJydlREMFFvbGp6NUV6T0lfUEF1Z0piWg?oc=5",
+      "summary": "",
+      "published": "2026-11-07T17:23:38+09:00",
+      "press": ":: 위즈경제 ::",
+      "id": "d6c82a3253",
       "source_id": "gn-jeonse",
       "kind": "news"
     },
@@ -3227,7 +3157,7 @@
     {
       "source": "gn-gangnam-apt",
       "ok": true,
-      "count": 65
+      "count": 61
     },
     {
       "source": "gn-policy",
@@ -3252,7 +3182,7 @@
     {
       "source": "rss-mk",
       "ok": true,
-      "count": 47
+      "count": 46
     },
     {
       "source": "rss-yna",
@@ -3282,12 +3212,12 @@
     {
       "source": "gn-togeo",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "source": "gn-jeonse",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "source": "gn-ilwon",
