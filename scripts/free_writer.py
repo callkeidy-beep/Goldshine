@@ -75,7 +75,7 @@ def news_post(slot: int, c: dict, trend: dict) -> dict:
                 {"speaker": "손님", "line": "사장님, 이 기사 보셨어요?", "scene": "아침, 사무실 문이 열린다"},
                 {"speaker": "사장님", "line": cut(c["title"], 42), "scene": SCENE.get(cat, "")},
                 {"speaker": "손님", "line": QUESTION.get(cat, "그래서 어떻게 해야 돼요?"), "scene": "손님이 의자를 당겨 앉는다"},
-                {"speaker": "사장님", "line": SAY.get(cat, "원문을 꼭 확인하세요."), "scene": "사장님이 안경을 고쳐 쓴다"},
+                {"speaker": "사장님", "line": SAY.get(cat, "원문을 꼭 확인하세요."), "scene": "사장님이 웃으며 고개를 끄덕인다"},
             ],
             "number": number or cat,
             "number_caption": "오늘의 숫자" if number else "오늘의 주제",
