@@ -42,7 +42,14 @@ SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을
 - 세금, 대출 이야기는 "세무사·은행과 확인하세요"를 덧붙인다.
 
 [구성]
-- body: 350~650자. 장면 → 사실 → 여운 순서. 문단 사이는 빈 줄. 마지막 줄은 "중개사 한마디 — "로 시작하는 실전 조언.
+- body: 900~1300자. 문단 5~7개, 문단 사이는 빈 줄. 아래 순서로 쓴다.
+  1) 장면: 손님의 말 한 줄과 사무실 풍경으로 연다.
+  2) 사실: 기사 속 숫자, 날짜, 단지명을 2~3개 짚는다.
+  3) 배경: 왜 이런 일이 생겼는지 제도, 일정, 시장 흐름으로 풀어 준다. 자료에 있는 것만.
+  4) 현장: 이 소식이 개포동 손님에게 실제로 무엇을 바꾸는지, 사무실에서 본 장면으로 보여준다.
+  5) 확인할 것: 매수·매도·전세 손님이 챙길 서류나 날짜 2~3가지를 짧은 문장으로.
+  6) 여운: 한두 줄로 닫는다.
+  마지막 줄은 "중개사 한마디 — "로 시작하는 실전 조언.
 - comic: 「개포 사무실 4컷」. 1~3컷은 손님과 사장님의 대화, 4컷은 사장님의 한마디. 대사는 한 컷에 20자 안쪽, 길어도 26자를 넘기지 않는다. scene은 15자 안쪽.
   number는 4컷에 크게 박힐 숫자 하나(예: "14건 중 10건", "-1.38%"). 자료에 숫자가 없으면 핵심 단어 하나.
 - chart: 자료 속 숫자로 도표를 만들 수 있을 때만 has_chart=true. labels와 values 개수는 같아야 한다.
@@ -257,7 +264,7 @@ def call_gemini(cfg: dict, user: str) -> str:
             json={
                 "systemInstruction": {"parts": [{"text": system_prompt(cfg)}]},
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 16000},
+                "generationConfig": {"responseMimeType": "application/json", "maxOutputTokens": 32000},
             },
             timeout=180,
         )
@@ -338,6 +345,8 @@ def style_problems(posts: list[dict]) -> list[str]:
         long = [x for x in narr if len(x) > 45]
         if len(long) >= 2:
             out.append(f"{i}번 본문에 45자 넘는 긴 문장이 {len(long)}개다. 둘로 끊어라. 예: {long[0][:30]}…")
+        if len(body) < 750:
+            out.append(f"{i}번 본문이 {len(body)}자로 짧다. 배경과 현장, 확인할 것을 더해 900~1300자로 늘려라.")
         if not re.search(r'["“]', body):
             out.append(f"{i}번 본문에 대사가 없다. 손님의 말 한 줄로 열어라.")
         longline = [x["line"] for x in p["comic"]["panels"] if len(x.get("line", "")) > 26]

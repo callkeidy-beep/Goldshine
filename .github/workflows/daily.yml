@@ -61,4 +61,9 @@ jobs:
           OWNER=${GITHUB_REPOSITORY%%/*}; REPO=${GITHUB_REPOSITORY#*/}
           URL="https://${OWNER}.github.io/${REPO}/"
           printf '오늘의 3편이 올라왔습니다.\n\n%s\n\n이 이슈에 댓글로 점수를 달아도 됩니다. 글은 `1:4 2:3 3:5`, 4컷은 `c1:5 c2:3 c3:4`.\n' "$URL" > body.md
-          gh issue create --title "[Goldshine] ${DAY}" --body-file body.md || true
+          # 같은 날 다시 돌려도 알림 이슈는 하나만
+          if gh issue list --state all --search "${DAY} in:title" --json title --jq '.[].title' | grep -qE "^\[(Goldshine|개포 데일리)\] ${DAY}$"; then
+            echo "오늘 알림 이슈가 이미 있습니다"
+          else
+            gh issue create --title "[Goldshine] ${DAY}" --body-file body.md || true
+          fi
