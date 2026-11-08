@@ -1,0 +1,64 @@
+name: 개포 데일리 (매일 아침)
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 한국 시간 오전 7시
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: gaepo-data
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 기사·실거래 수집
+        working-directory: scripts
+        env:
+          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_NEWS_CLIENT_ID: ${{ secrets.NAVER_NEWS_CLIENT_ID }}
+          NAVER_NEWS_CLIENT_SECRET: ${{ secrets.NAVER_NEWS_CLIENT_SECRET }}
+        run: python collect.py
+
+      - name: 오늘의 3편 만들기
+        working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python make_daily.py
+
+      - name: 저장
+        run: |
+          git config user.name "gaepo-daily"
+          git config user.email "gaepo-daily@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "오늘의 추천 $(TZ=Asia/Seoul date +%F)"
+          git pull --rebase --autostash
+          git push
+
+      - name: 휴대폰 알림용 이슈
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DAY=$(TZ=Asia/Seoul date +%F)
+          OWNER=${GITHUB_REPOSITORY%%/*}; REPO=${GITHUB_REPOSITORY#*/}
+          URL="https://${OWNER}.github.io/${REPO}/"
+          printf '오늘의 3편이 올라왔습니다.\n\n%s\n\n이 이슈에 댓글로 점수를 달아도 됩니다. 글은 `1:4 2:3 3:5`, 4컷은 `c1:5 c2:3 c3:4`.\n' "$URL" > body.md
+          gh issue create --title "[개포 데일리] ${DAY}" --body-file body.md || true

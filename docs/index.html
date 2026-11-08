@@ -1,0 +1,701 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>개포 데일리</title>
+<meta name="description" content="개포동 중개사무소의 오늘의 부동산 이야기 3편">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet">
+<style>
+/* 레이아웃: 위 고정 머리 + 3단 카드(휴대폰 1단) + 아래 점수 바 */
+:root{
+  --paper:#eceee8; --card:#fbfbf8; --ink:#1b2230; --ink-2:#4a5263; --ink-3:#7c8494;
+  --line:#d6dad2; --accent:#2b4c9b; --accent-ink:#fff; --teal:#3d6b5a; --yellow:#f2cf3d;
+  --chip:#e1e5de; --shadow:0 1px 0 rgba(20,30,50,.04), 0 8px 22px -14px rgba(20,30,50,.35);
+  --bar:#3d6b5a; --bar-2:#b9bfb4; --scrim:rgba(15,20,30,.45);
+  --serif:'Noto Serif KR',Georgia,serif; --sans:'Noto Sans KR',system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#12161d; --card:#1a1f28; --ink:#eef0f3; --ink-2:#b7bdc8; --ink-3:#848b98;
+    --line:#2c3340; --accent:#7f9ee8; --accent-ink:#0d1220; --teal:#7fb59f; --chip:#242b36; --yellow:#e8c53a;
+    --shadow:none; --bar:#7fb59f; --bar-2:#465061; --scrim:rgba(0,0,0,.6); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#12161d; --card:#1a1f28; --ink:#eef0f3; --ink-2:#b7bdc8; --ink-3:#848b98;
+  --line:#2c3340; --accent:#7f9ee8; --accent-ink:#0d1220; --teal:#7fb59f; --chip:#242b36; --yellow:#e8c53a;
+  --shadow:none; --bar:#7fb59f; --bar-2:#465061; --scrim:rgba(0,0,0,.6); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+body{padding-bottom:96px}
+a{color:var(--teal)}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:11;background:var(--paper)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* 머리 */
+header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:env(safe-area-inset-top,0px);z-index:10}
+.mast{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:18px 0 10px}
+@media (max-width:520px){.mast{flex-wrap:wrap;align-items:center;row-gap:8px}.brand h1{white-space:nowrap;font-size:24px}.brand p{display:none}.datebar{margin-left:auto}}
+.brand{min-width:0}
+.brand h1{text-wrap:balance;font-family:var(--serif);font-weight:900;font-size:28px;margin:0;letter-spacing:-.02em}
+.brand p{margin:2px 0 0;color:var(--ink-3);font-size:13px}
+.datebar{display:flex;align-items:center;gap:6px;font-size:14px}
+.datebar button{border:1px solid var(--line);background:var(--card);border-radius:8px;width:34px;height:34px}
+.datebar button:disabled{opacity:.35;cursor:default}
+.datebar .d{font-weight:700;min-width:118px;text-align:center}
+nav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav button{border:0;background:none;padding:10px 12px;font-size:15px;color:var(--ink-3);border-bottom:2px solid transparent;white-space:nowrap}
+nav button[aria-selected="true"]{color:var(--ink);border-color:var(--accent);font-weight:700}
+
+.notice{margin:16px 0 0;padding:10px 14px;border-radius:10px;background:var(--chip);color:var(--ink-2);font-size:13px;line-height:1.6}
+.notice b{color:var(--ink)}
+
+/* 오늘의 3편 */
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:18px}
+@media (max-width:1000px){.grid{grid-template-columns:1fr}}
+.post{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+.post.pick{outline:2px solid var(--accent);outline-offset:-1px}
+.post-head{padding:16px 16px 10px}
+.meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink-3)}
+.slot{font-family:var(--serif);font-weight:900;font-size:18px;color:var(--accent)}
+.chip{background:var(--chip);color:var(--ink-2);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:500}
+.post h2{font-family:var(--serif);font-size:20px;line-height:1.4;margin:8px 0 0;letter-spacing:-.01em;word-break:keep-all}
+.views{display:flex;gap:4px;padding:0 16px}
+.views button{flex:1;border:1px solid var(--line);background:none;border-radius:8px;padding:7px 0;font-size:13px;color:var(--ink-2)}
+.views button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.view{padding:14px 16px 4px;flex:1}
+.body{white-space:pre-wrap;word-break:keep-all;font-size:15px;line-height:1.8;color:var(--ink)}
+.src{font-size:12px;color:var(--ink-3);margin-top:12px;line-height:1.6}
+.why{font-size:12px;color:var(--ink-3);margin-top:6px}
+
+/* 4컷 */
+.comic{background:#fffdf6;color:#1d1b17;border:2px solid #1d1b17;border-radius:6px;padding:8px}
+.comic-title{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--serif);font-weight:900;font-size:14px;padding:0 2px 6px}
+.comic-title span{font-family:var(--sans);font-weight:500;font-size:11px;color:#6b6457}
+.panels{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.panel{position:relative;aspect-ratio:1/1;border:2px solid #1d1b17;background:#fff;overflow:hidden;display:flex;flex-direction:column;padding:6px}
+.panel .scene{font-size:9.5px;color:#7a7365;line-height:1.3;min-height:13px}
+.panel .bubble .nm{display:block;font-size:9px;font-weight:700;color:#5d6676;margin-bottom:1px}
+.panel .bubble{position:relative;margin-top:4px;background:#fff;border:1.5px solid #1d1b17;border-radius:12px;padding:5px 7px;font-size:11.5px;line-height:1.35;font-weight:500;word-break:keep-all;z-index:1}
+.panel .bubble.boss{background:#eef6f4}
+.panel svg.who{position:absolute;bottom:-2px;width:52%;height:auto}
+.panel svg.who.left{left:4px}.panel svg.who.right{right:4px}
+.panel.last{background:var(--comic-num, var(--yellow));align-items:center;justify-content:center;text-align:center}
+.panel.last .num{font-family:var(--serif);font-weight:900;font-size:clamp(20px,5.2vw,30px);line-height:1.1;letter-spacing:-.02em;word-break:keep-all}
+@media (min-width:1000px){.panel.last .num{font-size:clamp(18px,1.9vw,26px)}}
+.panel.last .cap{font-size:10px;font-weight:700;margin-top:4px;letter-spacing:.06em}
+.panel.last .say{font-size:10.5px;line-height:1.4;margin-top:8px;font-weight:500;word-break:keep-all}
+
+/* 도표 */
+.chart{background:var(--card)}
+.chart h3{font-size:14px;margin:0 0 8px;font-weight:700}
+.chart svg{width:100%;height:auto;display:block}
+.chart .note{font-size:11px;color:var(--ink-3);margin-top:6px}
+.empty-chart{font-size:13px;color:var(--ink-3);padding:30px 0;text-align:center;border:1px dashed var(--line);border-radius:10px}
+
+/* 점수 */
+.rate{border-top:1px solid var(--line);padding:12px 16px 14px;margin-top:12px}
+.rate-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.rate-row .lbl{font-size:13px;color:var(--ink-2)}
+.stars{display:flex;gap:4px}
+.stars button{width:36px;height:36px;border-radius:8px;border:1px solid var(--line);background:none;font-weight:700;font-size:14px}
+.stars button.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.rate-gap{height:10px}
+.memo{width:100%;margin-top:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;padding:8px 10px;font:inherit;font-size:13px}
+.actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.edited{font-size:11px;font-weight:700;color:var(--accent)}
+.ed-grid{display:flex;flex-direction:column;gap:12px;margin-bottom:14px}
+.ed-panel{border:1px solid var(--line);border-radius:10px;padding:10px;display:grid;grid-template-columns:auto 1fr;gap:6px 8px;align-items:center}
+.ed-panel b{grid-column:1/-1;font-size:13px}
+.ed-panel label{font-size:12px;color:var(--ink-3)}
+.ed-panel input,.ed-panel select{min-width:0;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;padding:8px 9px;font:inherit;font-size:14px}
+.btn{border:1px solid var(--line);background:none;border-radius:8px;padding:8px 10px;font-size:13px}
+.btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink);font-weight:700}
+.btn.accent{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+
+.sendbar{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding-block:10px calc(10px + env(safe-area-inset-bottom,0px))}
+.sendbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sendbar .sum{font-size:14px;color:var(--ink-2)}
+.sendbar .sum b{color:var(--ink)}
+
+/* 포맷 소개 */
+.format{display:grid;grid-template-columns:1.1fr 1fr;gap:24px;margin-top:20px;align-items:start}
+@media (max-width:860px){.format{grid-template-columns:1fr}}
+.prose{font-size:15px;line-height:1.85;color:var(--ink-2)}
+.prose h2{font-family:var(--serif);color:var(--ink);font-size:24px;margin:0 0 6px}
+.prose h3{color:var(--ink);font-size:16px;margin:22px 0 4px}
+.prose p{margin:6px 0}
+.prose ol{padding-left:20px;margin:6px 0}
+
+/* 출처 */
+.panel-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:18px}
+.panel-card h2{font-size:18px;margin:0 0 4px}
+.panel-card .sub{font-size:13px;color:var(--ink-3);margin:0 0 14px;line-height:1.6}
+.src-list{display:flex;flex-direction:column}
+.src-item{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.src-item:first-child{border-top:0}
+.src-item .n{font-weight:700;font-size:15px}
+.src-item .d{font-size:12px;color:var(--ink-3);margin-top:2px;word-break:break-all}
+.src-item.off .n{color:var(--ink-3);text-decoration:line-through}
+.src-item .ops{display:flex;gap:6px}
+form.add{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:640px){form.add{grid-template-columns:1fr}}
+form.add label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--ink-2)}
+form.add input,form.add select{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;padding:9px 10px;font:inherit;font-size:14px}
+form.add .full{grid-column:1/-1}
+
+/* 기록 */
+.hist{width:100%;border-collapse:collapse;font-size:14px}
+.hist th,.hist td{text-align:left;padding:9px 6px;border-top:1px solid var(--line);vertical-align:top}
+.hist th{font-size:12px;color:var(--ink-3);font-weight:500;border-top:0}
+.hist td.s{font-weight:900;color:var(--accent);width:44px}
+.catbars{display:flex;flex-direction:column;gap:8px;margin-bottom:6px}
+.catbar{display:grid;grid-template-columns:84px 1fr 72px;gap:10px;align-items:center;font-size:13px}
+.catbar-sep{font-size:12px;color:var(--ink-3);margin-top:6px;padding-top:8px;border-top:1px solid var(--line)}
+.chip.toon{background:var(--yellow);color:#1b2230}
+.catbar .track{height:10px;background:var(--chip);border-radius:6px;overflow:hidden}
+.catbar .fill{height:100%;background:var(--teal)}
+.hidden{display:none!important}
+.toast{position:fixed;max-width:calc(100% - 32px);text-align:center;left:50%;bottom:86px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:9px 14px;border-radius:999px;font-size:13px;z-index:30;opacity:0;transition:opacity .2s}
+.toast.show{opacity:1}
+.sheet{position:fixed;inset:0;z-index:40;background:var(--scrim);display:flex;align-items:flex-end;justify-content:center;padding:16px;padding-bottom:calc(16px + env(safe-area-inset-bottom,0px))}
+.sheet-box{background:var(--card);color:var(--ink);border-radius:16px;width:100%;max-width:520px;max-height:calc(100% - 32px);overflow:auto;padding:20px;box-shadow:0 20px 50px -20px rgba(0,0,0,.5)}
+@media (min-width:640px){.sheet{align-items:center}}
+.sheet-box h2{font-size:18px;margin:0 0 6px}
+.sheet-box p{font-size:14px;line-height:1.7;color:var(--ink-2);margin:0 0 12px}
+.sheet-box pre{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px;font-size:13px;line-height:1.6;white-space:pre-wrap;word-break:break-all;margin:0 0 14px;font-family:ui-monospace,Menlo,monospace}
+.sheet-box img{display:block;width:100%;max-width:100%;border-radius:8px;border:1px solid var(--line);margin-bottom:14px}
+.sheet-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.sheet-actions a.btn{text-decoration:none;color:inherit;display:inline-flex;align-items:center}
+.sheet-actions a.btn.accent,.sheet-actions button.btn.accent{color:var(--accent-ink)}
+.demo-flag{display:inline-block;margin-left:8px;padding:2px 8px;border-radius:999px;background:var(--yellow);color:#1b2230;font-family:var(--sans);font-size:11px;font-weight:700;vertical-align:middle;letter-spacing:.02em}
+.loading{padding:60px 0;text-align:center;color:var(--ink-3)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mast">
+      <div class="brand"><h1 id="siteTitle">개포 데일리</h1><p id="siteSub">개포동 사무실의 아침 부동산 이야기</p></div>
+      <div class="datebar">
+        <button id="prevDay" aria-label="이전 날">‹</button>
+        <span class="d" id="curDay">—</span>
+        <button id="nextDay" aria-label="다음 날">›</button>
+      </div>
+    </div>
+    <nav role="tablist">
+      <button role="tab" data-tab="today" aria-selected="true">오늘의 3편</button>
+      <button role="tab" data-tab="format">개포 사무실 4컷</button>
+      <button role="tab" data-tab="sources">자료 출처</button>
+      <button role="tab" data-tab="history">점수 기록</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="tab-today">
+    <div class="notice" id="modeNote"></div>
+    <div class="grid" id="posts"><div class="loading">불러오는 중…</div></div>
+  </section>
+
+  <section id="tab-format" class="hidden">
+    <div class="format">
+      <div class="prose">
+        <h2>개포 사무실 4컷</h2>
+        <p>매일 아침 사무실 문이 열립니다. 손님이 그날의 뉴스를 들고 들어옵니다.</p>
+        <p>1~3컷은 대화입니다. 4컷은 노란 칸에 박힌 숫자 하나와 사장님의 한마디입니다.</p>
+        <h3>왜 4컷인가</h3>
+        <p>부동산 블로그는 대부분 기사를 옮겨 적습니다. 숫자와 용어만 남습니다. 같은 기사도 사무실 대화로 바꾸면 다른 글이 됩니다. 독자는 "내 일에 일어날 법한 장면"에 머뭅니다.</p>
+        <p>끝 칸의 숫자 하나는 도표 한 장과 한 문단으로 하루를 정리하는 방식에서 빌렸습니다. 스크롤을 멈추게 하는 건 결국 숫자 하나입니다.</p>
+        <h3>블로그에 올리는 순서</h3>
+        <ol>
+          <li>「오늘의 3편」에서 한 편을 고릅니다.</li>
+          <li><b>4컷 이미지 저장</b>을 눌러 그림을 내려받습니다. 글 맨 위에 넣습니다.</li>
+          <li><b>글 복사</b>를 눌러 본문을 붙여 넣습니다. 도표가 있으면 도표도 저장해 중간에 넣습니다.</li>
+          <li>제목 끝에 단지명을 붙입니다. 검색은 지역명과 단지명으로 들어옵니다.</li>
+        </ol>
+        <h3>점수는 이렇게</h3>
+        <p>5점은 "이대로 올리겠다", 1점은 "이런 건 다시 보고 싶지 않다"입니다. 메모 칸에 이유를 한 줄 적으면 다음 추천이 더 빨리 맞춰집니다.</p>
+      </div>
+      <div id="formatDemo"></div>
+    </div>
+  </section>
+
+  <section id="tab-sources" class="hidden">
+    <div class="panel-card">
+      <h2>자료 출처</h2>
+      <p class="sub">매일 아침 이 목록에서 기사를 모읍니다. 바꾸면 GitHub에 요청이 올라가고, 1~2분 뒤 반영됩니다. 반영 결과는 이슈 댓글로 남습니다.</p>
+      <div class="src-list" id="srcList"></div>
+    </div>
+    <div class="panel-card">
+      <h2>출처 추가</h2>
+      <p class="sub">신문사 RSS 주소, 구글뉴스 검색어, 네이버뉴스 검색어를 넣을 수 있습니다. 구청 공지처럼 RSS가 없는 곳은 그 사이트 이름을 구글뉴스 검색어로 넣어 보세요. 로그인이 필요한 단지 홈페이지는 자동으로 모을 수 없습니다.</p>
+      <form class="add" id="addForm">
+        <label>이름<input id="srcName" name="name" required placeholder="예: 구글뉴스 · 개포자이"></label>
+        <label>종류
+          <select id="srcType" name="type">
+            <option value="google_news">구글뉴스 검색어</option>
+            <option value="naver_news">네이버뉴스 검색어 (키 필요)</option>
+            <option value="rss">RSS 주소</option>
+          </select>
+        </label>
+        <label class="full"><span id="valLabel">검색어</span><input id="srcValue" name="value" required placeholder="예: 개포자이 재건축"></label>
+        <label class="full">포함할 단어 (쉼표로 구분, 비우면 전부)<input id="srcInclude" name="include" placeholder="예: 아파트, 재건축"></label>
+        <div class="full"><button class="btn primary" type="submit">GitHub에 추가 요청</button></div>
+      </form>
+    </div>
+  </section>
+
+  <section id="tab-history" class="hidden">
+    <div class="panel-card">
+      <h2>점수 평균</h2>
+      <p class="sub" id="learnSub">점수가 쌓이면 평균이 높은 유형을 더 자주 추천합니다.</p>
+      <div class="catbars" id="catBars"></div>
+    </div>
+    <div class="panel-card">
+      <h2>날짜별 점수</h2>
+      <table class="hist"><thead><tr><th>날짜</th><th>점수</th><th>글</th></tr></thead><tbody id="histBody"></tbody></table>
+    </div>
+  </section>
+</main>
+
+<div class="sendbar" id="sendbar">
+  <div class="wrap">
+    <div class="sum" id="sendSum">세 편에 점수를 매겨 주세요.</div>
+    <button class="btn accent" id="sendBtn">점수 보내기</button>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const el = (tag, attrs={}, ...kids) => {
+    const n = document.createElement(tag);
+    for (const [k,v] of Object.entries(attrs)) {
+      if (k === 'class') n.className = v;
+      else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+      else if (v !== null && v !== undefined) n.setAttribute(k, v);
+    }
+    for (const k of kids.flat()) if (k !== null && k !== undefined) n.append(k.nodeType ? k : document.createTextNode(k));
+    return n;
+  };
+  const store = {
+    get(k, d){ try{ const v = localStorage.getItem('gaepo.'+k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+    set(k, v){ try{ localStorage.setItem('gaepo.'+k, JSON.stringify(v)); }catch(e){} }
+  };
+  const toast = msg => { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(()=>t.classList.remove('show'), 2200); };
+
+  let site = null, day = null, daily = null;
+  const DEMO = window.GAEPO_DEMO || null;   // 미리보기용: 데이터가 페이지 안에 들어 있고, 보내기는 화면 안에서만 반영됩니다
+
+  // ---------- 페이지 안 확인창 ----------
+  function sheet(title, desc, extra, actions){
+    const box = el('div', {class:'sheet-box', role:'dialog', 'aria-modal':'true', 'aria-label':title},
+      el('h2', {}, title), desc ? el('p', {}, desc) : null, extra || null,
+      el('div', {class:'sheet-actions'}, actions));
+    const wrap = el('div', {class:'sheet', onclick:(e)=>{ if (e.target === wrap) close(); }}, box);
+    function close(){ wrap.remove(); document.removeEventListener('keydown', onKey); }
+    function onKey(e){ if (e.key === 'Escape') close(); }
+    document.addEventListener('keydown', onKey);
+    document.body.append(wrap);
+    const first = box.querySelector('.sheet-actions > :last-child'); if (first) first.focus();
+    return close;
+  }
+  const cancelBtn = (label='닫기') => el('button', {class:'btn', 'data-close':''}, label);
+  function wireClose(close){ document.querySelectorAll('.sheet [data-close]').forEach(b => b.addEventListener('click', close)); }
+
+  // ---------- 저장소 주소 ----------
+  function repo(){
+    if (site && site.repo) return site.repo;
+    const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+    const p = location.pathname.split('/').filter(Boolean)[0];
+    return m && p ? `${m[1]}/${p}` : '';
+  }
+  // 점수·출처 변경은 GitHub 이슈로 보냅니다. onDemo 는 미리보기에서 화면에만 반영하는 함수입니다.
+  function openIssue(title, body, onDemo){
+    const pre = el('pre', {}, `${title}\n\n${body}`);
+    if (DEMO){
+      let close;
+      const apply = el('button', {class:'btn accent', onclick:()=>{ close(); onDemo && onDemo(); }}, '반영해 보기');
+      close = sheet('미리보기: 이렇게 올라갑니다', '실제 앱에서는 이 내용이 GitHub 이슈로 올라가고, 1~2분 뒤 자동 반영됩니다. 여기서는 화면에만 바로 반영해 봅니다.', pre, [cancelBtn('취소'), apply]);
+      wireClose(close);
+      return;
+    }
+    const r = repo();
+    if (!r){ toast('저장소 주소를 알 수 없습니다. GitHub Pages 주소로 열어 주세요.'); return; }
+    const url = `https://github.com/${r}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+    const go = el('a', {class:'btn accent', href:url, target:'_blank', rel:'noopener'}, 'GitHub에서 올리기');
+    const close = sheet('GitHub에 올리기', '버튼을 누르면 GitHub 화면이 열립니다. 아래쪽 Submit new issue를 누르면 1~2분 뒤 반영됩니다.', pre, [cancelBtn('취소'), go]);
+    go.addEventListener('click', () => setTimeout(close, 300));
+    wireClose(close);
+  }
+
+  // 미리보기에서 점수 기록과 학습 평균을 화면에서 다시 계산합니다 (실제 앱은 scripts/scoring.py 가 계산)
+  function demoAddScores(entries){
+    const kindOf = s => s.kind || 'post';
+    site.scores = site.scores.filter(s => !entries.some(e => e.date === s.date && e.slot === s.slot && kindOf(e) === kindOf(s))).concat(entries);
+    const smooth = v => Math.round((v.reduce((a,b)=>a+b,0) + 3*2) / (v.length + 2) * 100) / 100;
+    const by = {}, toon = [];
+    site.scores.forEach(s => kindOf(s) === 'comic' ? toon.push(s.score) : (by[s.category] = by[s.category] || []).push(s.score));
+    const cat = {};
+    for (const c in by) cat[c] = {avg: smooth(by[c]), n: by[c].length};
+    site.learning = {total: site.scores.filter(s => kindOf(s) === 'post').length, category: cat,
+      comic: {total: toon.length, avg: toon.length ? smooth(toon) : 0}};
+    renderHistory();
+  }
+
+  // ---------- 인물 그림 ----------
+  const GUEST = `<svg class="who" viewBox="0 0 100 90" aria-hidden="true"><path d="M14 90c4-22 18-30 36-30s32 8 36 30z" fill="#d9825b" stroke="#1d1b17" stroke-width="2.5"/><circle cx="50" cy="38" r="22" fill="#f4d6bd" stroke="#1d1b17" stroke-width="2.5"/><path d="M28 36c0-16 10-23 22-23s23 7 23 21c-7-2-14-8-17-14-6 8-17 14-28 16z" fill="#2b2620"/><circle cx="42" cy="41" r="2.3" fill="#1d1b17"/><circle cx="58" cy="41" r="2.3" fill="#1d1b17"/><path d="M45 50q5 4 10 0" fill="none" stroke="#1d1b17" stroke-width="2" stroke-linecap="round"/></svg>`;
+  const BOSS = `<svg class="who" viewBox="0 0 100 90" aria-hidden="true"><path d="M12 90c4-22 19-30 38-30s34 8 38 30z" fill="#3d4f63" stroke="#1d1b17" stroke-width="2.5"/><path d="M44 60l6 14 6-14z" fill="#fff" stroke="#1d1b17" stroke-width="2"/><path d="M48 66l2 20 2-20z" fill="#b8452f"/><circle cx="50" cy="37" r="22" fill="#efcfb2" stroke="#1d1b17" stroke-width="2.5"/><path d="M29 32c2-12 11-18 21-18s19 6 21 18c-5-5-12-7-21-7s-16 2-21 7z" fill="#9b958b"/><circle cx="42" cy="40" r="6" fill="none" stroke="#1d1b17" stroke-width="2"/><circle cx="58" cy="40" r="6" fill="none" stroke="#1d1b17" stroke-width="2"/><path d="M48 40h4" stroke="#1d1b17" stroke-width="2"/><path d="M44 51q6 3 12 0" fill="none" stroke="#1d1b17" stroke-width="2" stroke-linecap="round"/></svg>`;
+
+  function comicNode(post, dateStr){
+    const c = post.comic || {panels:[]};
+    const ps = c.panels.slice(0,4);
+    const cs = (site && site.comic) || {};
+    const panels = ps.slice(0,3).map(p => {
+      const boss = p.speaker === '사장님';
+      const n = el('div', {class:'panel'},
+        el('div', {class:'scene'}, p.scene || ''),
+        el('div', {class:'bubble' + (boss ? ' boss' : '')}, el('span', {class:'nm'}, boss ? (cs.boss || '사장님') : (cs.guest || '손님')), p.line));
+      n.insertAdjacentHTML('beforeend', boss ? BOSS.replace('class="who"','class="who right"') : GUEST.replace('class="who"','class="who left"'));
+      return n;
+    });
+    const last = ps[3] || {line:''};
+    panels.push(el('div', {class:'panel last'},
+      el('div', {class:'num'}, c.number || ''),
+      el('div', {class:'cap'}, c.number_caption || ''),
+      el('div', {class:'say'}, last.line ? `“${last.line}”` : '')));
+    return el('div', {class:'comic', style: cs.color ? `--comic-num:${cs.color}` : null},
+      el('div', {class:'comic-title'}, cs.title || '개포동 사무실 4컷', el('span', {}, dateStr.replace(/-/g,'.'))),
+      el('div', {class:'panels'}, panels));
+  }
+
+  // ---------- 도표 ----------
+  const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const fmt = v => Math.abs(v) >= 100 ? Math.round(v).toLocaleString('ko-KR') : (+v.toFixed(2)).toLocaleString('ko-KR');
+  function chartNode(ch){
+    if (!ch || !ch.labels || !ch.labels.length) return el('div', {class:'empty-chart'}, '이 글은 도표로 만들 숫자가 없습니다.');
+    const NS = 'http://www.w3.org/2000/svg';
+    const s = (tag, a, txt) => { const n = document.createElementNS(NS, tag); for (const k in a) n.setAttribute(k, a[k]); if (txt !== undefined) n.textContent = txt; return n; };
+    const ink = css('--ink'), ink3 = css('--ink-3'), line = css('--line'), bar = css('--bar');
+    const vals = ch.values.map(Number);
+    let svg;
+    if (ch.type === 'line'){
+      const W = 340, H = 190, L = 30, R = 12, T = 22, B = 26;
+      svg = s('svg', {viewBox:`0 0 ${W} ${H}`, role:'img', 'aria-label': ch.title});
+      const max = Math.max(...vals, 1), min = Math.min(0, ...vals);
+      const x = i => L + (vals.length === 1 ? (W-L-R)/2 : i * (W-L-R) / (vals.length-1));
+      const y = v => T + (H-T-B) * (1 - (v-min)/(max-min || 1));
+      [0, .5, 1].forEach(f => { const yy = T + (H-T-B)*f; svg.append(s('line', {x1:L, x2:W-R, y1:yy, y2:yy, stroke:line, 'stroke-width':1})); svg.append(s('text', {x:L-6, y:yy+4, 'text-anchor':'end', 'font-size':10, fill:ink3}, fmt(max - (max-min)*f))); });
+      svg.append(s('polyline', {points: vals.map((v,i)=>`${x(i)},${y(v)}`).join(' '), fill:'none', stroke:bar, 'stroke-width':2.5, 'stroke-linejoin':'round'}));
+      vals.forEach((v,i) => {
+        svg.append(s('circle', {cx:x(i), cy:y(v), r: i === vals.length-1 ? 4.5 : 3, fill: i === vals.length-1 ? css('--accent') : bar}));
+        svg.append(s('text', {x:x(i), y:H-8, 'text-anchor':'middle', 'font-size':10, fill:ink3}, ch.labels[i]));
+      });
+      const li = vals.length-1;
+      svg.append(s('text', {x:x(li), y:y(vals[li])-9, 'text-anchor':'end', 'font-size':11, 'font-weight':700, fill:ink}, fmt(vals[li]) + (ch.unit||'')));
+    } else {
+      const rowH = 26, W = 340, L = 112, R = 48, T = 4;
+      const H = T + rowH * vals.length + 4;
+      svg = s('svg', {viewBox:`0 0 ${W} ${H}`, role:'img', 'aria-label': ch.title});
+      const max = Math.max(...vals.map(Math.abs), 1);
+      const best = vals.indexOf(Math.max(...vals));
+      vals.forEach((v,i) => {
+        const yy = T + i*rowH;
+        const w = (W-L-R) * Math.abs(v) / max;
+        svg.append(s('text', {x:L-8, y:yy+16, 'text-anchor':'end', 'font-size':11, fill:ink}, String(ch.labels[i]).slice(0,14)));
+        svg.append(s('rect', {x:L, y:yy+5, width:Math.max(w,2), height:15, rx:3, fill: i === best ? css('--accent') : (v < 0 ? css('--bar-2') : bar)}));
+        svg.append(s('text', {x:L+w+5, y:yy+16, 'font-size':11, 'font-weight':700, fill:ink}, fmt(v) + (ch.unit && ch.unit.length <= 3 ? ch.unit : '')));
+      });
+    }
+    return el('div', {class:'chart'}, el('h3', {}, ch.title + (ch.unit ? ` (${ch.unit})` : '')), svg, ch.note ? el('div', {class:'note'}, ch.note) : null);
+  }
+
+  // ---------- 점수 ----------
+  const ratingKey = () => 'rating.' + day;
+  const getRatings = () => store.get(ratingKey(), {});
+  function setRating(slot, patch){
+    const r = getRatings(); r[slot] = Object.assign({}, r[slot], patch); store.set(ratingKey(), r); updateSendbar();
+  }
+  function updateSendbar(){
+    if (!daily){ return; }
+    const r = getRatings();
+    const v = x => x ? `<b>${x}</b>` : '–';
+    const parts = daily.posts.map(p => { const x = r[p.slot] || {}; return `${p.slot}번 글${v(x.score)}·컷${v(x.cscore)}`; });
+    $('#sendSum').innerHTML = parts.join(' · ');
+    const sent = store.get('sent.' + day, false);
+    $('#sendBtn').textContent = sent ? '다시 보내기' : '점수 보내기';
+  }
+  $('#sendBtn').addEventListener('click', () => {
+    if (!daily) return;
+    const r = getRatings();
+    const post = daily.posts.filter(p => r[p.slot] && r[p.slot].score);
+    const toon = daily.posts.filter(p => r[p.slot] && r[p.slot].cscore);
+    if (!post.length && !toon.length){ toast('먼저 점수를 눌러 주세요.'); return; }
+    const one = t => (t || '').replace(/\n/g, ' ');
+    const lines = [`date: ${day}`];
+    post.forEach(p => lines.push(`${p.slot}: ${r[p.slot].score}`));
+    toon.forEach(p => lines.push(`c${p.slot}: ${r[p.slot].cscore}`));
+    post.forEach(p => { if (r[p.slot].memo) lines.push(`memo${p.slot}: ${one(r[p.slot].memo)}`); });
+    toon.forEach(p => { if (r[p.slot].cmemo) lines.push(`cmemo${p.slot}: ${one(r[p.slot].cmemo)}`); });
+    // 직접 고친 4컷은 그 대본을 함께 보냅니다. 점수가 높으면 다음 4컷의 본보기가 됩니다.
+    toon.forEach(p => { const e = store.get(editKey(p.slot), null); if (e) lines.push(`comic${p.slot}: ${JSON.stringify(e)}`); });
+    lines.push('', '— 개포 데일리 홈페이지에서 보냄. 아래 Submit을 누르면 반영됩니다.');
+    openIssue(`[점수] ${day}`, lines.join('\n'), () => {
+      demoAddScores(post.map(p => ({kind:'post', date:day, slot:p.slot, id:p.id, category:p.category, title:p.title, keywords:p.keywords||[], score:r[p.slot].score, memo:r[p.slot].memo||''}))
+        .concat(toon.map(p => ({kind:'comic', date:day, slot:p.slot, id:p.id, category:p.category, title:p.title, score:r[p.slot].cscore, memo:r[p.slot].cmemo||'', comic:comicOf(p).comic, edited:!!store.get(editKey(p.slot), null)}))));
+      store.set('sent.' + day, true); updateSendbar();
+      toast('점수를 반영했습니다. 「점수 기록」 탭에서 확인하세요.');
+    });
+    if (!DEMO){ store.set('sent.' + day, true); updateSendbar(); }
+  });
+
+  // ---------- 복사·저장 ----------
+  function postText(p){
+    const src = (p.sources||[]).map(s => `출처: ${s.press ? s.press + ' · ' : ''}${s.title}\n${s.link}`).join('\n');
+    return `${p.title}\n\n${p.body}\n\n${src}`;
+  }
+  async function copy(text){
+    try{ await navigator.clipboard.writeText(text); toast('본문을 복사했습니다.'); }
+    catch(e){ const t = el('textarea', {}); t.value = text; document.body.append(t); t.select(); document.execCommand('copy'); t.remove(); toast('본문을 복사했습니다.'); }
+  }
+  // 이미지를 만들어 창에 띄웁니다. 휴대폰은 길게 눌러 저장, PC는 저장 버튼이나 우클릭으로 저장합니다.
+  async function savePng(node, name){
+    if (!window.htmlToImage){ toast('이미지 도구를 불러오지 못했습니다. 화면을 캡처해 주세요.'); return; }
+    toast('이미지를 만드는 중…');
+    let url;
+    try{
+      const bg = getComputedStyle(node).backgroundColor;
+      url = await htmlToImage.toPng(node, {pixelRatio: 3, backgroundColor: bg && bg !== 'rgba(0, 0, 0, 0)' ? bg : getComputedStyle(document.body).backgroundColor});
+    }catch(e){ toast('이미지를 만들지 못했습니다. 화면을 캡처해 주세요.'); return; }
+    const img = el('img', {src:url, alt:name});
+    const dl = el('a', {class:'btn accent', href:url, download:name}, '파일로 저장');
+    const close = sheet('이미지 저장', '휴대폰은 그림을 길게 눌러 저장하세요. PC는 「파일로 저장」을 누르거나 그림에서 오른쪽 클릭으로 저장하세요.', img, [cancelBtn(), dl]);
+    wireClose(close);
+  }
+
+  // ---------- 4컷 고치기 (이 브라우저에만 저장) ----------
+  const editKey = slot => `edit.${day}.${slot}`;
+  function comicOf(p){
+    const e = store.get(editKey(p.slot), null);
+    return e ? Object.assign({}, p, {comic: e}) : p;
+  }
+  function editComic(p, onSave){
+    const c = JSON.parse(JSON.stringify(comicOf(p).comic || {panels:[]}));
+    while (c.panels.length < 4) c.panels.push({speaker:'사장님', line:'', scene:''});
+    const cs = (site && site.comic) || {};
+    const names = {'손님': cs.guest || '손님', '사장님': cs.boss || '사장님'};
+    const fields = [];
+    const grid = el('div', {class:'ed-grid'});
+    c.panels.slice(0,4).forEach((pn, i) => {
+      const id = `ed-${p.slot}-${i}`;
+      const line = el('input', {id:id+'-line', value:pn.line || '', maxlength:'60'});
+      const box = el('div', {class:'ed-panel'}, el('b', {}, i < 3 ? `${i+1}컷` : '4컷 (숫자 칸)'));
+      let who = null, scene = null;
+      if (i < 3){
+        who = el('select', {id:id+'-who'}, ['손님','사장님'].map(k => { const o = el('option', {value:k}, names[k]); if (pn.speaker === k) o.selected = true; return o; }));
+        scene = el('input', {id:id+'-scene', value:pn.scene || '', maxlength:'40'});
+        box.append(el('label', {for:id+'-who'}, '누가'), who, el('label', {for:id+'-line'}, '대사'), line, el('label', {for:id+'-scene'}, '장면'), scene);
+      } else {
+        box.append(el('label', {for:id+'-line'}, '한마디'), line);
+      }
+      fields.push({who, line, scene});
+      grid.append(box);
+    });
+    const num = el('input', {id:`ed-${p.slot}-num`, value:c.number || '', maxlength:'16'});
+    const cap = el('input', {id:`ed-${p.slot}-cap`, value:c.number_caption || '', maxlength:'24'});
+    grid.lastChild.append(el('label', {for:num.id}, '큰 숫자'), num, el('label', {for:cap.id}, '숫자 설명'), cap);
+    let close;
+    const save = el('button', {class:'btn accent', onclick:()=>{
+      const panels = fields.map((f, i) => ({speaker: f.who ? f.who.value : '사장님', line: f.line.value.trim(), scene: f.scene ? f.scene.value.trim() : ''}));
+      store.set(editKey(p.slot), {panels, number: num.value.trim(), number_caption: cap.value.trim()});
+      close(); onSave(); toast('4컷을 고쳤습니다. 「4컷 저장」으로 그림을 받으세요.');
+    }}, '적용');
+    const reset = el('button', {class:'btn', onclick:()=>{
+      try{ localStorage.removeItem('gaepo.' + editKey(p.slot)); }catch(e){}
+      close(); onSave(); toast('AI가 만든 원래 4컷으로 돌렸습니다.');
+    }}, '원래대로');
+    close = sheet(`${p.slot}번 4컷 고치기`, '대사, 장면, 큰 숫자를 고칩니다. 고친 내용은 이 기기 브라우저에만 저장됩니다.', grid, [reset, cancelBtn('취소'), save]);
+    wireClose(close);
+  }
+
+  // ---------- 카드 ----------
+  function postCard(p){
+    const r = getRatings()[p.slot] || {};
+    const viewKey = 'view.' + day + '.' + p.slot;
+    let view = store.get(viewKey, 'comic');
+    let comic = comicNode(comicOf(p), day);
+    const chart = chartNode(p.chart);
+    const editedTag = el('span', {class:'edited'}, '');
+    const markEdited = () => { editedTag.textContent = store.get(editKey(p.slot), null) ? '· 고친 4컷' : ''; };
+    markEdited();
+    const text = el('div', {},
+      el('div', {class:'body'}, p.body),
+      el('div', {class:'src'}, (p.sources||[]).map(s => el('div', {}, '출처 · ', s.press ? s.press + ' · ' : '', el('a', {href:s.link, target:'_blank', rel:'noopener'}, s.title)))),
+      p.why ? el('div', {class:'why'}, '추천 이유 · ' + p.why) : null);
+    const holder = el('div', {class:'view'});
+    const btns = {};
+    function show(v){
+      view = v; store.set(viewKey, v);
+      holder.replaceChildren(v === 'comic' ? comic : v === 'chart' ? chart : text);
+      for (const k in btns) btns[k].setAttribute('aria-pressed', k === v);
+    }
+    const views = el('div', {class:'views'}, [['comic','4컷'],['chart','도표'],['text','글']].map(([k,l]) => (btns[k] = el('button', {'aria-pressed':'false', onclick:()=>show(k)}, l))));
+    const card = el('article', {class:'post' + (r.score === 5 || r.cscore === 5 ? ' pick' : '')});
+    function starRow(field, label){
+      const stars = el('div', {class:'stars', role:'group', 'aria-label':`${p.slot}번 ${label}`});
+      for (let i=1;i<=5;i++){
+        stars.append(el('button', {class: r[field] === i ? 'on' : '', 'aria-label': `${label} ${i}점`, onclick:()=>{
+          setRating(p.slot, {[field]:i});
+          stars.querySelectorAll('button').forEach((b,j)=>b.classList.toggle('on', j === i-1));
+          const now = getRatings()[p.slot] || {};
+          card.classList.toggle('pick', now.score === 5 || now.cscore === 5);
+        }}, String(i)));
+      }
+      return el('div', {class:'rate-row'}, el('span', {class:'lbl'}, label), stars);
+    }
+    function memoInput(field, id, ph){
+      const m = el('input', {class:'memo', id, 'aria-label':ph, placeholder:ph, value: r[field] || ''});
+      m.addEventListener('input', () => setRating(p.slot, {[field]: m.value}));
+      return m;
+    }
+    const memo = memoInput('memo', `memo-${p.slot}`, '글 메모 (선택) — 예: 숫자가 좋았다');
+    const cmemo = memoInput('cmemo', `cmemo-${p.slot}`, '4컷 메모 (선택) — 예: 3컷 반전이 좋았다');
+    card.append(
+      el('div', {class:'post-head'},
+        el('div', {class:'meta'}, el('span', {class:'slot'}, String(p.slot)), el('span', {class:'chip'}, p.category), editedTag),
+        el('h2', {}, p.title)),
+      views, holder,
+      el('div', {class:'rate'},
+        starRow('score', '글 점수'), memo,
+        el('div', {class:'rate-gap'}),
+        starRow('cscore', '4컷 점수'), cmemo,
+        el('div', {class:'actions'},
+          el('button', {class:'btn primary', onclick:()=>copy(postText(p))}, '글 복사'),
+          el('button', {class:'btn', onclick:()=>editComic(p, () => { comic = comicNode(comicOf(p), day); markEdited(); show('comic'); })}, '4컷 고치기'),
+          el('button', {class:'btn', onclick:()=>{ if (view !== 'comic') show('comic'); setTimeout(()=>savePng(comic, `개포4컷_${day}_${p.slot}.png`), 60); }}, '4컷 저장'),
+          el('button', {class:'btn', onclick:()=>{ if (!p.chart){ toast('도표가 없는 글입니다.'); return; } if (view !== 'chart') show('chart'); setTimeout(()=>savePng(chart, `개포도표_${day}_${p.slot}.png`), 60); }}, '도표 저장'))));
+    show(view);
+    return card;
+  }
+
+  // ---------- 날짜 ----------
+  async function loadDay(d){
+    day = d;
+    $('#curDay').textContent = d.replace(/-/g,'. ');
+    const i = site.days.indexOf(d);
+    $('#prevDay').disabled = i >= site.days.length - 1;
+    $('#nextDay').disabled = i <= 0;
+    $('#posts').replaceChildren(el('div', {class:'loading'}, '불러오는 중…'));
+    try{
+      daily = DEMO ? DEMO.days[d] : await (await fetch(`data/days/${d}.json`, {cache:'no-store'})).json();
+      if (!daily) throw new Error('no day');
+    }catch(e){
+      $('#posts').replaceChildren(el('div', {class:'loading'}, '이 날의 추천을 불러오지 못했습니다.'));
+      return;
+    }
+    const mode = daily.sample ? (daily.mode === 'ai'
+        ? '<b>예시 · AI 초안</b> · AI 키(Gemini 무료 키 또는 Anthropic 키)를 넣으면 이런 초안이 나옵니다. 첫 자동 실행 뒤 실제 추천으로 바뀝니다.'
+        : '<b>예시 · 무료판</b> · 같은 기사 3편을 API 키 없이 만들면 이렇게 나옵니다. 본문은 기사 요약, 4컷은 정해진 틀입니다.')
+      : daily.mode === 'ai' ? `<b>AI 초안${daily.ai ? ' · ' + daily.ai : ''}</b> · 후보 ${daily.candidate_count}건 중 3편`
+      : `<b>무료판</b> · 후보 ${daily.candidate_count}건 중 키워드 점수로 고른 3편. 본문은 기사 요약입니다. GEMINI_API_KEY(무료)를 넣으면 AI 초안으로 바뀝니다.`;
+    $('#modeNote').innerHTML = mode + (daily.note ? `<br>${daily.note}` : '') + ' · 점수를 누르고 아래 <b>점수 보내기</b>를 누르세요.';
+    $('#posts').replaceChildren(...daily.posts.map(postCard));
+    updateSendbar();
+    renderFormatDemo();
+  }
+  $('#prevDay').addEventListener('click', () => { const i = site.days.indexOf(day); if (i < site.days.length-1) loadDay(site.days[i+1]); });
+  $('#nextDay').addEventListener('click', () => { const i = site.days.indexOf(day); if (i > 0) loadDay(site.days[i-1]); });
+
+  function renderFormatDemo(){
+    if (!daily || !daily.posts.length) return;
+    $('#formatDemo').replaceChildren(el('div', {class:'chip', style:'display:inline-block;margin-bottom:8px'}, `오늘 1번 글 시안`), comicNode(daily.posts[0], day));
+  }
+
+  // ---------- 탭 ----------
+  document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('nav button').forEach(x => x.setAttribute('aria-selected', x === b));
+    ['today','format','sources','history'].forEach(t => $('#tab-'+t).classList.toggle('hidden', t !== b.dataset.tab));
+    $('#sendbar').classList.toggle('hidden', b.dataset.tab !== 'today');
+    store.set('tab', b.dataset.tab);
+  }));
+
+  // ---------- 출처 ----------
+  const TYPE = {google_news:'구글뉴스', naver_news:'네이버뉴스', rss:'RSS'};
+  function renderSources(){
+    const list = $('#srcList');
+    list.replaceChildren(...site.sources.map(s => el('div', {class:'src-item' + (s.enabled === false ? ' off' : '')},
+      el('div', {},
+        el('div', {class:'n'}, s.name),
+        el('div', {class:'d'}, `${TYPE[s.type]||s.type} · ${s.query || s.url}${s.include && s.include.length ? ' · 포함: ' + s.include.join(', ') : ''} · ${s.id}`)),
+      el('div', {class:'ops'},
+        el('button', {class:'btn', onclick:()=>openIssue(`[${s.enabled === false ? '출처켜기' : '출처끄기'}] ${s.id}`, s.name, () => { s.enabled = s.enabled === false; renderSources(); toast(`${s.name}: ${s.enabled ? '켰습니다' : '껐습니다'}`); })}, s.enabled === false ? '켜기' : '끄기'),
+        el('button', {class:'btn', onclick:()=>openIssue(`[출처삭제] ${s.id}`, `${s.name}\n\n이 출처를 목록에서 지웁니다.`, () => { site.sources = site.sources.filter(x => x !== s); renderSources(); toast(`${s.name}: 삭제했습니다`); })}, '삭제')))));
+  }
+  const form = $('#addForm');
+  form.type.addEventListener('change', () => {
+    const rss = form.type.value === 'rss';
+    $('#valLabel').textContent = rss ? 'RSS 주소' : '검색어';
+    form.value.placeholder = rss ? 'https://…/rss' : '예: 개포자이 재건축';
+  });
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const rss = form.type.value === 'rss';
+    const body = [`type: ${form.type.value}`, `${rss ? 'url' : 'query'}: ${form.value.value.trim()}`, `include: ${form.include.value.trim()}`].join('\n');
+    const name = form.name.value.trim(), val = form.value.value.trim();
+    openIssue(`[출처추가] ${name}`, body, () => {
+      site.sources.push({id:'u-demo' + site.sources.length, name, type:form.type.value, [rss ? 'url' : 'query']:val,
+        include:form.include.value.split(',').map(x=>x.trim()).filter(Boolean), enabled:true});
+      renderSources(); form.reset(); toast(`${name}: 추가했습니다`);
+    });
+  });
+
+  // ---------- 기록 ----------
+  function renderHistory(){
+    const cats = Object.entries(site.learning.category || {}).sort((a,b) => b[1].avg - a[1].avg);
+    $('#learnSub').textContent = site.learning.total
+      ? `글 ${site.learning.total}편${(site.learning.comic||{}).total ? `, 4컷 ${site.learning.comic.total}컷` : ''}에 점수를 줬습니다. 글은 평균 3점보다 높은 유형을 더 자주 추천하고, 4컷은 높은 점수를 받은 대본을 본보기로 씁니다.`
+      : ((site.learning.comic||{}).total ? `4컷 ${site.learning.comic.total}컷에 점수를 줬습니다. 높은 점수를 받은 대본을 다음 4컷의 본보기로 씁니다.` : '아직 점수가 없습니다. 첫 점수를 보내면 여기에 쌓입니다.');
+    const bar = (name, v, unit) => el('div', {class:'catbar'},
+      el('span', {}, name), el('div', {class:'track'}, el('div', {class:'fill', style:`width:${v.avg/5*100}%`})), el('span', {}, `${v.avg}점 · ${v.n}${unit}`));
+    const cm = (site.learning.comic || {total:0});
+    $('#catBars').replaceChildren(...cats.map(([c,v]) => bar(c, v, '편')),
+      ...(cm.total ? [el('div', {class:'catbar-sep'}, '4컷'), bar('4컷 전체', {avg:cm.avg, n:cm.total}, '컷')] : []));
+    const rows = (site.scores || []).slice().reverse();
+    $('#histBody').replaceChildren(...(rows.length ? rows.map(s => el('tr', {},
+      el('td', {}, s.date.slice(5).replace('-','/')), el('td', {class:'s'}, String(s.score)),
+      el('td', {}, el('span', {class:'chip' + (s.kind === 'comic' ? ' toon' : '')}, s.kind === 'comic' ? '4컷' + (s.edited ? '·고침' : '') : s.category), ' ', s.title, s.memo ? el('div', {class:'why'}, '메모 · ' + s.memo) : null)))
+      : [el('tr', {}, el('td', {colspan:3, style:'color:var(--ink-3)'}, '기록이 없습니다.'))]));
+  }
+
+  // ---------- 시작 ----------
+  (async () => {
+    try{
+      site = DEMO ? DEMO.site : await (await fetch('data/site.json', {cache:'no-store'})).json();
+    }catch(e){
+      $('#posts').replaceChildren(el('div', {class:'loading'}, 'data/site.json 을 찾지 못했습니다.'));
+      return;
+    }
+    $('#siteTitle').textContent = site.title;
+    if (DEMO) $('#siteTitle').append(el('span', {class:'demo-flag'}, '미리보기'));
+    document.title = site.title;
+    $('#siteSub').textContent = `${site.region} 중개사무소의 아침 부동산 이야기`;
+    renderSources(); renderHistory();
+    const tab = store.get('tab', 'today');
+    const tb = document.querySelector(`nav button[data-tab="${tab}"]`); if (tb) tb.click();
+    if (!site.days.length){ $('#posts').replaceChildren(el('div', {class:'loading'}, '아직 추천이 없습니다. Actions에서 Run workflow를 눌러 주세요.')); return; }
+    loadDay(site.days[0]);
+  })();
+})();
+</script>
+</body>
+</html>

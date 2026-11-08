@@ -1,0 +1,14 @@
+[
+  {"id": "gn-gaepo", "name": "구글뉴스 · 개포동", "type": "google_news", "query": "개포동", "include": [], "enabled": true},
+  {"id": "gn-gaepo-rebuild", "name": "구글뉴스 · 개포 재건축", "type": "google_news", "query": "개포 재건축", "include": [], "enabled": true},
+  {"id": "gn-blesstige", "name": "구글뉴스 · 래미안블레스티지", "type": "google_news", "query": "래미안블레스티지", "include": [], "enabled": true},
+  {"id": "gn-gangnam-price", "name": "구글뉴스 · 강남 집값", "type": "google_news", "query": "강남 집값", "include": [], "enabled": true},
+  {"id": "gn-gangnam-apt", "name": "구글뉴스 · 강남구 아파트", "type": "google_news", "query": "강남구 아파트", "include": [], "enabled": true},
+  {"id": "gn-policy", "name": "구글뉴스 · 부동산 정책", "type": "google_news", "query": "부동산 정책 서울", "include": [], "enabled": true},
+  {"id": "nv-gaepo", "name": "네이버뉴스 · 개포동", "type": "naver_news", "query": "개포동", "include": [], "enabled": true},
+  {"id": "nv-gangnam", "name": "네이버뉴스 · 강남 아파트", "type": "naver_news", "query": "강남 아파트", "include": [], "enabled": true},
+  {"id": "rss-hankyung", "name": "한국경제 부동산", "type": "rss", "url": "https://www.hankyung.com/feed/realestate", "include": [], "enabled": true},
+  {"id": "rss-mk", "name": "매일경제 부동산", "type": "rss", "url": "https://www.mk.co.kr/rss/50300009/", "include": [], "enabled": true},
+  {"id": "rss-yna", "name": "연합뉴스 경제", "type": "rss", "url": "https://www.yna.co.kr/rss/economy.xml", "include": ["부동산", "아파트", "집값", "재건축", "주택", "강남"], "enabled": true},
+  {"id": "rss-donga", "name": "동아일보 경제", "type": "rss", "url": "https://rss.donga.com/economy.xml", "include": ["부동산", "아파트", "집값", "재건축", "주택", "강남"], "enabled": true}
+]
