@@ -462,22 +462,22 @@
       "kind": "news"
     },
     {
-      "title": "상승 멈춘 목동 집값 … 강남 따라가나",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84VnhNbzhGcFVfZkZrekRqSWJjejExUFJ5TDM2Qlp3b0gtalotamdzYkNoZDU1Yk5OcERUVGtPcGYzSlF4UTg1RDdpcG5yejU2aFFlOWhFeDg?oc=5",
-      "summary": "",
-      "published": "2026-11-05T17:22:03+09:00",
-      "press": "매일경제",
-      "id": "10f1b7503e",
-      "source_id": "gn-gangnam-price",
-      "kind": "news"
-    },
-    {
       "title": "공공은 하락, 민간은 상승…혼선 부추기는 집값 통계[엇갈린 집값 신호①]",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5mVWE2V2UyRUxXRkVSdFdrTjByVnNjdmJoTlRhdFNtRjM3ZlFUSXoyZFcwSjJTR005cXNYTV9kWHphUFI1NFVRaDRHZjhkcktWRzlBSk8xTlc0VTlRMWdsNdIBeEFVX3lxTE1aZkY1bm56aXNRb1hYNDZJN0dzaFh1cURZN3BNc0FyX2otU1lMdTJBbUNmN3JpYTRjQUdPV2lGNmxFSEpmMUtBSGhsRmpleDVVS3V4ejRGYUVZT0UzVmNpQkJzLVpFc3RZN1BIZXF5ZTJnWmxNU25LYw?oc=5",
       "summary": "",
       "published": "2026-11-07T06:00:00+09:00",
       "press": "뉴시스",
       "id": "f78956e39b",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "상승 멈춘 목동 집값 … 강남 따라가나",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84VnhNbzhGcFVfZkZrekRqSWJjejExUFJ5TDM2Qlp3b0gtalotamdzYkNoZDU1Yk5OcERUVGtPcGYzSlF4UTg1RDdpcG5yejU2aFFlOWhFeDg?oc=5",
+      "summary": "",
+      "published": "2026-11-05T17:22:03+09:00",
+      "press": "매일경제",
+      "id": "10f1b7503e",
       "source_id": "gn-gangnam-price",
       "kind": "news"
     },
@@ -538,16 +538,6 @@
       "published": "2026-11-06T14:51:42+09:00",
       "press": "뉴스1",
       "id": "58fd9c8507",
-      "source_id": "gn-gangnam-price",
-      "kind": "news"
-    },
-    {
-      "title": "강남3구 9주 하락에도 서울 집값은 상승…오름폭은 절반으로",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NMXB0dmNDNmx2Ty1qa2pFMDhWaXRiS2UwU1ZNM0FjbkFWaWJrWElMTUE4bDg3VzgyUTJINWo1eTdmU1RTTk9wdVFFWlpNcnZ2eEc4WXhyT3FhZ9IBWEFVX3lxTFA2VHNLSGhJSlJqRWh2N0U2SUJ6NF8yTTllOU5iNEZ3NDFzYjVlcjdUaXdOMnllTzhqS0w5N3piRVJ0NHItTXIyZE93ZDRUM05zRFZuU3BtLVM?oc=5",
-      "summary": "",
-      "published": "2026-11-05T15:58:16+09:00",
-      "press": "아주경제",
-      "id": "6248d84ddc",
       "source_id": "gn-gangnam-price",
       "kind": "news"
     },
@@ -628,6 +618,16 @@
       "published": "2026-11-08T09:51:22+09:00",
       "press": "www.ebn.co.kr",
       "id": "cf758a12eb",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 매물 3개월 새 33% 증가…집값 안정 효과는 미지수",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTbXhuRGM4YVdYUkNEMEpZUHgwdHhjODM1Y2xBQ1hiSFFKVnJQVEdBVHJvR0hFYXhOUW9VQ0FiRjZ6SGtQS3pVYmYxYk1HZUwwZGJpYnA4QWYyd9IBWEFVX3lxTE1JbXRUYzYxNE5HbnFqaXdmWVh0QWRkTzB4bTJ2QlJvRHpnMkxJa1JKcTEzU2VPR1FzYUg3cE1RVUF5c01Xei1TcE1UamVqaGJpQWhMeHlXbno?oc=5",
+      "summary": "",
+      "published": "2026-11-08T15:56:02+09:00",
+      "press": "아주경제",
+      "id": "d72fc6e827",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -932,16 +932,6 @@
       "kind": "news"
     },
     {
-      "title": "이사 없이 1억이면 새단장 … 재건축 비용 급등하자 강남에 뜬 가성비 리모델링",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wNDdRbEl5VGN0ejZ3M0hXSU1OVjNIUjdZd25GbTIxM0o5WHVYeXpzd21iUmNkMnBHMy1VX0JSTGY5TVd2RVNNaF92RF9zVnJSZTZwY1VXemw?oc=5",
-      "summary": "",
-      "published": "2026-11-07T05:30:00+09:00",
-      "press": "매일경제",
-      "id": "041205f87c",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "이혼하며 받은 강남 아파트…전 남편 부도에 '위장 이혼' 몰린 아내 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oVllGVWVuWV96dGNTMzRuSHdWS0wyeG9yanlpMVhFUWlYVFJNUXVLa25RTGJXU3g5U0FINEVNM0hjbjFEWkl5TlJHV1lmUGdBWHJZNmE2TFk3YXR5dkdpeXFnSEs3X09NbW1r0gFwQVVfeXFMTWhtd0x5NTkzN3EwVkpFWWhibDhRTzlZRUFmbFI2WkM0cWNlWXY3U1hUZ2g5aFZOT0ZYV21RemFYMF81aVZTbWc4M0J5ZkJxZWhZc0N2ekRQOTE1em1SMm0tMGwwa2hJSlV4X0hSWS1ydg?oc=5",
       "summary": "",
@@ -1062,6 +1052,16 @@
       "kind": "news"
     },
     {
+      "title": "연일 ‘집값 하락’ 얘기하는 대통령…진실은?",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByODE2M21KMkMyLVJjQmpfdFlxczV4S2s5YXFjTkRhd3VqLXk0Tmo4Qm01aXpRM0JObURFLXQtdWZfRDB6NnNQQXhhZE83bGJHdnRLTXVxTEtRUHc?oc=5",
+      "summary": "",
+      "published": "2026-11-07T08:05:00+09:00",
+      "press": "KBS 뉴스",
+      "id": "3d3945975b",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
       "title": "서울 아파트값 91주 연속 상승 '역대 최장'…경기도 상승세 가속",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44V1h1YWkwUkVzSVk5ZWFmbjdjMk9jazNLMENQTGd3SlloWl9vY1pwZHptVTBJcEI0VDlaWkdPd29vWkxfRTNIZklQTTUtWVpkVVZiUVpSbGswWjdoZWx6elcwcFQ?oc=5",
       "summary": "",
@@ -1078,16 +1078,6 @@
       "published": "2026-11-05T16:10:00+09:00",
       "press": "국토매일",
       "id": "d2898f9111",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
-      "title": "연일 ‘집값 하락’ 얘기하는 대통령…진실은?",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByODE2M21KMkMyLVJjQmpfdFlxczV4S2s5YXFjTkRhd3VqLXk0Tmo4Qm01aXpRM0JObURFLXQtdWZfRDB6NnNQQXhhZE83bGJHdnRLTXVxTEtRUHc?oc=5",
-      "summary": "",
-      "published": "2026-11-07T08:05:00+09:00",
-      "press": "KBS 뉴스",
-      "id": "3d3945975b",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -1172,22 +1162,22 @@
       "kind": "news"
     },
     {
-      "title": "서울 아파트값 역대 최장 91주 상승⋯강남3구는 하락",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1leXZzS052blJqR05yNFYwNTQtWTJtTlRnV0M4VW5fYzEtWWNMaGczTGtWc211UW1MM3NpYVI2UEllb25tRmhEUDhaM0lHYlNaR1lnLU14dk0?oc=5",
-      "summary": "",
-      "published": "2026-11-05T16:11:20+09:00",
-      "press": "국민일보",
-      "id": "f8fe1d398a",
-      "source_id": "gn-gangnam-apt",
-      "kind": "news"
-    },
-    {
       "title": "이혼해 강남아파트 받은 아내…“위장 이혼이지?” 美서 날벼락, “아파트 돌려줘!” 소송까지",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83S1dhdmJrUkhwYy1nNWtiaEFYQTBSdTA1U1NKcGdva0hOSnVwZmZ4R2pWakZSTFU2V21nZGo3b01aOUhTOG9WcGtHeXpKQ09EXzVIejZB?oc=5",
       "summary": "",
       "published": "2026-11-06T22:00:00+09:00",
       "press": "헤럴드경제",
       "id": "6b4377b8bb",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 역대 최장 91주 상승⋯강남3구는 하락",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1leXZzS052blJqR05yNFYwNTQtWTJtTlRnV0M4VW5fYzEtWWNMaGczTGtWc211UW1MM3NpYVI2UEllb25tRmhEUDhaM0lHYlNaR1lnLU14dk0?oc=5",
+      "summary": "",
+      "published": "2026-11-05T16:11:20+09:00",
+      "press": "국민일보",
+      "id": "f8fe1d398a",
       "source_id": "gn-gangnam-apt",
       "kind": "news"
     },
@@ -2465,7 +2455,7 @@
       "title": "경기 집값 상승률, 8주째 서울 추월…비규제지역도 들썩",
       "link": "https://www.donga.com/news/Economy/article/all/20261108/134985816/1",
       "summary": "경기 아파트 매매가격이 8주 연속 서울보다 높은 상승률을 보였다. 서울은 강남구 등 고가 지역 위주로 매물이 쌓이며 상승세가 둔화하는 가운데 경기는 이른바 ‘반도체 벨트’로 불리는 남부 지역과 인근 비(非)규제지역까지 매수세가 몰린 결과로 풀이된다.8일 한국부동산원 주간아파트가격동향에 따르면 경기 아파트값 상승률은 9월 둘째 주 0.18%로 서울(0.16%)을 넘어서기 시작한 이후 이달 첫째 주까지 8주 연속 서울보다 높은 것으로 집계됐다. 두 지역 상승률 격차도 10월 첫째 주 0.06%포인트에서 이달 첫째 주 0.13%포인트로 벌어졌다.아파트값 상승세는 경기 남부 지역에 집중되고 있다. 이달 첫째 주 상승률 상위 10곳은 경기 용인시 기흥구(0.60%), 군포시(0.57%), 안양시 동안구(0.55%),",
-      "published": "2026-11-08T15:55:10+09:00",
+      "published": "2026-11-08T15:55:00+09:00",
       "press": "동아일보 경제",
       "id": "6f15e3cf43",
       "source_id": "rss-donga",
@@ -3272,7 +3262,7 @@
     {
       "source": "gn-gangnam-price",
       "ok": true,
-      "count": 31
+      "count": 30
     },
     {
       "source": "gn-gangnam-apt",
