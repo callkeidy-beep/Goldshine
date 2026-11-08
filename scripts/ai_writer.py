@@ -56,8 +56,10 @@ SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을
 - 세금, 대출 이야기는 "세무사·은행과 확인하세요"를 덧붙인다.
 
 [구성]
-- body: 900~1300자. 문단 5~7개, 문단 사이는 빈 줄. 아래 순서로 쓴다.
-  1) 장면: 손님의 말 한마디와 사무실의 계절, 빛, 소리로 연다.
+- episode: 글을 여는 가상의 에피소드 한 문단(2~3문장). 손님의 대사로 시작해 사무실의 계절, 빛, 소리로 장면을 세운다.
+  episode에는 "가상의 에피소드" 같은 안내 문구를 쓰지 않는다. 안내 문구는 프로그램이 붙인다.
+- body: episode 다음에 이어질 본문. episode를 다시 쓰지 않는다. 900~1300자. 문단 4~6개, 문단 사이는 빈 줄. 아래 순서로 쓴다.
+  1) 장면 잇기: 에피소드 속 손님과 나눈 이야기를 이어 간다.
   2) 사실: 기사 속 숫자, 날짜, 단지명을 2~3개 짚는다.
   3) 배경: 왜 이런 일이 생겼는지 제도, 일정, 시장 흐름으로 풀어 준다. 자료에 있는 것만.
   4) 현장: 이 소식이 개포동 손님에게 실제로 무엇을 바꾸는지, 사무실에서 본 장면으로 보여준다.
@@ -80,6 +82,7 @@ SCHEMA = {
                 "type": "object",
                 "properties": {
                     "candidate_id": {"type": "string"},
+                    "episode": {"type": "string"},
                     "category": {"type": "string"},
                     "title": {"type": "string"},
                     "hook": {"type": "string"},
@@ -123,7 +126,7 @@ SCHEMA = {
                         "additionalProperties": False,
                     },
                 },
-                "required": ["candidate_id", "category", "title", "hook", "body", "tip", "why", "comic", "chart"],
+                "required": ["candidate_id", "category", "title", "hook", "episode", "body", "tip", "why", "comic", "chart"],
                 "additionalProperties": False,
             },
         }
@@ -322,6 +325,19 @@ def parse_json(text: str) -> dict:
     return json.loads(text)
 
 
+DISCLAIMER = "(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)"
+
+
+def with_episode(episode: str, body: str) -> str:
+    """에피소드 문단 바로 뒤에 가상 에피소드 안내 문구를 붙여 본문을 만듭니다."""
+    body = body.replace(DISCLAIMER, "").strip()
+    episode = episode.replace(DISCLAIMER, "").strip()
+    if not episode:  # 에피소드를 따로 주지 않았으면 본문 첫 문단을 에피소드로 봅니다
+        parts = re.split(r"\n\s*\n", body, maxsplit=1)
+        episode, body = parts[0].strip(), (parts[1].strip() if len(parts) > 1 else "")
+    return f"{episode}\n{DISCLAIMER}\n\n{body}".strip()
+
+
 def normalize(p: dict) -> dict:
     """스키마를 강제하지 못하는 모델(Gemini)의 답을 홈페이지가 읽는 모양으로 맞춥니다."""
     comic = p.get("comic") or {}
@@ -343,7 +359,7 @@ def normalize(p: dict) -> dict:
         "category": p.get("category") or "기타",
         "title": p.get("title") or "",
         "hook": p.get("hook") or "",
-        "body": p.get("body") or "",
+        "body": with_episode(p.get("episode") or "", p.get("body") or "") if (p.get("body") or p.get("episode")) else "",
         "tip": p.get("tip") or "",
         "why": p.get("why") or "",
         "comic": {"panels": panels, "number": str(comic.get("number") or ""), "number_caption": comic.get("number_caption") or ""},

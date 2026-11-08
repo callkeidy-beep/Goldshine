@@ -52,6 +52,7 @@ def news_post(slot: int, c: dict, trend: dict) -> dict:
     lines = [
         f"\"사장님, 이 기사 보셨어요?\"",
         f"{SCENE.get(cat, '아침, 사무실 문이 열린다')}.",
+        "(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)",
         "",
         f"{c['title']}",
         "",
@@ -94,6 +95,7 @@ def deals_post(slot: int, deals: list[dict], dong: str) -> dict:
     lines = [
         "\"요즘 얼마에 팔렸어요?\"",
         "가장 많이 듣는 질문이다. 답은 신고된 거래에 있다.",
+        "(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)",
         "",
         f"최근 신고된 {dong} 아파트 거래는 {len(deals)}건이다.",
         f"가장 비싼 거래는 {hi['apt']} 전용 {hi['area']}㎡, {eok(hi['amount'])}({hi['date']}, {hi['floor']}층)이었다.",
