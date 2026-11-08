@@ -15,11 +15,26 @@ SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을
 매일 아침 사무실 블로그에 글 한 편을 올린다. 오늘은 후보 기사 중 3편을 골라 초안을 만든다.
 
 [문장 원칙 — 『묘사의 힘』]
-- 주어와 술어 중심의 짧은 문장으로 쓴다.
-- 해설하지 말고 장면으로 보여준다. 사무실, 손님, 단지 풍경, 달력, 서류 같은 구체적 이미지로 시작한다.
-- 감정을 직접 말하지 않는다. 표정, 행동, 대화로 느끼게 한다.
-- 대화와 짧은 내적 독백을 쓴다. 손님의 질문 한 줄로 여는 것이 좋다.
+- 본문은 "~다"로 끝나는 평서문으로 쓴다. "~습니다", "~입니다", "~했습니다"는 본문에 쓰지 않는다.
+  (대화 속 존댓말과 마지막 "중개사 한마디"의 "~하세요"는 괜찮다.)
+- 한 문장은 35자 안쪽. 한 문장에 한 가지만. 문장마다 줄을 바꿔도 좋다.
+- 첫 줄은 손님의 말 한 줄로 연다. 큰따옴표 대사로 시작한다.
+- 대사를 2줄 이상, 사장님의 짧은 속말(내적 독백)을 1줄 이상 넣는다.
+- 해설하지 말고 장면으로 보여준다. 사무실, 손님, 단지 풍경, 달력, 서류 같은 구체적 사물과 행동을 쓴다.
+- 감정을 직접 말하지 않는다. 표정, 손짓, 침묵으로 느끼게 한다.
+- "~하는 이유다", "~해야 한다", "~할 필요가 있다" 같은 설명·훈계 문장은 본문에 쓰지 않는다. 조언은 "중개사 한마디"에만 둔다.
 - 과장, 공포 마케팅, "지금 꼭 사야" 같은 권유는 쓰지 않는다.
+
+[본문 예시 — 결을 따라라. 내용은 베끼지 않는다]
+"사장님, 집주인이 돈을 빌려준다는 게 진짜예요?"
+손님이 반쯤 웃으며 물었다.
+진짜다. 개포주공6·7단지 이야기다.
+두 단지 매매 14건 중 10건이 그랬다.
+달력의 10월 8일에 빨간 동그라미가 있다.
+(서두른 건 사람이 아니라 세금이었지.)
+파는 쪽은 세금 때문에, 사는 쪽은 한도 때문에 손을 잡았다.
+
+중개사 한마디 — 매도인 근저당도 빚입니다. 상환 만기와 말소 시점을 계약서에 적어 두세요.
 
 [사실 원칙]
 - 숫자, 날짜, 단지명, 금액은 주어진 자료에 있는 것만 쓴다. 없으면 쓰지 않는다.
@@ -27,8 +42,8 @@ SYSTEM = """너는 서울 강남구 개포동에서 20년 가까이 부동산을
 - 세금, 대출 이야기는 "세무사·은행과 확인하세요"를 덧붙인다.
 
 [구성]
-- body: 400~700자. 장면 → 사실 → 의미 순서. 마지막 줄은 "중개사 한마디 — "로 시작하는 실전 조언.
-- comic: 「개포 사무실 4컷」. 1~3컷은 손님과 사장님의 대화, 4컷은 사장님의 한마디. 대사는 한 컷에 25자 안팎.
+- body: 350~650자. 장면 → 사실 → 여운 순서. 문단 사이는 빈 줄. 마지막 줄은 "중개사 한마디 — "로 시작하는 실전 조언.
+- comic: 「개포 사무실 4컷」. 1~3컷은 손님과 사장님의 대화, 4컷은 사장님의 한마디. 대사는 한 컷에 20자 안쪽, 길어도 26자를 넘기지 않는다. scene은 15자 안쪽.
   number는 4컷에 크게 박힐 숫자 하나(예: "14건 중 10건", "-1.38%"). 자료에 숫자가 없으면 핵심 단어 하나.
 - chart: 자료 속 숫자로 도표를 만들 수 있을 때만 has_chart=true. labels와 values 개수는 같아야 한다.
   숫자를 지어내지 않는다. 만들 수 없으면 has_chart=false, 배열은 비운다.
@@ -307,12 +322,49 @@ def provider() -> str:
     return ""
 
 
+FORMAL = re.compile(r"(습니다|입니다|했습니다|됩니다)[.!?]?\s*$")
+
+
+def style_problems(posts: list[dict]) -> list[str]:
+    """문체 검사: 설명조 존댓말, 긴 문장, 대사 없음, 긴 4컷 대사를 찾습니다."""
+    out = []
+    for i, p in enumerate(posts, 1):
+        body = p["body"].split("중개사 한마디")[0]
+        sents = [x.strip() for x in re.split(r"(?<=[.!?])\s+|\n+", body) if x.strip()]
+        narr = [x for x in sents if not x.startswith(("\"", "“", "(", "‘", "'"))]
+        formal = [x for x in narr if FORMAL.search(x)]
+        if formal and len(formal) >= max(2, len(narr) // 4):
+            out.append(f"{i}번 본문에 '~습니다/~입니다' 문장이 {len(formal)}개다. '~다' 평서문으로 고쳐라. 예: {formal[0][:30]}")
+        long = [x for x in narr if len(x) > 45]
+        if len(long) >= 2:
+            out.append(f"{i}번 본문에 45자 넘는 긴 문장이 {len(long)}개다. 둘로 끊어라. 예: {long[0][:30]}…")
+        if not re.search(r'["“]', body):
+            out.append(f"{i}번 본문에 대사가 없다. 손님의 말 한 줄로 열어라.")
+        longline = [x["line"] for x in p["comic"]["panels"] if len(x.get("line", "")) > 26]
+        if longline:
+            out.append(f"{i}번 4컷 대사가 길다(26자 초과). 짧게 줄여라. 예: {longline[0][:30]}")
+    return out
+
+
 def write(cfg: dict, day: str, cands: list[dict], deals: list[dict], stats: dict) -> list[dict]:
     user = build_prompt(cfg, day, cands, deals, stats)
-    who = provider()
-    text = call_claude(cfg, user) if who == "claude" else call_gemini(cfg, user)
+    call = call_claude if provider() == "claude" else call_gemini
+    text = call(cfg, user)
     posts = [normalize(p) for p in parse_json(text).get("posts", [])][:3]
     posts = [p for p in posts if p["title"] and p["body"]]
+    # 문체가 원칙에서 벗어나면, 고칠 점을 알려 주고 한 번 다시 쓰게 합니다
+    issues = style_problems(posts) if len(posts) == 3 else []
+    if issues:
+        print("  문체 다시 쓰기: " + " / ".join(issues))
+        retry = (user + "\n\n[처음 쓴 초안]\n" + text + "\n\n[고칠 점]\n- " + "\n- ".join(issues)
+                 + "\n\n같은 기사 3편을 유지하고, 고칠 점을 모두 반영해 다시 써라.")
+        try:
+            again = [normalize(p) for p in parse_json(call(cfg, retry)).get("posts", [])][:3]
+            again = [p for p in again if p["title"] and p["body"]]
+            if len(again) == 3 and len(style_problems(again)) < len(issues):
+                posts = again
+        except Exception as e:  # 다시 쓰기가 실패하면 처음 초안을 그대로 씁니다
+            print(f"  다시 쓰기 실패, 처음 초안 사용: {str(e)[:120]}")
     if len(posts) < 3:
         raise RuntimeError(f"AI가 쓸 만한 글을 {len(posts)}편만 만들었습니다")
 
