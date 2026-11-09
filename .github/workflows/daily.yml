@@ -2,7 +2,9 @@ name: Goldshine (매일 아침)
 
 on:
   schedule:
-    - cron: "0 22 * * *"   # 한국 시간 오전 7시
+    - cron: "0 22 * * *"    # 한국 시간 오전 7시
+    - cron: "30 23 * * *"   # 오전 8시 30분 (GitHub가 7시 실행을 건너뛸 때를 대비한 예비)
+    - cron: "30 0 * * *"    # 오전 9시 30분 (예비)
   workflow_dispatch: {}
 
 permissions:
@@ -20,14 +22,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 오늘 이미 만들었는지 확인 (예비 실행용)
+        id: guard
+        run: |
+          DAY=$(TZ=Asia/Seoul date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "docs/data/days/${DAY}.json" ]; then
+            echo "오늘(${DAY}) 추천이 이미 있습니다. 예비 실행을 건너뜁니다."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.12"
 
       - name: 패키지 설치
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: 기사·실거래 수집
+        if: steps.guard.outputs.skip != 'true'
         working-directory: scripts
         env:
           PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
@@ -38,6 +52,7 @@ jobs:
         run: python collect.py
 
       - name: 오늘의 3편 만들기
+        if: steps.guard.outputs.skip != 'true'
         working-directory: scripts
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -45,6 +60,7 @@ jobs:
         run: python make_daily.py
 
       - name: 저장
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "goldshine"
           git config user.email "goldshine@users.noreply.github.com"
@@ -54,6 +70,7 @@ jobs:
           git push
 
       - name: 휴대폰 알림용 이슈
+        if: steps.guard.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

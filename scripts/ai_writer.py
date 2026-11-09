@@ -216,6 +216,19 @@ def comic_feedback(c: dict) -> list[str]:
     return out
 
 
+def recent_topics(day: str, days: int = 7) -> list[str]:
+    """지난 며칠 동안 이미 올린 글 제목들 (같은 이야기를 되풀이하지 않도록)."""
+    import datetime as dt
+    from common import DOCS, read_json
+    base = dt.date.fromisoformat(day)
+    out = []
+    for i in range(1, days + 1):
+        d = (base - dt.timedelta(days=i)).isoformat()
+        for p in read_json(DOCS / "data" / "days" / f"{d}.json", {}).get("posts", []):
+            out.append(f"{d} {p['title']}")
+    return out
+
+
 def build_prompt(cfg: dict, day: str, cands: list[dict], deals: list[dict], stats: dict) -> str:
     blocks = []
     for c in cands:
@@ -242,6 +255,9 @@ def build_prompt(cfg: dict, day: str, cands: list[dict], deals: list[dict], stat
         blocks.append({"candidate_id": "deals", "category": "실거래", "title": f"최근 {cfg['deals']['dong']} 실거래", "summary": "아래 실거래 목록 참고"})
     return (
         f"오늘은 {day}이다.\n\n[학습 기록]\n{feedback_block(stats)}\n\n"
+        + ("[최근 7일 동안 이미 올린 글 — 같은 사건·같은 소재는 고르지 않는다. 후속 보도라면 새로 밝혀진 사실이 있을 때만 고르고, 그 새 사실을 중심으로 쓴다]\n"
+           + "\n".join(recent_topics(day)) + "\n\n" if recent_topics(day) else "")
+        + 
         f"[후보 자료]\n{json.dumps(blocks, ensure_ascii=False, indent=1)}\n{deal_note}\n\n"
         "후보 중 정확히 3편을 골라 posts 배열에 담아라. 가장 추천하는 글을 첫 번째에 둔다."
     )
