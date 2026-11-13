@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-13",
+  "mode": "free",
+  "ai": "",
+  "note": "AI 작성 실패로 무료판을 썼습니다: bad operand type for unary +: 'str'",
+  "generated_at": "2026-11-13T09:12+09:00",
+  "candidate_count": 311,
+  "posts": [
+    {
+      "slot": 1,
+      "id": "af33a90ba0",
+      "category": "개포단지",
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 찾아 안전점검",
+      "hook": "창밖으로 공사 가림막이 보인다",
+      "body": "\"사장님, 이 기사 보셨어요?\"\n창밖으로 공사 가림막이 보인다.\n(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)\n\n김현기 강남구청장, 개포주공5단지 재건축 현장 찾아 안전점검\n\n중개사 한마디 — 기사 한 줄보다 조합 공지와 일정표를 먼저 보시는 게 좋다는 게 오늘 저의 생각입니다.",
+      "tip": "기사 한 줄보다 조합 공지와 일정표를 먼저 보시는 게 좋다는 게 오늘 저의 생각입니다.",
+      "keywords": [
+        "개포주공"
+      ],
+      "sources": [
+        {
+          "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 찾아 안전점검",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNSkpXb3RtM2pPTWZvOURmMmNqR1BJcXZVenZBUDBOa3gyM3hCeFk3TkxEMEtSRzNZTzhQMkNYdlNyWFFSSWd5ZThNVDdLd0d0a3hZN1ZzWVZhR256S25VOENjbFkzZTBMSDZlall3?oc=5",
+          "press": "이지경제"
+        }
+      ],
+      "chart": {
+        "type": "line",
+        "title": "최근 7일 '개포단지' 기사 수",
+        "unit": "건",
+        "labels": [
+          "11/07",
+          "11/08",
+          "11/09",
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13"
+        ],
+        "values": [
+          0,
+          5,
+          5,
+          3,
+          3,
+          18,
+          21
+        ],
+        "note": "Goldshine이 매일 모은 기사 기준"
+      },
+      "comic": {
+        "panels": [
+          {
+            "speaker": "손님",
+            "line": "사장님, 이 기사 보셨어요?",
+            "scene": "아침, 사무실 문이 열린다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "김현기 강남구청장, 개포주공5단지 재건축 현장 찾아 안전점검",
+            "scene": "창밖으로 공사 가림막이 보인다"
+          },
+          {
+            "speaker": "손님",
+            "line": "그럼 우리 단지도 영향 있어요?",
+            "scene": "손님이 의자를 당겨 앉는다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "조합 일정표부터 보세요.",
+            "scene": "사장님이 웃으며 고개를 끄덕인다"
+          }
+        ],
+        "number": "개포단지",
+        "number_caption": "오늘의 주제"
+      },
+      "why": "'개포주공' 키워드, 점수 13.5"
+    },
+    {
+      "slot": 2,
+      "id": "acb4a61c4a",
+      "category": "강남시세",
+      "title": "서울 아파트 토지거래허가 신청 2개월 연속 반등… 한강벨트 ‘상승’ vs 강남3구 ‘하락’ 디커플링 심화",
+      "hook": "손님이 휴대폰 화면을 내민다",
+      "body": "\"사장님, 이 기사 보셨어요?\"\n손님이 휴대폰 화면을 내민다.\n(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)\n\n서울 아파트 토지거래허가 신청 2개월 연속 반등… 한강벨트 ‘상승’ vs 강남3구 ‘하락’ 디커플링 심화\n\n중개사 한마디 — 주간 숫자보다 월간 흐름과 관심 단지 실거래가를 함께 보셔야 한다는 게 오늘 저의 생각입니다.",
+      "tip": "주간 숫자보다 월간 흐름과 관심 단지 실거래가를 함께 보셔야 한다는 게 오늘 저의 생각입니다.",
+      "keywords": [
+        "강남3구",
+        "토지거래허가"
+      ],
+      "sources": [
+        {
+          "title": "서울 아파트 토지거래허가 신청 2개월 연속 반등… 한강벨트 ‘상승’ vs 강남3구 ‘하락’ 디커플링 심화",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UNHlBY2F0VE05VVd4NVVJUnFsWTZpRXl0ck5Za0publNlMUkwSmY0V1FDUnlXSi1ZMndINWZzekNiRVloVm1wZGJVS2xYZm1YNXh3YlVncEJ0Si1wbi15R0tpVmtocktfdDlQTzd5eVU?oc=5",
+          "press": "미디어써치"
+        }
+      ],
+      "chart": {
+        "type": "line",
+        "title": "최근 7일 '강남시세' 기사 수",
+        "unit": "건",
+        "labels": [
+          "11/07",
+          "11/08",
+          "11/09",
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13"
+        ],
+        "values": [
+          0,
+          48,
+          46,
+          45,
+          45,
+          35,
+          42
+        ],
+        "note": "Goldshine이 매일 모은 기사 기준"
+      },
+      "comic": {
+        "panels": [
+          {
+            "speaker": "손님",
+            "line": "사장님, 이 기사 보셨어요?",
+            "scene": "아침, 사무실 문이 열린다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "서울 아파트 토지거래허가 신청 2개월 연속 반등… 한강벨트 ‘상승’ vs…",
+            "scene": "손님이 휴대폰 화면을 내민다"
+          },
+          {
+            "speaker": "손님",
+            "line": "그래서 지금 사요, 기다려요?",
+            "scene": "손님이 의자를 당겨 앉는다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "주간 숫자보다 실거래를 보세요.",
+            "scene": "사장님이 웃으며 고개를 끄덕인다"
+          }
+        ],
+        "number": "2개월",
+        "number_caption": "오늘의 숫자"
+      },
+      "why": "'강남3구, 토지거래허가' 키워드, 점수 11.0"
+    },
+    {
+      "slot": 3,
+      "id": "7c018cf0e5",
+      "category": "정책·이슈",
+      "title": "강남 전세 거주, 강북 아파트 임대... 국세청장 후보자의 부동산 논란",
+      "hook": "신문 한 면이 책상 위에 펼쳐진다",
+      "body": "\"사장님, 이 기사 보셨어요?\"\n신문 한 면이 책상 위에 펼쳐진다.\n(위 내용은 이해를 돕기 위한 가상의 에피소드입니다.)\n\n강남 전세 거주, 강북 아파트 임대... 국세청장 후보자의 부동산 논란\n\n중개사 한마디 — 시행일과 적용 대상을 먼저 확인하시고 세금은 세무사와 상의하셔야 한다는 게 오늘 저의 생각입니다.",
+      "tip": "시행일과 적용 대상을 먼저 확인하시고 세금은 세무사와 상의하셔야 한다는 게 오늘 저의 생각입니다.",
+      "keywords": [
+        "전세"
+      ],
+      "sources": [
+        {
+          "title": "강남 전세 거주, 강북 아파트 임대... 국세청장 후보자의 부동산 논란",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wcVNJTlQ2NXhBbHpGUTN3b3ZjYUQ0Z3c0RF8zOGltbTAzMDg5bzJoQzI3bHprbEYzSzJhWklYUXZhUUVIZ1pvR2ZuWTQwOWxZTDlqVnhtMUZrUVFTcVVfZGcyWGxvNHZm?oc=5",
+          "press": "공감신문"
+        }
+      ],
+      "chart": {
+        "type": "line",
+        "title": "최근 7일 '정책·이슈' 기사 수",
+        "unit": "건",
+        "labels": [
+          "11/07",
+          "11/08",
+          "11/09",
+          "11/10",
+          "11/11",
+          "11/12",
+          "11/13"
+        ],
+        "values": [
+          0,
+          10,
+          23,
+          29,
+          21,
+          28,
+          26
+        ],
+        "note": "Goldshine이 매일 모은 기사 기준"
+      },
+      "comic": {
+        "panels": [
+          {
+            "speaker": "손님",
+            "line": "사장님, 이 기사 보셨어요?",
+            "scene": "아침, 사무실 문이 열린다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "강남 전세 거주, 강북 아파트 임대... 국세청장 후보자의 부동산 논란",
+            "scene": "신문 한 면이 책상 위에 펼쳐진다"
+          },
+          {
+            "speaker": "손님",
+            "line": "저한테는 뭐가 달라지는데요?",
+            "scene": "손님이 의자를 당겨 앉는다"
+          },
+          {
+            "speaker": "사장님",
+            "line": "시행일과 대상부터 확인하세요.",
+            "scene": "사장님이 웃으며 고개를 끄덕인다"
+          }
+        ],
+        "number": "정책·이슈",
+        "number_caption": "오늘의 주제"
+      },
+      "why": "'전세' 키워드, 점수 7.5"
+    }
+  ]
+}

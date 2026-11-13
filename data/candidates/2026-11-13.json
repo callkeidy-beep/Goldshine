@@ -1,0 +1,3233 @@
+{
+  "date": "2026-11-13",
+  "news": [
+    {
+      "title": "서울 개포동 구룡마을 또 화재...이번 해만 세 번째",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1jQ0dnN1JYc2tBRXk5NzBOcXdacmxsOXVfOHhXMmloaGlHZi1fOW1HSmNJdnVHMG9jcHIxbWk3ckNwbEZaNjVScXl2VldOWE9rakZMbGI1R1I4S2xGVEE?oc=5",
+      "summary": "",
+      "published": "2026-11-11T10:21:00+09:00",
+      "press": "YTN",
+      "id": "3db35a546a",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 강남 구룡마을서 또 화재… 2시간 만에 완진, 인명피해 없어",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PWVNRczQ0bHJWOUxkVDlra3ZfS1E3d3R2dEktV2NsemJxTV9DRzJYT2IteWVXSEhMeDI1ZmRpZnJ5Z2Zkc0h4SlZwSFRCdHNIYTFVdUI3NUM?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:02:34+09:00",
+      "press": "포커스타임즈",
+      "id": "0e6c7d2ea0",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "‘깐깐한’ 김현기 강남구청장의 ‘꼼꼼한’ 재건축 안전 점검",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0wOWZEUHppMkpwYnFvQTFSXzM4dXA4WUNIMGJrUWlmdUs1cHkxRkpveXhiVUY1dGZQS0J2NURCVm43bnRUZjhITFdMd2ZDZjNIcjZVc0dvTQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:33:42+09:00",
+      "press": "서울신문",
+      "id": "708ccbd82b",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 찾아 안전점검",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNSkpXb3RtM2pPTWZvOURmMmNqR1BJcXZVenZBUDBOa3gyM3hCeFk3TkxEMEtSRzNZTzhQMkNYdlNyWFFSSWd5ZThNVDdLd0d0a3hZN1ZzWVZhR256S25VOENjbFkzZTBMSDZlall3?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:34:22+09:00",
+      "press": "이지경제",
+      "id": "af33a90ba0",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "2주 만에 또 불난 구룡마을…주민들 \"자다가도 불안해서 못 살겠다\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0UnFGdER0V3YzSDg1amNYb2xOTjhwNTBEaGRiMEJwdTJQMjJsNHR6MENXUjU1ZGQ3SFBRUENJblY2eW1aSi1keHQzR0J1b1ZOWEpnWDJuX25jS3c1THNta0xObGkwTm5QLUZYV1JxY0o0SHRTTlY3btIBeEFVX3lxTFA0UnFGdER0V3YzSDg1amNYb2xOTjhwNTBEaGRiMEJwdTJQMjJsNHR6MENXUjU1ZGQ3SFBRUENJblY2eW1aSi1keHQzR0J1b1ZOWEpnWDJuX25jS3c1THNta0xObGkwTm5QLUZYV1JxY0o0SHRTTlY3bg?oc=5",
+      "summary": "",
+      "published": "2026-11-11T11:37:40+09:00",
+      "press": "뉴시스",
+      "id": "468c72e119",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "'D-3' 개포현대2차 설계권 향방은?…해안 \"지침 준수, 속도 방점\"",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03NUhiTTA0X1lqNjcyY0pmdmVsNkxwRzNJYThuMGtGZ1Q0RHItd1NMTG9rLVNSY1R3WVltSnYyQ3ZCNnFXTDR5Vk9WV0J3U1JQRXU5MmxNM29NZXZZWW1BUTZKUTVFQmw1?oc=5",
+      "summary": "",
+      "published": "2026-11-11T09:57:09+09:00",
+      "press": "하우징워치",
+      "id": "179e5bdbc4",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 개포동 구룡마을 또 화재...올해에만 세 번째",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqdkhqR043ZFNmeFVoeVpJekZxTFc4bDh1RXBBQ1ZBUDBkd3pkZVZ5aWQ5UEVKZ0V6bXNmc19WQVZwZFpvb2dnWk1FaTNTYkhtWDNyZXptaTRrN1E0bVpLNnJ3dEtFRENZM25lWldhZTZwYV9jckE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T06:38:00+09:00",
+      "press": "YTN",
+      "id": "b555ed9002",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "강남 구룡마을 15일 만에 또 화재...2시간 만 완진",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41QnRBZ2JjSFBsMnlUc3lhT3FrdmFxYTZKVTdXVXFIU283SnZVeGJJYllVVHU2VVRiaThWTXhzczJkcU9uYWx6Z3NmaGl0bFNybUF0UXdUNlJaY3hLQnVZ0gFfQVVfeXFMTjVCdEFnYmNIUGwyeVRzeWFPcWt2YXFhNkpVN1dVcUhTbzdKdlV4YkliWVVUdTZVVGJpOFZNeHNzMmRxT25hbHpnc2ZoaXRsU3JtQXRRd1Q2UlpjeEtCdVk?oc=5",
+      "summary": "",
+      "published": "2026-11-11T10:08:00+09:00",
+      "press": "경향신문",
+      "id": "3a0f88c489",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "강남 구룡마을서 또 화재…소방 진화 작업 중",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94RlJPSXZtdUFPUDJJT3VCQXplVGxYOENxaW84ZFV1bGpuS0R3c3AwbXRDVm9ORk4tMXBjSVlSaEhDZWJINGVsdG5XYzlQQklRVEJfX0lzTTFocU3SAWBBVV95cUxOMmFiQnpTWHprVjFSQ2xFSS1QRlJsLWVmUHpzREtLMi1GYUw2eDR6ZlNrRHRNaGlkdnk0dkVKOHZXcVJ0MzdyWG40R09QWXFOa3dCbWNGSEl2dy1wNUxrY0g?oc=5",
+      "summary": "",
+      "published": "2026-11-11T06:50:46+09:00",
+      "press": "연합뉴스",
+      "id": "803c25c363",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "구룡마을 화재, 한 달 사이에 또 발생…2시간 만에 완진",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMdFdGdFB0ZGdBTDRvajRhNTdfajhUMEJsaldDTXE1SlhVcGZsYmExR0xLRWIzQnJlY1NGMGhmVm92NnVmME00QjA1T3F5WTZoU3JXdWstSndzM3V1X1E?oc=5",
+      "summary": "",
+      "published": "2026-11-11T08:08:57+09:00",
+      "press": "동행미디어 시대",
+      "id": "4911158037",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 구룡마을서 또 불…현재까지 인명 피해 없어",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Tc2twRXFva3Z0UTVXVWVSRGxJWlNYNGdyMGZpTllJNldORk1hVkdUVlRnLW9VdHpfN1Rfa29RUzlETkFQcTkzR0lmVGEzWklvRHF1ZnVn?oc=5",
+      "summary": "",
+      "published": "2026-11-11T07:00:00+09:00",
+      "press": "위키트리",
+      "id": "25a8b7e396",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "구룡마을 2주 만에 또 화재…인명피해 없어",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5GZTlpZFBCNWVaMzZIQTZROUFSNFpONWExOEt2aWRSYVVyTkFUQXhZMXV3QjFJN1Q5dzZjS3Y3dXhScHpxdHFMdWkwTldESjgwMWs1c3pUWjVHQU5KZy1VSHZzTV8yVERKT00yQ2d1RGpTR2hxeUNabNIBeEFVX3lxTE5GZTlpZFBCNWVaMzZIQTZROUFSNFpONWExOEt2aWRSYVVyTkFUQXhZMXV3QjFJN1Q5dzZjS3Y3dXhScHpxdHFMdWkwTldESjgwMWs1c3pUWjVHQU5KZy1VSHZzTV8yVERKT00yQ2d1RGpTR2hxeUNabA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T08:15:51+09:00",
+      "press": "뉴시스",
+      "id": "4942a79267",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "'구룡마을 화재' 2주 만에 또…인명피해 없이 완진",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeUR3S2tKUVltMXlWMHhTZjZmaEx0bmJCbmt4cjZYc1dEVzJ4TE1rMTAyS0N6UFl2NmpITUtLTTYtQmsxU2x5eHNUN2habEVDS2lYelVjYXBHMnc1ZUR0dDZKdG4zT3VkbVY5bUdhVlBLZnRqa2ZDZldhbDBJamR2UA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T08:33:38+09:00",
+      "press": "이데일리",
+      "id": "5e58f05fa7",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "강남 구룡마을 화재 발생, '마지막 판자촌'의 불안한 하루",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSY1JZQ1pjVGZCWk5oYWdKOGZtOVl3eUJHbE9GTTRncEszbnJVNncxUGNDU0lKN3djUjFUaGs0MnFyZFFZVFJmazVVb3hzS1dvSUUwNXpPcWJnZmg3ZlRjMmJIR2x6OTc4?oc=5",
+      "summary": "",
+      "published": "2026-11-11T07:56:28+09:00",
+      "press": "공감신문",
+      "id": "ed84195d9d",
+      "source_id": "gn-gaepo",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장점검…“안전 최우선”",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03TmFrR0ZCMmd3V1YzbE15TnREanIzNEszVThmekllbnFoeHdEVl9DYnhmNGotWExGRGExN3gwcTBXbzBZaDBQdnJnVHVOUU0yVWxxLVprTmFNVHRKNlZkX2RwT1FGdw?oc=5",
+      "summary": "",
+      "published": "2026-11-13T00:02:29+09:00",
+      "press": "강남포스트",
+      "id": "0b2419a9a2",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 개포주공5단지 재건축 현장 안전점검",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jVVNmYzBEa1ZWRHZ2SFdpck4zT3ZtN3JoYjVWTHhEd1oyVkxTRDlTV0RUNS1Kd2RZOWx2SlpfYk5xNVA4TlJ0dXZFdmNMd25fRGhVTmZiQVpzaGRDY0duS2VUaDRZQTUydC0xQnNBQ1XSAXRBVV95cUxQdmZRaUZCQnFoVTJQOFNGVVo5OGljVkZnQjJJUVZxNWZvQ3VUZDdCLVZIN3pNMkVhdFlzRHNMNXI4WVFENmpMVldMYjZ2OFVEdUFjLWlQOTd4NS1LX1ZYa1N4akpqc1d3enQxZXI3MlRnQkZrdA?oc=5",
+      "summary": "",
+      "published": "2026-11-13T07:58:57+09:00",
+      "press": "포인트데일리",
+      "id": "2aeb91f395",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 개포주공5단지 재건축 현장 점검…안전관리 강화",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqemFLQ3FNR3p5aW5pZGVQemI4RjlFMC1zMjVLZjlNQ0tCSzVTc0t2NDFGQjlaWTVnX3M2VS1aNFdoQWhIeTZXM2RQUTR1b2VhM2N2SVZGLUx2ZVVqNWwwWThVN2lMQnhhbm9QY1Q3QWs4VjQ2LU9TcNIBeEFVX3lxTFBqemFLQ3FNR3p5aW5pZGVQemI4RjlFMC1zMjVLZjlNQ0tCSzVTc0t2NDFGQjlaWTVnX3M2VS1aNFdoQWhIeTZXM2RQUTR1b2VhM2N2SVZGLUx2ZVVqNWwwWThVN2lMQnhhbm9QY1Q3QWs4VjQ2LU9TcA?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:08:13+09:00",
+      "press": "뉴시스",
+      "id": "6920c801a0",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "강남구청장, 개포주공5단지 재건축 현장서 '안전관리' 점검",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93a3B2T0F1YmQtOVA4RU14dnY5YURNMDhUMUh5MGFjNFpsc0NfUmFSMjVMMmxwWkZCOWZuTXg1d0RXTElnbVZZa3hZSmY5TURpUWdpdHVubTdad2lZTUhLWdIBYEFVX3lxTE93a3B2T0F1YmQtOVA4RU14dnY5YURNMDhUMUh5MGFjNFpsc0NfUmFSMjVMMmxwWkZCOWZuTXg1d0RXTElnbVZZa3hZSmY5TURpUWdpdHVubTdad2lZTUhLWQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T07:03:00+09:00",
+      "press": "연합뉴스",
+      "id": "a9421e05ce",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 안전 점검",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFMUhYQWJManFlZGxPbjJOeEswMUUzZUMyMHU5VGw5X1ZUM3BYbzNqY0F4OGFaNkN5VkxaM2hXdUtGWHRPRFVIVEtoZ0Y3d2VuaDlVOXVvTEJaR2J6NUJ6a283YThPakU?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:19:19+09:00",
+      "press": "강남내일신문",
+      "id": "3771cbe25b",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장점검…“속도만큼 안전 중요\"",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtSnduSklPNXF2QTREeC1KR1lhbEJpanJhTzRGamxWMFZHdlo5REdySTFjRXNyZHl4XzNOdVlnZlF3NHVpamlJbmZCN2o1ajliU3Z6ZWFhbmFpUzJBNjhaQm5NaERSTnhBZWtNZkJBcXRzQdIBckFVX3lxTFAtSnduSklPNXF2QTREeC1KR1lhbEJpanJhTzRGamxWMFZHdlo5REdySTFjRXNyZHl4XzNOdVlnZlF3NHVpamlJbmZCN2o1ajliU3Z6ZWFhbmFpUzJBNjhaQm5NaERSTnhBZWtNZkJBcXRzQQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:22:56+09:00",
+      "press": "뉴스신",
+      "id": "603abe514d",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "“재건축, 속도만큼 중요한 건 ‘안전’”…김현기 강남구청장, 개포주공5단지 현장 점검",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9YdjRsRkp3SHVKcVZlczFsUEJYRXVDenV3TmJmUlViOXdqdkxpUXZHMmpUMmV4LVhjemRnT1dWRTBBNzZ5a1VObVlIY1VJclo0RFFPWFJLeGR5NGdKbHZEeDBVbDVnc0dOdW1z?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:59:38+09:00",
+      "press": "시정일보",
+      "id": "c888cb6a06",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 안전점검",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55dzJIX3h6SlBCLWd2a0E2T3JnUi1KSWk2TEZISDJjV3Y0SG4tR2E4M2FPaHFzTDJDS29HaXdwZDBmYWh0MEtwV0F1TnNla0daNmNFRHd5SUgxaDQ5RzNnUjRnZGRiMTlHdU9GYThXdw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:11:10+09:00",
+      "press": "시사포커스",
+      "id": "ee045a206a",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 점검",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BSkppR1dSWFdQOTFSZmJON3BrY0lPdDVjMDg5SDBaeGc0a00wamlYRXZJMnZFMTVBdWFHOU10WjZjQjE0NTVJclBOdF9zWnB6S3Fpa2NBeFBDaWhvV040am1UcEpqZU0tSkcyUnZDVjZMYzZI?oc=5",
+      "summary": "",
+      "published": "2026-11-12T08:23:28+09:00",
+      "press": "글로벌뉴스통신GNA",
+      "id": "ffdf6a6d53",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 안전점검 실시",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MaloxQWYydUVTWVFBdzA5T2dDUXlQMS03S3JlZ3BBd1c3Y3FCd3Raei1jMk1LaTBDTTlSNS1RNHZoQVUxcW5Jd1N1T29FZmxtUWloWW42TFVqOHFkQzlrTVhCOFpFZE9NVDNxRmdCZldZZXk00gF0QVVfeXFMT0xqWjFBZjJ1RVNZUUF3MDlPZ0NReVAxLTdLcmVncEF3VzdjcUJ3dFp6LWMyTUtpMENNOVI1LVE0dmhBVTFxbkl3U3VPb0VmbG1RaWhZbjZMVWo4cWRDOWtNWEI4WkVkT01UM3FGZ0JmV1lleTQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:01:55+09:00",
+      "press": "이뉴스투데이",
+      "id": "d6c1eacb5d",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장 “개포주공5단지 재건축, 속도만큼 안전 중요”",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVzdLRkRxN09ZT21xbmFqQzVoR0J1cHh4NE81V0JGOFF3RE9ySVZZTlBfTjBrLVdHUmxCZll4Y2ZwWFV6Z3l1Y2pfdDlWWjZWbFFacXcyM2d0V3p1OXgzdzNvcUZuOVlRckozQWYxRUxWYVFLYzZDQURzdXc3dnU2ZQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T08:05:52+09:00",
+      "press": "이데일리",
+      "id": "7c48e275d0",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 점검…내년 3월 해체 본격화",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNa2dfYVN0eV9iNnUwbXRDUDA2a1JlWmxabUw4NF9RMDJoMktYNE9HRkhGT0lNeFhQellkMWwxYVJ0dGFXZWJ5YVhNV1cwV1dqdGZCU29MSmpwOG9HdFdKamVuTkR5THZlZElQZ0VaZFNyS2k3al9lUnFvZGhoMU9xek5qM213alV3YzU3MjUxMkdwdFlwdTZWbXQxaGpkMDZwY29fLTdrT1FpcVhXeHp1Y3YwRUhOMi1DLXYtNVVqM1F0X01nM0Ftdkx0bUp3Mi1iM2ZKOU5Kb3ZOaS1ZREt0Qkk5NUozallxb1VDNDIxbWpSQnBjaDZWWWZzMWJVSm82NHo0WDZIQ1AzUmVLWElod29qOVVVWWx6STJFTTVGZy1JazQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T08:12:00+09:00",
+      "press": "데일리안",
+      "id": "8cf51dc869",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 현장 안전관리 실태 점검",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VVmxHeG9PeEZ6OEFjRjN1YXdOMlprUTZLY280V3R1elpCRTY2Qm9BYU9uSEpGeEk0S0FmeVRxTTJIMXNURjZ4OHJwYkg3dEZneGdzeGZMLXAydlZGMDBKMVl1T3RPYzZOcVHSAW5BVV95cUxOcXRQQV91Sy1GdVVSMF9RQTIyTEk5MkdKdXBjdDNBVkdLLWtEZlJmdkp6cWtOb2lJbE5uUU5pS1RMNlBiRy10d0o3YXVhUEZ1X2Rja3VmWmdFZHlpVGJTUWVGUzQxSS1pek5oUDhtZw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:16:38+09:00",
+      "press": "퍼블릭타임스",
+      "id": "c1841d2157",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 강남구청장, 개포주공5단지 재건축 안전점검…석면 해체부터 소음 대책까지",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82NWFfYUY4OXlmSTVrZS1pcjVOZUFReXNpdmxScTd3RHhUQTB1dnlYTVI1Tmt3bXdqcEtHbEVqT2xvQjlDbXdQdlpSdzF0WkNJbXA0TE1fazRhUXdHMnRTamhWMzN1UmV3b0s4c3l3?oc=5",
+      "summary": "",
+      "published": "2026-11-12T09:53:47+09:00",
+      "press": "국제뉴스",
+      "id": "a2fc61333d",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "개포주공5단지 해체공사 현장 찾은 김현기 강남구청장",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYYjZ0aGNrclBxNFJUV29JaDJGaFE5R1FFbFZab0Ruc3NFbS12Z18xY2ZNOUszMWY4RXpJSVFLUXVOWndONkx2WjZrUFpJTU5ZcjJsZjJ5dGl1Sk5abTlEUg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T08:51:05+09:00",
+      "press": "아시아경제",
+      "id": "02178a0678",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "개포현대2차 재건축 설계전 과열…소유자들 인허가 공방에 피로감",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fd0xFcmdVR2ItUHhQOHVrWHFjeEZpWGFJRG5lSjNhZ19zRHhHRDZIUUtPNnV6QUdrMFI1UlgyZU45aWpKV0k0bGFTNWJ3dTVnaTh4dWlrUnhrOEFrTzF6d1kzb1ZFRjBFckQyaXN2VQ?oc=5",
+      "summary": "",
+      "published": "2026-11-11T16:03:30+09:00",
+      "press": "이코노미사이언스",
+      "id": "977a7e5caa",
+      "source_id": "gn-gaepo-rebuild",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 집값 약세 한강벨트로…성동·강동 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MT3EzUy1CekVDY1N0S3JEaE5iU09yZTZkczhqdnl5Mjk5RzNRRmJaN3Q1bkRNU0hpR2Z4cmVkc3JQWlEyTS1FVDU5bFNNempWRV91YTk5SXlwVUdtbnlyWHJzOW1rMjA?oc=5",
+      "summary": "",
+      "published": "2026-11-12T18:39:00+09:00",
+      "press": "연합뉴스TV",
+      "id": "81bb446d5d",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[기획] 강남 갈 돈 없어 외곽으로…비강남 집값 떠받치는 '생존형 매수'",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYdURYMTRMNGJfaFh4eC1aNGs0Z3IxWEMzem90VWtQMGpYa2JXZDhROTRSM1o2Wmx6cm50cEc1dXlaLTJQQnBsV21KbXM3amk0LVNsLTVNemM2eWg2cEJ4Y1FLZU8?oc=5",
+      "summary": "",
+      "published": "2026-11-11T14:52:58+09:00",
+      "press": "매일일보",
+      "id": "7810a6e4c5",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남·한강벨트 집값 열기 식는데⋯서민 주거비 부담은 커진다",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA0T1pOZE05OGtOZUJuNkI0bVBmUTFoWmdiVXZqZUFCN3k4V0RoRlJERFl2ZVA1MDVBOFl2WDdsMDlSR3A3bWN6VVJWQ0ZHZE45dHY4cQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:29:00+09:00",
+      "press": "이투데이",
+      "id": "25d40975ac",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "\"강남보다 더 뜨겁네\"…서울 집값 상승률 1위 찍은 동네",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WTzRoNU1VNktCOGlDRnA0THpmWXVWZ09uZU1LUEZsaE1KMl9Pbk9jQWJ3d0phUGxocDZtbmM5Z3pBTnJPaERxcUZFcWRmRXEtSE5TTm80ZnlIdw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:03+09:00",
+      "press": "한국경제",
+      "id": "1de04e60e9",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[속보] 서울 집값 92주째 상승…강남3구 하락세, 성동·강동으로 번졌다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QRHQxUnVoTHNsSmJxVXhtVm1JQk9GeHhJXzlJOTI4UXltci1pb1VMWXN1ZHR5bTBSX0JUalJSa1dVamg2RmhoY0pERjdJMnd3STdGcEpnSVM?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:29:34+09:00",
+      "press": "매일경제",
+      "id": "0ec65c36cb",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "서울 집값 92주째 올랐지만…강남 이어 성동·강동도 ‘하락’",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xRkRwNDVQN05KejE4V0h4M1puU0JtaXVmMzNTX2lkN0IzZE1GNHN1TXE3SENvUmp2Rnk1UzlldF81Z1R0WTJwOHh6RS00cGVEd1RWLWtRNWxISFdzUWJGdWdvVQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:52:59+09:00",
+      "press": "쿠키뉴스",
+      "id": "2b8c17bcfd",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 집값 약세, 한강벨트로 번져…중하위권 상승세 지속",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOR3Bab2taQVRCWG9XSk9VWUdKdmtIdlZnOHlJZXlxWUZxZUh0ZEFvOGthRVNlRnF0ZlM5RXI2QVlRZWxvYm03bi10NUZYYjQ5Y3UyVk40VkJZNFFkYjlDaXIzaDh6T0tLT1hQOFV2c9IBc0FVX3lxTE1na3o0a1oxM2RnQzUxVUJnX1JsbERvdXJ6WDdQZlVLYzk5UmJLZ0dxeFFrQk91UjBlalQ2T05YWnpPODUzSHBpVFBnNHB0ZndUcllPTHQxUDNNYjFjTVNFdG5qNEdvSGZ0YnJPbjVkQTlWaVU?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:18:39+09:00",
+      "press": "시사저널",
+      "id": "e099759b23",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 집값 하락, 결국 한강벨트까지 번졌다",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GbXIzYTNJcXpsczNyOXFVR3d6bEx3U0NEeEJwVVhHR29ZOUxQbWtDVFFSMkxjUld3R0NMMXh3WElxUDQyS2pMUTBCNmxUUQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:56:09+09:00",
+      "press": "www.dt.co.kr",
+      "id": "4260e6c48b",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 집값 하락, 한강벨트로 확산…성동·강동 30여주 만에 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pTXZoRldKVF9GTy1mLWw5b2pTUnFHRjFicW15Qjg1OWM0OXhYYXNBZk84VHM3eDJSRWMtNEs1SkpEejBWdndmd2ItSTRtcjJtSjMtaWlyeGM2alJMZWpnbg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "아시아경제",
+      "id": "8dc37540bb",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남 집값 하락 속 재초환 ‘직격탄’…매수세 더 위축될까?",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9nbmUyYm5fczFRbTJBcC1QU3hldFFEdlhPZGFlVnU2LUtCeUlDVDdaNnlmcUFpOEVNdjB5S1BrbUJyU1RQc09DbEVGYkhuZnJtc251NDdlQXN3ZUhyTWNhMg?oc=5",
+      "summary": "",
+      "published": "2026-11-11T07:09:58+09:00",
+      "press": "메트로신문",
+      "id": "1e2d40e73f",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 '성동·강동구'도 하락 전환…서울 집값은 92주째 상승",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYUXgzelA3THBCa29jYXpZMmRYaC15ZHh5NzdmM1JHdTRheDhHV2x3THMzQlFpaXQ5cDluWlA3c0tEU1RRVmtqUkI4clFiVXUta0RKMlRwR1BId3BhcW9Kc9IBeEFVX3lxTE1kbTFiTXcyanRMRU04Z2tnYTI0Qk9Rbkxta0tLcTB0em00ZXdoTE1rUnBYaFI2aFJoOHVNT09QMDdCekp0QUpsZjk1WGtzYnlrTFVaZnBGMDNYSjQzVzNHUEQ2ZldYOHRzZGFvSHd0dVNKNFRpWnp5cw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "뉴시스",
+      "id": "b442780cba",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "서울대 교수 \"강남 하락 오래 안 갈 것…수도권 135만 가구 착공 누가 믿나\"",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03eUNNZGR4aTE3Mk96YVlVM3ViNkZBZlhVb2NJbWdXM0w1TWFvMVU3Nk5CN1c4RUhEMWZYRHBaOVQ0X2I4dXF1NGZzck4zMXVyY05UNDdlRGFSalhGWmJKTXkxbjcwdkFqUnYyalNFMUJSakh4VERHcnVfOUtTdUHSAXNBVV95cUxNV09Cb3pNT3NFUzdWMXp5aUNVbmFZQkJ2a201Szg4NjZNMG9xYXBqclA3aUMxeUxDaFNTWURxd3phbjBwcXZHeW0zN25pVll5VmNibDJ3OExWaVF5alRKSl9zejFoaDloTzMyMjJEbmZDZWFN?oc=5",
+      "summary": "",
+      "published": "2026-11-11T16:13:11+09:00",
+      "press": "땅집고",
+      "id": "6bd88d8352",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남 집값 하락에도 서울은 91주째 상승…부동산 해법은? (100분 토론)",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5mWmpYcU80dVk4LVplZS1tMElVRG1aczFSU251V2JZQ0JDVTBaYXJLN0tWSlo4a3BHVElPZ0ZMNXRLTDB0LUR5NGp0ckk?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:02:00+09:00",
+      "press": "MBC",
+      "id": "49baf76d50",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 성동·강동도 하락 전환…한강벨트로 집값 약세 확산",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WcXo2SkFHcGhPckxfejFITXN1bmE1YnFVVDZFdHVMNEt6cTRvSXpGUVVIV2hiSDNBT1NCdXFkbFJZYXJDTlFIVkRXV0Jtc0o4bUHSAVNBVV95cUxOVGJKcV9UZmtYWlNoTERVbXZYYzU0TzRLeW9LaXl6Z08yNGlpa2dDcVAySWhKa1BnZ2hKTzhsTzdlYmt0YUFxcGFNT0pHSklVRlBOUQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "서울경제",
+      "id": "45e24309e9",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[집중분석] 집값 안정 기준은 어디에…강남뿐 아니라 ‘서민 주거비’도 봐야",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWbnNOdVM3bDNFSE1kWDd2TDVpWVFLWjg2UnBKcjlrb1hEWERTR3p0OFBxR1lVS3M3Y3NvR2oyOXFYWjEtRzBHVWczM2NCRkpxamROSFpSa0xBWmRhbmdtdnp6dzdTR21DLUhINnVxa9IBc0FVX3lxTFB4cDVXZG5NWThISVlYcW9zQzZHOUFhdHJOaTdkQ1hPLXF3MG5WNVR2dDhfZWFlU25lNWRVRUFSRXZYdWNmWkJWaXlKa095TTRncWNHSkxkOGhzeGdxaGhPUFRlVkRjMkxvSlZEY1dMOEI1bUU?oc=5",
+      "summary": "",
+      "published": "2026-11-12T07:55:00+09:00",
+      "press": "데일리한국",
+      "id": "8d6803300d",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "\"강남만 떨어지는 줄 알았는데\"…'이 동네'마저 집값 꺾였다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBER0llLU5SMEhyVy1wczlLc0RQRVhldk9hSjJJNUQzMVNiNzg4U29YZWlubHZwX1VZaUZneEZaZ0pUc3RuOGRaX0d5c2RVTjV1SnItemIzSDFOdw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:58:22+09:00",
+      "press": "한국경제",
+      "id": "d4580e1a0a",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[기획] 강남 고가주택 매도 압력 vs 비강남 실수요자 가격 지탱…이원화된 서울 집값",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1MVi1HeEdzNTVOWjd6NnRZT3VEc0xoNnZHazdSbUw4NVhtMVN3andUUnRESlF3RW5qMFVxRWEyMGh2QmVxUTRZbkthQ1VtQm0tYjQ2WjM0WmNpdDVhX05pSnNFeEg?oc=5",
+      "summary": "",
+      "published": "2026-11-11T14:48:56+09:00",
+      "press": "매일일보",
+      "id": "e4476e2060",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "부동산시장 '강남불패' 신화 깨졌다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96RVJ2NEgzVUZSWEpQbFV0QnFfTkR2MldheVdLTTRwaUk0cmhOQzJnRHFlLWRjSGhvUEdSWm14eHUwdk9PZ2JPVmVoeUowSUJ6cFRhak8yQ0MxZTlDR3ZQMmwybE8?oc=5",
+      "summary": "",
+      "published": "2026-11-11T15:53:10+09:00",
+      "press": "매일일보",
+      "id": "e94e21d7e4",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[기획] ‘똘똘한 한 채’도 못 버티나…세금에 흔들리는 강남 부동산",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kakY5ZC1lWFJzTmlVaThTZ2ZPekY1Z3c4TmFiRl8xbXBQLVBZWWpuN0VPV0dnR2hLWkctVmxDSW8xUnFMMFRYWEhmdEg5VjNGNXpRTDdHSnlnWnBnTDBYU3VfUmw?oc=5",
+      "summary": "",
+      "published": "2026-11-11T14:57:27+09:00",
+      "press": "매일일보",
+      "id": "9867692a87",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "서울 집값 92주째 올랐는데…강남·성동·강동은 '역주행'",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOOTJOZjlXVmUwSmVpdHdMX0R3UGppQmR4Sk5GRTdVdE50VTQ2N1RPX0IwbVV6UXV1VU1CcV9mb0V0SEZaXzFRMktWbkZiaXhIN2lNRjhoT1hkQTQyQmVlTEJKRV9sLXpDRmFfaFlKTmxkenFEWGNya21kTGVQQV9xY3FpcmRjbDN6SXZ6eGs0RTJEa2JmNXZRTTlqQmpJV2J5WXRxZ0JGZ2tfUWp0OE1mZGVmdW8tTHRHMW12SlFrS2wtaFpzeF9CQTdjUTVURzN1R09FLWVvNjBlZ2ROOUctMWJrTmtxUGRXSHNONmJIYURHZW5OcXlldy0zbWVnaGFOdGhhRjRjUU1jNHExYi11ZDlHeXhlS2ZX?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:28:00+09:00",
+      "press": "데일리안",
+      "id": "cf87422b89",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "“서울 집값 상승 사이클 절반 왔다”…강남 급매물부터 ‘반세권’까지, 내 집 마련 유망 지역은 [잘살아보세]",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5HbHlmaEEzQkF4OGFtblBrRFdSZEpZQmlOY0kwdzF4OVRkZktvWXM4YWFobHR3ajZNR2hWcHRSVmEwb24yRFpULV82TVJqeDJw0gFUQVVfeXFMUGRBVVplYXNTZThhLXpnQTJqSEo0RDIwaWxwaXZTZFdQR0VOXzFJUjl4Yk5QelJBSzdMakdXVnFZdTEwbm5fRFUxMllEam90dndlZkl3?oc=5",
+      "summary": "",
+      "published": "2026-11-11T05:33:15+09:00",
+      "press": "세계일보",
+      "id": "756256a46a",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 집값 조정 한강벨트로 확산…서울 외곽·경기 남부는 상승세",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ENldYRGdlSnJzM0xyQU1PMUFFWDB2QVZ6dWJqWUQ0S0dQaTd0Sy10Y0tTLUs2TV9HYTAwMk05YkJqUFNVTUh3RlFtb3p2d3dGV1Y2WV82ZGZ3SnllZDZ1ODR5eTUzQW5Fa3JMUHVRUDNzWWfSAXdBVV95cUxOZXpCSDZ5SVVkc3J5VV9zUFBhMG5qSkFyV0tlNFRrWEMzOHhFbHNqd2laSHVsRlBBUVNza2dlbkRJNzlzZTk4emNiYnd2bUJVQjFEcnlQZHIyR1hBTm1DVjBqSGE1NGJnLXQ0TXpvUldDNUJzQzFiUQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:29:09+09:00",
+      "press": "핀포인트뉴스",
+      "id": "f65bc4a20a",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "서울 강남 초소형 12평이 20억 시대",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDT0hFYXh0X3J4NHpPVmJvdzlwaUdRY0ZfZ0hsdHMySmNhcUQ3a1hob2s4aGRfTzQxV2FVT0hWRG9yNFlYRllkZjVEcGRGSVhHdXk0cFZKU2lHelRzN2Q0cDJMM0w?oc=5",
+      "summary": "",
+      "published": "2026-11-10T14:48:34+09:00",
+      "press": "매일일보",
+      "id": "c15694df66",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "‘주식 털어 집 샀는데… ’ 주가 폭락에 부동산 시장도 얼어붙었다",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONUx6cjBTeF84cWdmb1dNVWFqN3BGNlhOMGgtWl9YX1UtUzU5S19FVlZvVC1tRnRoc2xHbm95ZlhFaG1MVHQxXzRkUFlmSDFjVG1zd1VrbDY4ZEJVTV9JS3lMY2dQYjBDeXFqMzJTNDZWLUJnNVJlaFhtSExPYjRmMVJXd2JGY3I5?oc=5",
+      "summary": "",
+      "published": "2026-11-11T03:05:29+09:00",
+      "press": "조선일보",
+      "id": "df7247a54e",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[기획] 대통령은 ‘평탄화’ vs 시장은 ‘상향평준화’",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQeUVUOER1eHBjRllLRldZQklZNDhMSWNUbkFKdHFrWU1aaDU2YmtoMWI5NFVVMktsM2ZFYUR2em9FTEdmX0FhRFl1OTQyeTNPcWtodWw2TVV3Zmo4ZUFjeGpLNHE?oc=5",
+      "summary": "",
+      "published": "2026-11-10T15:36:38+09:00",
+      "press": "매일일보",
+      "id": "b5d70ccc08",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[전문가 기고] 벌거벗은 임금님이 해야할 일",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NeExaZ1pxN0JSMHpMU0h1QTA1ekhpaExFSHVwbmN6NDlvZ2RYVHdkZ3JhZ085eUktak42WnNGck85c3Z2REFPaFdxYmhKY3FkcXR5MVFuWHXSAVhBVV95cUxNTXhMWmdacTdCUjB6TFNIdUEwNXpIaWhMRUh1cG5jejQ5b2dkWFR3ZGdyYWdPOXlJLWpONlpzRnJPOXN2dkRBT2hXcWJoSmNxZHF0eTFRblh1?oc=5",
+      "summary": "",
+      "published": "2026-11-11T10:18:22+09:00",
+      "press": "아주경제",
+      "id": "65a2171db3",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남 3구 내리고, 강북은 올랐다... 중랑·성북·도봉 등 동북권 중저가 지역 상승세",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuZ2d0M25FS3pnRmxydlZXZHZRWGwwdVpabDBOdGRhRXdDMHUtek1BU05ZSHdFTGExT1JkOG5uTk83cUZYRzFzeXZ3TzhmMVFya19YR3JQY09pSEk0NHJaR0VrUVlyLThq0gFsQVVfeXFMT0cwSlRrWGhhdF9xRTlSNXcyaDB6T0xGMHd5eU9aWjVLUXlYdl9icXduenpNa0lVamRoV3FlRDZjZFV4NENNUEdadzhSWGhKeTFfd3A1Vko3UlIzdW1GM0JFQmJtbi04eTlkSkQ1?oc=5",
+      "summary": "",
+      "published": "2026-11-10T14:13:11+09:00",
+      "press": "리얼캐스트",
+      "id": "3849e796f2",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "서울 집값 하락 신호, 강남 3구부터 시작되나?",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14eHdIdE81S0k2Rk05RVA1ZTEwVWVtYzl2Q05aUlFWV01uWkRRMHVmajcwUTg3RXd6Z2lGaWVuSVM5R0lMNTMzVWlLaXFtUTJ3UE82N2drakNzX19FMTlCZHU1MVMxWHg0?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:14:58+09:00",
+      "press": "공감신문",
+      "id": "e83064e4c3",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "[김인만의 부동산 레이다] 서울아파트 무섭게 떨어지고 있나?",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83WDJ5a09Gc00wWU1yMTVFMkYwNkZ1OHBkQ3YzQVNGSVlvdHhqTGhuTEZHek1Pbkk1dWEyR3VSdzFMRDNWdkNkRVVpTE5ra0JoYW5taVpvTVZlZm1KR2hCTkNjNkJaMl9RLUpab1B3?oc=5",
+      "summary": "",
+      "published": "2026-11-10T18:40:31+09:00",
+      "press": "폴리뉴스 Polinews",
+      "id": "6242176c3f",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "\"강남 내리고 강북 오른다\"…수도권 집값 양극화 완화 조짐",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kQ3ZTWktLWk9kdlF4MmU4WERYaGthR2h4Q1hTbEt6aWpPTHloWFNWd05VSlRkTXl3T3FEYUpPYVA4RWZUcjRSeWdkYkpQSl9rc1NobUtDQnRQZ2ZsdFhiR1JPMm5xcTc5Snc?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:00:00+09:00",
+      "press": "지피코리아",
+      "id": "ce7db28f6c",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 집값 흔들…중소형까지 하락 거래 확산",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wemFiY1NabEpyUGpia2Y4OEQ5ZHBlbUctZm1lUk5uM2pyNXVLU245c2ljMVNrdnhQNzlSY3EyTzZoSzBYcFpQd2Z4V0JGMEVUVmlsMlRBdXVVd0ZJMHg4b0hhTEhTM3gxZm1Qbg?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:21:39+09:00",
+      "press": "스페셜경제",
+      "id": "1a9b36ec0a",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남 집값 꺾이자 경기 북부가 움직인다···수도권 주택시장 '키 맞추기'",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rRlYwS041U3ZiVzdOTDk0UWJnVG9TRi1kUTh2cllYN3VRZWxUZVFzTWhzcTEzRlpxV0tjRWxxclVNWnpaREJwVlFxRVRuTjBXYzBCRUdlRU8tTkVlU1NLZGIzWG5Nc1FqNFdBRw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T11:14:48+09:00",
+      "press": "스마트비즈",
+      "id": "629e661591",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남 집값은 ‘뚝’ 떨어지는데 수도권은 올랐다…부동산 시장에 무슨 일? (‘100분 토론’)",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GQ1FQeGU3ZzI4Ti1NV2FWaUlodDA2M1ZsblVtWko2SW1ETjFhdU1DSW1la0VIbWpmVGpQR2loYVdTa3ZfYVljbGhiUjhBbWpHckVwRUxsT1ZiV25Vb1HSAWNBVV95cUxOd1RvUm5qcVpjRThmYjVCaVZZcHFyb2lneDB5SDRsZzFEMjM0Q2x6eVhLdzJLTXZLcG5FbTJJRkhnZUdHTlR2REJLaEFlLVIwd0lkYlpWN0hpbGFlODZhLXJ4RGc?oc=5",
+      "summary": "",
+      "published": "2026-11-10T20:19:54+09:00",
+      "press": "TV리포트",
+      "id": "7b19a6cd03",
+      "source_id": "gn-gangnam-price",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 강동·성동으로… 아파트값 하락세 번졌다 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QcE4teDhHUHVBa1VLSXE4U1Iyd0prWG9nWXNyWEtfSmdBallHTmlZeGotanpDbHV3NnVfNm5IWXZYemp5ZndkMDJEcmlPVlR4UE5nQ3NJR2pXNmdrV1RkeThlY2tZVE1MdTBYTmh6a9IBb0FVX3lxTE1QcE4teDhHUHVBa1VLSXE4U1Iyd0prWG9nWXNyWEtfSmdBallHTmlZeGotanpDbHV3NnVfNm5IWXZYemp5ZndkMDJEcmlPVlR4UE5nQ3NJR2pXNmdrV1RkeThlY2tZVE1MdTBYTmh6aw?oc=5",
+      "summary": "",
+      "published": "2026-11-13T04:00:00+09:00",
+      "press": "머니투데이",
+      "id": "3a4fb83e31",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "전셋값 최고치 눈앞‥내년 강남 '이주 폭탄'",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YbkNJYW02aDB3REtnbVJRazBPbVNjUlRwMW1fclNIT0lxSlNFSjdhQWxyQ0hSX3lOVGxjR3Y5SWpJQmxURE1KZWJjYVUtLTRNQkkwRlFrMGJzV1B0c0gtQTdfX0E1ZUxTUW16UEk0VXRWZWQzNDVYS29R0gF6QVVfeXFMUGF6eDNEN0VBa0lMQkJhUzRSUmUyUXdMNWhRVEdSYWZVanhiTmZHMVplaTJENUVobGhXckpLSUZaWG9sRktFNEpyR0xfaTk5YWhrS1lXZjhvZ2VqTjV3WVY0OGtuS25MQUNGem1fb0NDZVg3dWozS19TVWc?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:29:09+09:00",
+      "press": "MBC 뉴스",
+      "id": "8d0b77f0ce",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 외에도…KB부동산 \"서울 8개구 아파트값 상승폭 축소\"",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoM1hsdXdRVUZKckEzbTJ0NmZFVmhVYVNZVGJqMjY2V2lCQ09saXMzSll5eUhaSUlLNm9kcE9BcFFhVE9sU20wLWFheURkS3dKWWZwN0RUY3VSaHRKRHY0ZXNzNV9UdkpYeUcwTV9RazE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:28:00+09:00",
+      "press": "연합인포맥스",
+      "id": "7d7202c722",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토허 신청 두 달째 증가…강남·용산구 매수세 20% 급증",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9icWNheEdLSGh0aTQ5SEhodEtselZqRm5aVFFQbXdtZ041XzIxanRxbUdLak5ZTzVBSGtFQXpGLVdVZmVreEVHWGxJUTdZN05QRXVxOXhYbGpDTFU?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:27:37+09:00",
+      "press": "경기일보",
+      "id": "4b5ef0a983",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 0.07% 상승…강남3구 이어 성동·강동도 하락전환",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrNDRHWGs3dWpBOGdKNnlrS29BR2VRUndpNndrdWtPMEVTZVdaX29VVFpxbXJuN3ZiN29PZVl2eE1jS3RmUnM2MnR4T01oLWttbTB6OHEtV0xXYk9UMklxMW0tWGZSMnQy?oc=5",
+      "summary": "",
+      "published": "2026-11-12T20:01:00+09:00",
+      "press": "한겨레",
+      "id": "b9808c784c",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 아파트값 하락세 확산…성동·강동도 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LZUV5NlVLU0xmN1VJTWVTOG5GTEhlWVl3V2I1czUzbnJVaTNJRWljaHVIMWc5U1duVXFpZF9Dc1dyU0lyZ0xqRWN4MXVpTnVHWGhKWGxWUEtVbHVCZ095cVdLYWVoOVhRbkpBZdIBcEFVX3lxTE5WaHV2RERFSU83NlhSa0ZobVhHOHJndWxIR1oyTElUWjhhMTk0NUdaa3RRbHJaRXRWcUw5bHhSdl9xRlF5VFhtdnNrbUFjRzc1Tk1WWmRqdy10ZFVXTXRsTFhHb3NPT1FIWW5oQWtkb1E?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:22:39+09:00",
+      "press": "미디어스",
+      "id": "dc9dc496ab",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 '한양2' 45평, 13.5억 떨어진 65.5억원에 거래 [일일 하락가]",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OaGZoMDBrUHVQaWNkcWtrcUxRMW5oUzFXUUstOHVsNDFCdER4NExSU3gxMG9xOWYzVHB6d3Etak1LdFZFVmNIYWFsVTR5X3dmV3E1MGhlWHB6cVVELWtMSzdxMTlqTmdCem9makJwUVJjYXFlc3NfOVFpejM?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:34:33+09:00",
+      "press": "금융신문",
+      "id": "832ecadc47",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 아파트값 약세 한강벨트로 확산… 성동·강동 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96bktCbUNVT3FfZkpMaC10SWtiZHhmT2w1dnhCUUp3Mm9fRnFkVWoxZjBQRjlhWU81UGlWeHpFSm9PS2cyaXhMbjRqUklOT0V4X0Z3MFpIZGxSaGZPN1FYS21pVnpiNHBjR3c?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:12:17+09:00",
+      "press": "천지일보",
+      "id": "e52bf369b3",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 아파트값 약세 한강벨트까지…성동·강동 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoSGN3TzBpbUhWVG5NaWJFR01rVk4teGlycGdtNkFKV3NyS0JFaEp1U0xlZk05eTR5UnNleno1cEkwMFdERTllMnNMaVpHWUwwT3F2YWpQanVHSDTSAWBBVV95cUxPdWsyQUtON1NrRlVCVW9laVRSbi0xOFhJUTQ2TzU3X0d3YVpCVzZwSS1OOGFRVGdRejBzTzhKdGVfZnB0SlhRbXdLRHlIUXhFb2cyLVJyVXFBTFpWTWI3SjQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:03+09:00",
+      "press": "연합뉴스",
+      "id": "c300673bb7",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "“은마도 8억 빠졌다” 강남 갈아타기 노릴 아파트 18곳",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfaDVBNTQ0RHgzR19fZ1BHdjhVZmdzLUYxMC1TT2FDaFBfM2FJMWVEUDFmM2w2UVZkME5jMkNwdU43NWZzY2MzV29oT3N0dGFpNld1MWpR?oc=5",
+      "summary": "",
+      "published": "2026-11-12T11:48:27+09:00",
+      "press": "중앙일보",
+      "id": "6f2e44a07f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 매물 8만 건 돌파에도 거래는 급감… 강남 하락·외곽 상승 '양극화'",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82VW1wQnFGR3BTMXd3Qy1PdWw5ZldXNTEwLWhLdWdfR1kzaDhDejFlY3dNX2tJTUtnaWJvb2VxWWM5R19aVDJBdnFWdGYtRUJzRXFvZ09HY21VLXhHZG9uZmlCRHlIRE9WWGtB?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:43:06+09:00",
+      "press": "서울뉴스통신",
+      "id": "5962b00cb0",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주 연속 상승했지만…강남發 하락세 성동·강동 확산",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14ZmFtZHBEanF2bWdseHppRGdFWHRDd0ZwUDMyMjgtSUFpQWx3LWYyV1lMcUU5cnBKVER6OFIybFFwYVlhRkx2b3RTN29CQ3VvWHZQcjZsUlg2SUZ5?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "뉴스핌",
+      "id": "d301052d14",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주째 올랐지만… 강남3구 이어 성동·강동도 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmpEcEpuX1NtcGNLRS1TcEtlMXM3eWlZVG9tZmN6VlVMT3BJWFVxVlZ4SHFRR21HU3RvUXNWd2hJR0ZxU3NQX3k4WDctd3NBQTJCV01OYnFrRng3OFpDUXZiRzhmQnJhbXhtMmJfNWRWTlVzeDdnd3ZNZk5vWUVRNUtVS0R6ZzJB?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:08:49+09:00",
+      "press": "조선일보",
+      "id": "ba3c0c3a0f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 3구發 조정세 확산하나…성동구도 아파트값 하락 전환 |",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5jNzNLbjdDZGw0RmUtY25YamVLb0hZSXhlYVpzRDhTTVptdFNLanpTWm43anhQbzU4X0dseW5OZGNyVGNlejlqM2RpdWwtaXZhUjBZM3p4ODkzSnpZNDhzS0pYRG50emZnVFhkZmRLcUdIRTJB?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:05:05+09:00",
+      "press": "연합인포맥스",
+      "id": "2ce833c597",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 아파트값 약세 한강벨트까지",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oRzhjeTdTMGdVOUxNZ1dpWVJVOU9KSXdrUm81LWk1UWRzd2Q5VER5VjRMRXQ1QTQyYUF4V0xHOWZJNmY2QkpYQXZpQ2pvajE3UUd4amRsRDJJNkNBT0VpaNIBYEFVX3lxTE1oRzhjeTdTMGdVOUxNZ1dpWVJVOU9KSXdrUm81LWk1UWRzd2Q5VER5VjRMRXQ1QTQyYUF4V0xHOWZJNmY2QkpYQXZpQ2pvajE3UUd4amRsRDJJNkNBT0VpaA?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:16:44+09:00",
+      "press": "연합뉴스",
+      "id": "53cc45cd08",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "전셋값 4년여 만에 최고치 눈앞‥내년 강남 6천 가구 '이주 폭탄'",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LaUtNQkZxZ1VpYXNhOEVNUVF0dVhDQ0p5VnBOdHRRLTVfV09ybmR2c3Z1REJfWXkzakdIek5kVFBZc3Q2UGhtaHZ1U0o1djAwZDhNYUhzb09XUHVqeHlmLUozalM0dHMwS1BKa2JXVlUzemVjeXA5SNIBeEFVX3lxTE54c21NcjFINmF0clpCV3JfVHZRVWlIT2Ridl9MbTdKd29EaWVRdDN1X1BSby1OOTR3aGtRTHExZVVGdEwxbjM3SUpjZEp1a2NhTlhUcFZBYXk1THZ3UnU4NDdtSXlMLUY0RnlPakQtSXlKSnBhQ2dPRQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T20:06:19+09:00",
+      "press": "MBC 뉴스",
+      "id": "e4222eb711",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 성동·강동구도 하락 전환… 경기 남부는 '키 맞추기' - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBabTdXdzZMckh3NlI5NTZveWpkNGIyWHRBYXFjR3hxY242Zk8zQWxiT3JTY00zQXZkM055SnRkVF8xdHhjX1pHU2Nsa2twU1F0elpqMEotTHVPMTVQVm5vOG9qRmhqTW53M29VV3Eza9IBb0FVX3lxTFBabTdXdzZMckh3NlI5NTZveWpkNGIyWHRBYXFjR3hxY242Zk8zQWxiT3JTY00zQXZkM055SnRkVF8xdHhjX1pHU2Nsa2twU1F0elpqMEotTHVPMTVQVm5vOG9qRmhqTW53M29VV3Ezaw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:12:28+09:00",
+      "press": "머니투데이",
+      "id": "2041e08b29",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남발 아파트값 하락세 한강벨트까지 확산 추세",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OZk5MbVdWSFpodEg0X21mbnJpOXR1V2VrMTNxeFN6aGg0UHV1UG5fb043WTgtT0oydzVaV1g0QTJCd2dMRkhGZ0MzWWE4Qkpfa21OVEdwNlViVlZvRHNQWWZjYlluRG1PdDY1Vg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:27:10+09:00",
+      "press": "데일리굿뉴스",
+      "id": "771f1baf3f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "세제 개편에 재초환 부담까지…강남 3구 하락세 지속",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB6T0E3VnhycW5ETlAxMl8wRFJlYlVmUDBhMHIza0pTb01fdE1CU21EXzFxcXlFaVF0c0IwaFljWThlbE1UTGVUc3RMTkhqVlFsVHpfRFFJLVdvU0lsVm9qdVgxWTJHUQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T21:11:00+09:00",
+      "press": "KBS 뉴스",
+      "id": "a944727b58",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주 연속 상승…강남 3구 하락세 계속, ‘강동·성동구’ 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tWGtMYlJiMnhtTUdjUFpmcDdRamVXV3lHUk9OQjZTd3Q1NXZsMEMyUVpJdDRaU0VTNEJJTkFSSWxya2Y4T1ZTVnp4MnpMOFhXTUhpODRhZy1tcXJvZHUxVnM2enE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "매일일보",
+      "id": "8b897dca72",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 재건축 인허가 67% 단축... 2030년까지 2만7,330세대 착공 궤도",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rM2NBaGVxS2l0S3d1Vkp1d1p5c2ZFWWNzUk5ZV0RpX3FkUldibTZuUFphckJCSl85ckFxT3pKZmRCOVFLSzZtNWtqMUFfNXhMMUNQclE5cDg4eEZDeDJHWGJLXzEta2VwQjNBYzdZdDA?oc=5",
+      "summary": "",
+      "published": "2026-11-13T07:54:33+09:00",
+      "press": "미디어써치",
+      "id": "5cc9f359ac",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 0.07% 상승…강남3구 하락 속 강북권 오름세 지속",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83YU93LXJGWTBBUVIwczd2NmxSZ214QUpTeGs5M09iWG41cVFNVmVmZEotbW1xd0QyUHRsbEVaTTBGeUJoYmlSMnV5RkpIRXU2c3FBWGxhdGxtX1k?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "에너지경제신문",
+      "id": "e1300c6826",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 한강벨트 아파트값, 8개월만 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KQnRqdzlUd1F1MnZrOTdUeVdhQVV2R1g4c2dETGMxNXpsaW84ZDBWeHdqQ29TSWhUUEgyVXFTek9Bdy1sV2hiRHREajcwenk0dkRiTlJQck13WlhmQndzQ1l1YWV3NGpLelVEelVySlhWUVk?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:39:14+09:00",
+      "press": "대한경제",
+      "id": "51f9eb303d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주째 상승했지만… 강남3구 이어 성동·강동도 하락",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUTk4RWxCTnFsaHFOSFBVRVpBeGtlWlNsLW5wOTlhbGYxc3hSd0hsTXA5VG5JUUVxYUhrZHc1ZmdOZHlRTW5YbWl2MEtsOFQzMkxDclVOWl8tUHYzS1R5MHlmb09aQ2hGTU5wVXdEN1VDUWdoSW1VVUF2d0hJT0FiTlNnTllLdG9CVHZ2QTVtOENqOVZZT1AxVtIBrAFBVV95cUxOQ1U2UHRCMmF5OEp1OVZLWU44WDlGSUJtc3Q4SmxmRlRSd0tQek5MUkFad0pSVVY5aXFQRUpSejg5WXJ3SG1aZVRFOXd3VkNnd1Jvb2ZmLWxGMEp1ZEMtUFY4MjliRU9rWVZ2U1FpMUx5VDVtZXI2c25ueDQwVDlZME1xSEJ5Rkw3VlZpYmQ2aEJQWm5Tc3M3bnNUaW41TUFRMHZFR2VqVnluWHY4?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:13:00+09:00",
+      "press": "Chosunbiz",
+      "id": "fb212f3a0d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 강동·성동도 하락 전환… 하락지역 늘었다 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWdGZoRlAyRTd1V29fM2FxS0V5RlF4TVE0czgxU29CZGk2OGVpN1pSb1pyTnBZNS1uM2ZFaUZqY25PWHdackdIdHBtZE9GRUxxZmwyS1A1QUZYSXFlU191YnVrMERsdmpBaHl5RGN6UdIBb0FVX3lxTFBWdGZoRlAyRTd1V29fM2FxS0V5RlF4TVE0czgxU29CZGk2OGVpN1pSb1pyTnBZNS1uM2ZFaUZqY25PWHdackdIdHBtZE9GRUxxZmwyS1A1QUZYSXFlU191YnVrMERsdmpBaHl5RGN6UQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "머니투데이",
+      "id": "30abd04ddf",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값, 한주새 0.07% 상승...강남3구는 하락",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10TElpSWhObW82RFYweXZHcVFHSWU4cnlsVENSb1FkRWd6bWdwNkRwSUlySWd5bXVFRS1wZUhnRTdsMEpQRkpZS3ZMLW1UY2JhUTNGZ2xic2MySU50eDc3eXNVT211Y3dFSzVwZA?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:56:11+09:00",
+      "press": "뉴스락",
+      "id": "26ca4c5e0c",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 상승세 '주춤'…강남 이어 한강벨트도 하락 전환",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tdE1jci1KZDA0VERjMVZQb3BoaVBFZ2JHTEVPWmV4aWEtUzM2UC1zdFprcVN1RGt6bjJTWlQxNHc2emdTQWtWak96bjZFb3QyRTlrNjdaRjFaM2dyMlUzZ2kxLVhaTVE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T18:25:48+09:00",
+      "press": "청년일보",
+      "id": "0224e2cd9f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 0.07% 상승 지속… 강북 ‘역세권’ 강세·강남3구 하락 대조",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE83bXpUa0NCR3RuVnJWZ1pXRHpaWUFmSmV1YXRVZFJyVjNnN1dpYTk1amZiTFFrTTZSVmNBRGxzZ3hUbG1E?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:50:00+09:00",
+      "press": "국토매일",
+      "id": "d64ba5479c",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토허 신청 두 달째 증가…한강벨트 가격 상승",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOHhlYmJ1YnBxT0hwZ0RmUnpBYzVkVWFBS1BSaEMyeEhORzQyeXFPQ3lNUzRLX1NIX1ZmWVI0dTZCYjdEODdyd2NmZzFITFRIZ3BMVHVCV1RaSExyTVdiRnVBc09ZbzdxQkpqallqeURkYmJGenBnOWlMUENsUkZ0cw?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:00:09+09:00",
+      "press": "이데일리",
+      "id": "245fcced68",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주째 상승…강남3구는 하락세 지속",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xY2c4RUg2ODNNZ21yM1U2ZFAyZ1RHdDFBNW9WSGxsLXlvQlZSOW1rMjFlQnZYUUNEeGNXX0d4elAweGlYNExmVTJ2TUV3Q2J1eS1wd2VCNXVrbXMydi1hNXZkR2tGZUtNc2lJSHROY3AycFZWbUHSAWZBVV95cUxQRlJzS09jWEY1c00zXy1BdDc5eWJNRTF4dzRCeWlrTlU0dUdPc1lWTDFEOVhtZ2Y1S1F1YzdZdWJNeU1ZVHZuRlk3dU0wd085VzI1LTRXOW5Vbl85Z1J6ME82Q2JFS2c?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:06:12+09:00",
+      "press": "동아일보",
+      "id": "e3e7295b51",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "김현기표 강남 재건축 신화 프로젝트, 대한민국 주거도시정비의 새 모델로 주목",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE91ekNnejhKamFUQzdLUFBsMWhkOGRQdkVuVnY4Nnhjd25BXzBYcnNCWEQ0LTdGRzFSc2xzbWZpVTlaWGpuZGUtazFKU25teTFqNGJWdnpDQjAwQ0lrcGk1bkZJLUhrN0JCODhzU3hjZw?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:53:56+09:00",
+      "press": "뉴스파이어",
+      "id": "31c783d921",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 대치선경아파트, 최고 49층 정비구역 지정…’우선미' 재건축 속도",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CeUdVR3RxdWVOQWgyVXFqV19OMEkta0hXSXBKV3BqdVVwWmVvU0cwcWFBVDdMX28wUVNaMGFjcGFWUEoyNEdMMVRNY05Qem9hbXNFRmxIcTNGMkFkck1BRE1MdUZMLUptclY3Qw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:27:38+09:00",
+      "press": "데일리하우징",
+      "id": "a5094df6c6",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "\"강남은 내리는데 노원은 왜 오르나\"… 서울 아파트 매물 3개월 새 31% 급증, 엇갈린 '이것'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8zOU1WNnFpdnhXNmVrQ3NjZ25RdjJwM3pFMXNnOTVOdGhDUlNSaVhhMmRFdG9BVTVEVmhWOUFqcEhMQzhLRXEySHk5QTlSRDlZTkxVRW5YanVwWmFhTm1HcmhwYUhHWk51RGN6bVNBSm80N1E?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:00:00+09:00",
+      "press": "경제시그널",
+      "id": "2ffc78aa67",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "성동·강동구 집값 오름세 '제동'…서울 아파트값은 92주째↑",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB3dnpiZXN5ZzhfbGVPR21tTE9zN3ZoaU1ZS0pnTzdIUkZaMWVoUEJDc0o4UUlTS3hkVUJPc2hpQ0wtX3pRdm14ZGtzM3ZOVlJEenhXQ0VsMV96aVRDeTFpalp6WXQ0NndKRUNhbEx6VEY?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:16:28+09:00",
+      "press": "신아일보",
+      "id": "143bfedb97",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 꺾이자 경기 외곽은 '들썩'… 11월 2주 아파트 매매 시장에 불어닥친 '풍선효과'",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsNU1nT3pfWFBZNE9BN3l4UDBleGN0a0poMGFZTE5wRzdlcUxvVWVmdC0tZU9yY3AyczRjdk9tc1VfWUNrVlk4THdjQ0FGZDV0TWZyMm1vbmlpNjE1OUZXWWh5elJIcENncnc?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:22:15+09:00",
+      "press": "청년투데이",
+      "id": "01049a0c54",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주 연속 상승",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQcEd6Tl9DR3FtWGxXcWFHZUtLQl94aHRDTk9CcHp1ZVEyMUVZd01Ea1hBZEExYTVnQ2VTcVFJSVQ1c1JTVlM5b040cXVOdUQ1cmloYlRXcFY0R3MtNHZrckpGTWFGWlJnbWRzVg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:30:09+09:00",
+      "press": "센머니",
+      "id": "20a7d78df5",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "\"이 돈이면 마포 말고 강남\"… 한강벨트 대장단지 매물 '우르르'",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ER1gtX3hKaXJ0VlJPOXQ1R29ubExVbnNhVmxnUjRzUVFFSXl3bFZiZllSNzBIU2ktM0E1VzdKNTRvVGZKV29jb1d5UGFsZ29xdzFwYUQwRDE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:38:44+09:00",
+      "press": "매일경제",
+      "id": "620058058e",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 재건축 시작되자 집 주인 \"한 채 더 살까?\"",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2w4eGZITWFxYnNCbU9oeS1yMGkwcXBlU1BmemItQTlub2NaTjQtSkw4Ti10eXFPMlBvZHNkYkN0ZExKM2Q5WnpheTZpSTNCOGRPUHpLZFBGUVJrUWlFY1cyS3NvREpPSzJPUzdkN09FcFhPMUo0ajhORmlkUkpyb0p5VTR2V1ZRaE92R3pn?oc=5",
+      "summary": "",
+      "published": "2026-11-11T13:05:45+09:00",
+      "press": "조선일보",
+      "id": "9f9c9e476d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 상승세 둔화…강남·서초 14주, 송파 10주 연속 하락",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zWlgwRU1WNi1TUndlNWdCSG5rejNIOEFmam9ndEw2TFBXS196cmNJei1RZjlYaW43WFNWckt1amMzbHdKb3h6eEtwckplMHBKUGxxWlRYdjh0RTdzbmRCUkgwT3lqLWhtZFQxNQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:10:45+09:00",
+      "press": "파이낸스투데이",
+      "id": "994dba754f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주째 상승…역대 최장 기록",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZZXpaMy1xTTBLVGlDdnpzeVpDM1VXeENXdmZ2VXJBRkdYeTZOR3FSVjNZQWRCX0xpcUdEUnY5UF9Vbk9vQnQ5QjQxbXpReHRCdE5uanFTb09LakZTcGtDQkFYcHYxc1RNOEVlMG53?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:00:00+09:00",
+      "press": "아시아투데이",
+      "id": "05c0959c81",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구 이어 ‘성동·강동’도 하락 전환… 서울 집값은 92주째 상승",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WNGlMV3NTU1F4RFA0LWNGYTFMbkpwWmMtSUxrS05STnVSbXZHekRrOHpETHEwQWhqU1hRU00xR1piVFV5d2FOTjJCY3hEOUpiLTdwZEZkMmZNcGgySHJXUFBDdkNMZ3phckxMaFdMNjg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:36:33+09:00",
+      "press": "산경일보",
+      "id": "72cd15dd17",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "전셋값 뛰자 갱신권 썼다…강남보다 비강남서 사용률 높아",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QWW9lNVVkVF9feDlvMFZ6eDRjWEM4WVFubU8zcEtBUnBVVGdZWWhUMnpfcFp2NHI3ZVNIZkl4TFlkdVZiOFFueXd2LUhFQ3FuWjY1eFFoYlNkTDVw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:01:00+09:00",
+      "press": "뉴스핌",
+      "id": "78cb451b0e",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 상승 속 강동·성동 하락 전환 '강남3구' 약세",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43SDFQcGFjdkxSc2EyZjNyakZEeTl4NklSWGQyckQwMURXTGFRUjFweUZybWdVYzFyOEtvejRxQ1FWS0RDZnNaUmZydFhNNl93UDByNnhqMTZLWk81eDJWTW5HWGk3cEk?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:20:19+09:00",
+      "press": "문화저널21",
+      "id": "97bb201e76",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "\"전월세 물건 품귀\"…계약갱신청구권 비강남이 많이 썼다",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16TFAzVENOelpBeUZ3OGVSMVlHaU9PQ0FNdlFfejhOQklkYVgzZG10bDdjR091V19DWElIdEdmVUZkR2hzOHd2QmtFQW93ZkFJOVJlVl82MXBoOFlQNnRJQk8wRTJPT3BWeElN?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:56:53+09:00",
+      "press": "한국부동산뉴스",
+      "id": "55d6c71e8b",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 “은마아파트 재건축부담금 4억6천만 원은 예정액”",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BcmhWLXh2VnZyV3JhaGYzeFdnVDNiWjctcHNoWnc1bTVRMDNSSXB4ekREYndkMWRCUHE0dGw5c0x2akVLRXNiX0hDZkFyZ0w5TnliUlU1RDRRTTQxNU5DeS02RQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T23:08:56+09:00",
+      "press": "강남포스트",
+      "id": "440f820a8e",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트값 92주 연속 상승…강북권이 강남권보다 더 올랐다",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE14NXROemFRUVBwcEtTR0QyWno3Y2RKNmU3YzJ6XzJEeDZ0Q2picmRZVS14bWFPVGFvTEhkOE9YVXRzaTd0dGVDbFFtQklacnFicHRLdnUyV3ljSnlmdXhfM0RiYkxjcVBYUHlkWg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:42:30+09:00",
+      "press": "메디컬투데이",
+      "id": "5bce91337b",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 \"은마아파트 재건축부담금, 확정액 아닌 예정액\"",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PYVdnd3QtNm9lV3dYdEc4Z1hhRWV6eHRGUDhqbW5QM3pKbXJmM1hDOXpoNWUxekRQVDJib0E1Nk1BcTQ3Z2tqOVItTmJRSHpBelE0cGxWcDJESm5YaThQNVQ5UEdGaU1GbkFpTUdNNA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T12:08:04+09:00",
+      "press": "의정신문 서울시티",
+      "id": "af0c3a7d24",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 전월세 갱신계약 46.5%...갱신권은 강남 줄고 강북서 더 썼다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByTEN4MnpQZmVfd0FlanRIM1MtQ0c1OERSZGdkVmlWT29mSkYyLWFQSDlRd3NfRVMxOFA4Tno2Sm1Jd2xUWWxMb2hxRWFNVlFBQ2dQWU1zZ00?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:16:37+09:00",
+      "press": "포커스타임즈",
+      "id": "21ac7a0cce",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 은마아파트에 재건축부담금 1인당 평균 4억6,334만원 통지",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtX1hCekk2OHhidDNmY1BUWHZqS29ST2VHcGJwQ29oWG9Ld1NxM0N5cHgtcXRJbnNMZXJ2ZE80OFlqMlJwY2NDQy1EY1VYTzIwekYzUEd4MHlvSlVxZGRON0J3eHRwaEpM?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:02:08+09:00",
+      "press": "한국주택경제신문",
+      "id": "4fb328a4b6",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "\"은마아파트 재건축부담금 4억6천만원, 확정 아닌 예정액\"…강남구, 주민 혼란 차단 나선다",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42TDE0ekhpVl9yZTA2RkJicENGcUxGMnA4VHFYN2NwbG1VYXpZczZlYmpMam9FZEU2NDhSSzhNNFVTdzdKU0x6YllTdEkwYWphX1BnU3lwMkJpVjZIMHM0aXIyQ3g1REJRdE9v?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:35:57+09:00",
+      "press": "시정일보",
+      "id": "26d7c9dcfd",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 3구 아파트 가격 ‘뚝’",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aaFp5eExXeTBBcGpLdHMzb0tyMXhaQmU4MjVBSFB1VG11VlM3cUNVMU1pSUdFUlZSU1JFVkthaEVqTGMydzJiQlZ4Q1IwWWtDSnBnU0RR?oc=5",
+      "summary": "",
+      "published": "2026-11-10T15:48:10+09:00",
+      "press": "매일경제",
+      "id": "18cbb085ae",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 강남구 “은마아파트 재건축부담금 1인당 4억 6천만 원은 예정액”",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wQkFxc2owcjBsVWRvZHlBMjh6RVpKaHpEVXZab3BXYTUtNUVfTE1zSVFrd1dXSFlHVFphZnhuLWgxY3RzWWwtdm1VUDE4TUxpZS1GVHlRMGpZaWFGQWs5RHBPaFRGRjFQYnh3?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:26:10+09:00",
+      "press": "BBS불교방송",
+      "id": "bc95bf62e1",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 아파트값 하락세 확산…중소형까지 가격 조정 본격화",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1b1FYOW55UVk1Yzk3VzZQNlBTX29ONmM2R3hHbDhCNGFsY2lieUlpU2NYbTVxYzFEcEkzZWo4dDlraXk1TmZfZ3RlMDJYaFdtbFFlOW5BUnJLMGpzYVNWT2xkVDB1RXU4RGRZ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:15:00+09:00",
+      "press": "서울뉴스통신",
+      "id": "76c0b5ee22",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 \"은마 재건축부담금 평균 4.6억 확정 아닌 예정금액\"",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KR1NqSUJraDhHTTkzcl80RW42NFZoR1NacmdUUEsyTHZnaGNycF9vVkt2c2Y0SVhKa3g2QUtPV0NSd3djSnhadGdieVRYb0JvdnAwd04wQU9xcnZa?oc=5",
+      "summary": "",
+      "published": "2026-11-10T16:41:00+09:00",
+      "press": "뉴스핌",
+      "id": "c64d2c73e2",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 매물 30% 늘었는데…강남은 내리고 노원은 올랐다",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSFVXY1pBb1FRTEJ4R0RKemtPU2pEX2Y4MXd3UjhFQkdVV3ZsQlZUNkdKR1FRZ1Z1UGZlN2NvVWRhb2pVb21CUGhrbWVMNjNCdG9DekpxcHdJc1pvZjd0dlZxaEY4WmFuRFdDYWZDTnBRZXdiZVZXVUQ2VlJYaFVVZXplel9HZVRZdml0a1BWS2gzYVhMNVA0VFpCQ3poQkM0MEZPbnplYnpJRERFckoyTENCeXdEZ1pJMjFRUDZ6ZEF6VDdMMHE0by1ud05pUDlpSGtrb0Jldk8xLUh4T0RmMGhzcUVkRzZZeXE5cHVaRXktVXFpOUlDU3UzU0tiWW5jeXc?oc=5",
+      "summary": "",
+      "published": "2026-11-11T07:00:00+09:00",
+      "press": "데일리안",
+      "id": "0d9de20f19",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 은마아파트 재건축부담금 예정액 통지…“1인당 평균 4억6천만원은 확정금액 아냐”",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCaHlKUDhuaW1KSGttZTBvNWNDLUFRbUJDdExqY2NfTzU0MmQxbWZmbVJBNEUwb0hnVkNUc1pKRWJvdDFyZkxLRElwcXdrOE85NkNwSWFIdHFwV0dZLXBfVFJHYXN3Z2ZmWUE1ZQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T14:33:56+09:00",
+      "press": "파이낸스투데이",
+      "id": "e35a39c60d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 강북 강남 아파트 매수심리 극명한 양극화",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zYlM2WnJPZTNTd0lLWFduNWVGM0d3WWNrUklMSGhDVDJ3NXVuYUd6UnowcmNVY3dVemVfT3ZjUHlxbU00ZzhrTE9DcDdlZlZrTGRRX0FSc0JBMWtFRnZ3bm1VNkpTRWRW?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:40:00+09:00",
+      "press": "https://www.2news.co.kr/",
+      "id": "7a344954f0",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 전월세 재계약 46.5%로 증가… 갱신권은 강남 줄고 강북 집중",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE04WmdUQnFRdkxnWmswekVFOEtBNnhxejRwLWlTTzc5eUoyN1liaHJibkRtLUhZbGhBWHhOT3FuZkE4VkV1ZTRBZ3pxUnFiYTRGbWNqbWpCVzTSAVRBVV95cUxPRlAxR3dUVkRxUG9MMlpCbFpDcFNFeThqV25YZDJ5N3c4eFkycU5WN0VvNXdkckpyNzV0SWFxc2dyV25IdDlNcXl6Mk9ZRkpyS1BZd2E?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:59:48+09:00",
+      "press": "세계일보",
+      "id": "8ef9875fea",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 은마아파트 재건축부담금 4억6334만원은 '예정액'",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16STZCV1dvbFM4ZFlhOWF6VnhjcWg2SzdQM180YksxcnBoN2FVMk9OTVoxdXRXYjJFbUExb0thY1NvTkk5cXBWZUNLSW5QanJXdlpzRFc3MmpVcV91YzR6X0tUQTQ3MUdrMU9qdDltbw?oc=5",
+      "summary": "",
+      "published": "2026-11-10T12:50:06+09:00",
+      "press": "시사포커스",
+      "id": "8f75178336",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "트와이스 나연·유재석 '같은 아파트 화들짝', 국민MC·아이돌 선호에도 강남구 집값 '뚝'",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfLXF4Z1NWRXBBUG4wUFdzaUdTa29SdkwzdnlNSDV6a3VIcFZGTUtlOWRCSGZXZUpjWjY1NGROLWpMTURYcDl5WG1meVA5dUFNa0tkVE5lc3paMHBxMzJ3UjFR?oc=5",
+      "summary": "",
+      "published": "2026-11-10T10:38:00+09:00",
+      "press": "이코노미스트",
+      "id": "ac74688f29",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 \"평균 4.6억 은마아파트 재건축부담금, 확정 아닌 예정액\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOUDZNeTVRdVhzZ0J1R3NhRzhiYkFsakRyaHZ6T0xKWUprTW0zeTNEdEpkMTlpVWd1QzhBNVd3MlQxYkpGWE1wdXF2U1VsVGNqc2dNUlNaekdyRG8?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:19:52+09:00",
+      "press": "뉴스1",
+      "id": "ffc1fc4b85",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남 전세 거주, 강북 아파트 임대... 국세청장 후보자의 부동산 논란",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wcVNJTlQ2NXhBbHpGUTN3b3ZjYUQ0Z3c0RF8zOGltbTAzMDg5bzJoQzI3bHprbEYzSzJhWklYUXZhUUVIZ1pvR2ZuWTQwOWxZTDlqVnhtMUZrUVFTcVVfZGcyWGxvNHZm?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:14:43+09:00",
+      "press": "공감신문",
+      "id": "7c018cf0e5",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "KB선도아파트50 시총 두 달 새 2.7조 감소…강남 재건축에 하락 집중",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04OVh2RDZkVDhXQUtKZ1BrZGtPYm9oZG1objNFczktenZfNWRYTUI4MTNmSXRUS19DTkVFSWUycHJRTmh3TjZZWVhUVU1OSHIwMUHSAVNBVV95cUxQa2ZNLW5mdE1QeVUwQjVFcy1uN3FhajJRbTZoV081U2xObDk0Tmx0RGJ2aVd2T1JST2didWpfNjRKUjF3RjdBNGRCVUFzdnoxakhBRQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T18:04:18+09:00",
+      "press": "서울경제",
+      "id": "dc98c69727",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남3구는 내렸지만 서울 아파트값 91주째 상승",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MUllKUzJ1T1NlRzBuZW1TVHkyc2NUb1ZXU1RiSmtzeHNBVTZGbUd1Q2poMlVJVk9NVHdqaEhLcTBMVl9CSXRhdlhOQ3hjcXBvUGc4QkZHQk5PNk1WdmVpLXZqUm92UQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T11:57:00+09:00",
+      "press": "비건뉴스",
+      "id": "e3b94fbe25",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "[칼럼] 강남은 내리고 외곽은 오른다…서울 아파트값 두 얼굴의 양극화",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nTHZsUlZFNWthLWs1R0ZwX0tLSzdmQ2FOXzRpVGEtMDdFcW50M3J0TFN2cjNYMFpvWVlzVDhxVm5GVHI3TXR0UU9OaGVuUzVTdncyclpXYUlrS3R1RlRTNlM5ZzhVWlRKUFVmS0hENFg?oc=5",
+      "summary": "",
+      "published": "2026-11-10T16:41:47+09:00",
+      "press": "용인일보",
+      "id": "804996cd44",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "“강남은 내리고 외곽은 오른다”…집값 평탄화, 경기 북부로 번지나",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxUFZJeXhkbTQydk1pZnVmcjNqSEN3MXhfbHNuOHQxVUR0dWE0dUlvT1FiWHhZajJxVzZZemJaaTloSUtEeVlIX1FjU1BRWXRaRnR5b2dsTHlkdmZUQ04yNWQxRG1XYklwMWU3MkhVVW9PelYzNU1j?oc=5",
+      "summary": "",
+      "published": "2026-11-12T13:52:12+09:00",
+      "press": "로이슈",
+      "id": "898fbe305c",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 “대치 은마아파트 재건축부담금은 예정액” [메트로]",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nNHdSR292dWdQOE44cmQ1alp5dW45WHJEdjFFYlR5MXZ4dFk1SkY5V2Y1R2Y5ZkRDNEJnY3FLaF9NWGZCS25kRkFMdEgwcW5oMnlwQw?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:35:00+09:00",
+      "press": "이투데이",
+      "id": "f7e8fd1b33",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "은마 재건축 부담금 1인당 평균 4억 6000만원… 강남구 “확정액 아냐”",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jdDBEZWdqLTF0UHVsWFZsdDBKTVdKYzRIbzlhU1pLM3dGanlZNURjOUFlaEg2cGdVcVFrOThITVBKNk5BY0J4b0oyOXJsOHJRVUQ3Q2p0ZEtPMFp4UTh5NmxEOEdvT09PUHc?oc=5",
+      "summary": "",
+      "published": "2026-11-10T10:22:25+09:00",
+      "press": "천지일보",
+      "id": "3d7f1f61cb",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "은마아파트 재건축부담금, 1인당 4억 6천만 원 예정",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBLdXNQYTlsYzJ3dFRXWHo3ajc3ZVBSb09xWG9YaTg0ZkRubGpVem5XNzlNNDhHRldKbFFmMXlsV3Yzbjg5NHhwY3pFVkpXTlY5SHA3SWg0S1MxUk9DT09ONWN2MHZVZw?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:32:14+09:00",
+      "press": "딜라이브뉴스",
+      "id": "bbb2e04712",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "은마 조합원 1인당 4억 6000만원?…강남구 “확정액 아닙니다”",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CX1RaM2JOcXZrRTl3c1F2ak1YUnhLTFVOQVhTNTFiQTJtNzdBdWlsbUlqd0pZQUUzRUZZUHZQWjNnWDgweE1nZS1LVU05cWVkR0czRlBCMk3SAVRBVV95cUxPV041RUY4N3dkdWp1eFRMSGxHMnVTOUtvRTRxaDBCYjdIZmJZT09lLVpLdDlTNnZXelFpMzhydnlZRjJKZFFOcHlTUkRabUl1dGl0UVg?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:39:21+09:00",
+      "press": "세계일보",
+      "id": "8823ed3f0b",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "은마 재건축부담금 1인당 4억6334만원…강남구 \"확정액 아냐\"",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9rNmZfNG1WTHJlaTRSNHNmNXEtaEhuRWdFRkF1Rk9GdkFQZE9ZWEhpaVJ6NDBwZkhtZlNHaHR0UDllMlNzbU5aNEc1UQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T15:19:44+09:00",
+      "press": "아이뉴스24",
+      "id": "ee8e22104f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "‘재초환’ 부담금 통지 현실화",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDMWVVRlNjQ1lUMk0tTktrdjZJT0NyZWlWeEJ0Z1BHN2J6a3NTRGNvd1dYNWZseEVjZW43aUpXdnFFZ0ExMUpWd3VfSlNPMUw5MnBEWlRXQ3RJQjNmSXBLS3dNOV9YczdzeTEyRFF1dFBLWi1F?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:48:01+09:00",
+      "press": "대한경제",
+      "id": "d7cf195005",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 \"평균 4.6억 은마아파트 재초환부담금은 예정액\" ... 최종 부담금 변동 가능성",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHpNN0F3VWF1a3pLWG5wT21kMTNqekxfTG5FUFViRWpkZGlmblNkdGZFU0E5Z3VQSl9fdldKRHBzZjVxSDd3Ml9IVHBjMTdVVWVBT3lqSlJPYjdoNWNvdGtPV1FuYlBzVHlXdjR0aXJub2xONnIxMlNwY2dkLUlqWTBVZDNFdjBLb3RZaTNBMjI?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:29:00+09:00",
+      "press": "Queen 이코노미퀸",
+      "id": "47a5ea7464",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "서울 강남구, 은마아파트 재건축부담금 '1인당 4억6천만원'…\"확정액 아닌 예정액\"",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zdy16QkJ3Q2dxU1RoVXJfTzduNEhHaHNrb3BZVmtMQTQ0SW9zNzlCWHZ3QlRsVW0zLS1pdTRpVDV3Rng5SG9oVHpkVWkwVWZmVVN3?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:59:00+09:00",
+      "press": "데일리안",
+      "id": "71fd99412f",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "안덕수 국세청장 후보 보유 부동산 논란…野 비판에 국세청 해명 : 경제",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ZNlhHU2JBTlJ5RzUxT2V6cFlnUUlXTDAxejRibTZqbG53aFpydktZZ014bzQ5eGZwbVpJbzJqTFV0OExVdklmU29xTQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T12:23:27+09:00",
+      "press": "재경일보",
+      "id": "e66cdb889e",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "“40년 산 것 밖에 없는데”…은마 재초환 부담금 4.6억에 집주인 ‘분통’",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zMGhYS1FjTF9DSFBNLVhLQ0JlbFJnMXFILUQ3bzFWSWF4bmVUT0l3VDlTS2JBRXV0WVVQUzJON2RSb1BkVlRUS1R3S1NvS3NnODVCWWRyRHBMNUdkWXI0Ug?oc=5",
+      "summary": "",
+      "published": "2026-11-10T18:41:00+09:00",
+      "press": "헤럴드경제 미주판",
+      "id": "cb889ffe7d",
+      "source_id": "gn-gangnam-apt",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 “정부 부동산 정책은 ‘참사’, 대통령만 몰라”",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41NXk0RjI1SkhMM0Yzdk1lODd0emNDNm5VN1RvWWxuVXdOZXQ2OUpsX2JxaHV3S19Ndl9waWdaNUpUbjZsUkZ6bF9vSGwzZjJRZkJWSkp4dTRSMkNUVFlVMkJIWGZFTFNpY2NhU3J6b0RTclAw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:15:07+09:00",
+      "press": "대한경제",
+      "id": "c62474624c",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "“시장 이기는 정부는 없다”… 野, 부동산 정책 실정 직격",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zVEh0eWFIeFkxMUZuSGV2MGVCOHZ6SmE0UFFXb1JEZ05rTTZBaUd0MS1VSk1KeTlmSmp6VkpJejE5SGJfQ1FVTWFzSWE3YWdaa3I4MUExWlgzbVdaSjR6VFlFS2RrYUxrMktadUtiYTY?oc=5",
+      "summary": "",
+      "published": "2026-11-12T00:50:00+09:00",
+      "press": "서울신문",
+      "id": "eb62d5f28d",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 \"정부 부동산 정책은 참사\"…전월세 급등 책임론 제기",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvNDJUcVFvSW5EYjFOOTdwa2lNQTBVLVhxMURmRl91aVdHaGt2clFLYUpFZUhoNnpVZUh3VThRY3E5WE1obnp3Z09yTHd1TDdqdE5GSzgyNGRvdw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:22:17+09:00",
+      "press": "파이낸셜뉴스",
+      "id": "b16b1aa592",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 “정부가 임대인 옥죄어 청년 주거난 커져…서울시는 공급으로 대응” [부동산360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aTmZxaUJuXzllazhibjg5VjVJblMyOVd0bU83eEtTYlZ5d2N1Z0IzZGhNRWpSMzFYZXdzNHd5YlZCZHdTSVF6cl96eEVpVDdCVU02SWNR?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:56:23+09:00",
+      "press": "헤럴드경제",
+      "id": "829e32412c",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "이재명 정부 부동산 정책은 과연 실패했을까",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6NXlwbm40ejREWHFPUHA1bVE3UkU4Y0RTSnAyUGJjRWhPdmFEd3RaNFpPR3pkVnJMQ2JZYzZXQ05kTVp2aWRFZkVra3JUdEs5cUdkaFJ3clhDcVVqWmFLenlGTmFtcXJLOUNETA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T07:05:00+09:00",
+      "press": "세상을 바꾸는 시민언론 민들레",
+      "id": "7dc611bd87",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "野의원모임, '빚내서 집사라' 최경환 불러 與부동산정책 저격",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xdlNwb1lYUENMY2V3Ynk0Y1l0NC1FcmdmODJPUGpwQjQ4ZDh3b1ZkbkVsQ1UwbnpQZjdEeW8yQ3kxZWNhRUlYUGh3cTdKWmFBTHZTYUpSYjZlcUxyejVWQ9IBYEFVX3lxTE5xdlNwb1lYUENMY2V3Ynk0Y1l0NC1FcmdmODJPUGpwQjQ4ZDh3b1ZkbkVsQ1UwbnpQZjdEeW8yQ3kxZWNhRUlYUGh3cTdKWmFBTHZTYUpSYjZlcUxyejVWQw?oc=5",
+      "summary": "",
+      "published": "2026-11-11T11:52:42+09:00",
+      "press": "연합뉴스",
+      "id": "7df58926c2",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "野 의원들, '빚 내서 집 사라' 최경환 초청 부동산 정책 세미나 개최",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pcGdlX2tQN1hqS0pCa3lNd0dhSk1rWURLSHBvVElGOXFORnJXMlU0TEhZdjBMTFVUc1F0QnBHLU1zbjl1X2RzSjJYTm9naVU4VE1qTTUteWpSX1JCekxTdtIBeEFVX3lxTFBqbm90V21DN0JpaFg5anFnLW4tWEpLekg0cVpBUjZ1bmZ1SGFjSl92aXYxWFFVWms0clZ5V1g2STZRdWZvZF9EZzFXZFE4VVhPdFdoS1lfM1hVTTdmanNoeDQ2OWZPNVBTY1BtaTJCaEJEcnVHWnJTRw?oc=5",
+      "summary": "",
+      "published": "2026-11-11T12:43:35+09:00",
+      "press": "뉴시스",
+      "id": "5eab59d2cf",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "김민석 “부동산 정책 일관성 유지”… 당·청 엇박자 해명",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMb3JjVms3RVhobng3eExUdDhXZWQwX2FLcDZUdllHSzRvVE1NMEJiei1PMnYzMU1tVFNZWXI2WGwweTJCRmJZMzlIazB5STRqZDUtYUw0QlpaUEwzMlEtMHJPS1c4R3dfWmlN0gFUQVVfeXFMTUNPLWJBTkp6TXJFSWZ0aDVNbU1ycHhxeDZ6N0lxTVhkMXNHMXRQc0hlZFROU3o5QmFWTmxCcWVid0ZxQmh4N0tJT2ZQYlRFRmxYZ2RG?oc=5",
+      "summary": "",
+      "published": "2026-11-12T18:07:50+09:00",
+      "press": "세계일보",
+      "id": "d777ca17fb",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "與, 부동산 세제 둔 파열음에 '종부세 계엄' … 서울·수도권 의원들 눈치게임",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSZERXSkhSWWgzR21UY0RLWWd2YWRDZFFRc2d4dXpNSWpUMFljdUJVampGNFVfdVNtR1dRWnBJMEhMNUliYmlMbmRpcmNVeE01NGp2YTY1SUt0dVljXzNxblBKbVE0QklnTU9NVWVyaFpHSktJUnRGRGdNMNIBgAFBVV95cUxNODREY09zaGhrWVNLYWFYODJUdmpCVU9KM0dLanJGellyeWF6aThWQ2s0N2VtaXRvV2ZlLUZpalBmSTI2Ui14WWVxMWFOWnE5ZE1fckZqZldrRE1FMktSaU5yZFBoWG8zMUtRVWpmU19DckdtZ0VRYTAwWFZpY2xTMw?oc=5",
+      "summary": "",
+      "published": "2026-11-11T14:51:00+09:00",
+      "press": "뉴데일리",
+      "id": "46e3ecc084",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 \"과도한 실거주 강조…부동산 정책 참사\"",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBwdGlneTJkc29LMlZxRzFfdXd0S1lMdVN6N1FDYVZHRVh1MU5WS2JNdUYwTTFTTGlBc3Q0VF9WZllibkFlRlhGbUdFbTNMYVZueGc?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:57:22+09:00",
+      "press": "노컷뉴스",
+      "id": "a241a2b140",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "[D-1 주거 도시정비 박람회] 오세훈 시장, 서울 주거정책 직접 설명… 내집마련 꿀팁 쏟아진다",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Vbk1GMmxrbTNXRHlBMDdNdzA2ckdoSUlUeWlWaHNTWmFpbGNNTHVyMDBLOXhCSWdYWXR2eGVReGx4TlFjZnpMRGV5bkRQSGZlVk85cmlURU1zbTNjZ0Rrc0NUX0FaY2x4MV9sUHp5VWEySXc?oc=5",
+      "summary": "",
+      "published": "2026-11-11T05:00:32+09:00",
+      "press": "대한경제",
+      "id": "21e5090130",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "최경환 전 경제부총리, 부동산정책 특강",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoLVVCX2JiR0RRN3hGRnZsQVdPNXJqYy1vaVYxTEhlOHQzdlVUZFRncTlUZC1FTW5kazBZeDhETF9IcGpwWHZZdHEyWlh5SkJoRWQ0WnlTRkxWRWQwMXhLNUtFT3V5MWJTSERPNWVoU1M?oc=5",
+      "summary": "",
+      "published": "2026-11-11T11:30:11+09:00",
+      "press": "서울신문",
+      "id": "3d7256b6fd",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "국힘 \"정부 부동산 세제개편안 전면 철회해야…정부·여당 엇박자로 시장 혼란\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tMVI1QkFjY0lsUXRkcGxFMld6eXZKcnZDcllyOW9mekJ0d256Y3lLQ3J5bmFFMmxzb29FcW9ZMWZGVEFXUzl1Tl8yLU5JSnUzYWt2S3dIVnZHd18xRk1ka0w5bVhZNURUWWEwckVESzRoLUxIRGhuZNIBeEFVX3lxTE0tMVI1QkFjY0lsUXRkcGxFMld6eXZKcnZDcllyOW9mekJ0d256Y3lLQ3J5bmFFMmxzb29FcW9ZMWZGVEFXUzl1Tl8yLU5JSnUzYWt2S3dIVnZHd18xRk1ka0w5bVhZNURUWWEwckVESzRoLUxIRGhuZA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T10:01:32+09:00",
+      "press": "뉴시스",
+      "id": "6c93a4944b",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "김민석 “부동산 정책의 기본은 일관되게 지켜가는 게 좋아”…물밑 갑론을박은 계속",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KY2x4RWk2WlZQaDdxZ1JPNkpYNGNZeEJSQWZKenpSQS1RUUNybGdzVnpEdFM1THFmOFpHQkdFel9DR0JBSG41cldMeWlrb3FzeDFPSGM5clI4OTU2ZjRR0gFfQVVfeXFMT0pjbHhFaTZaVlBoN3FnUk82Slg0Y1l4QlJBZkp6elJBLVFRQ3JsZ3NWekR0UzVMcWY4WkdCR0V6X0NHQkFIbjVyV0x5aWtvcXN4MU9IYzlyUjg5NTZmNFE?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:08:00+09:00",
+      "press": "경향신문",
+      "id": "df89590be8",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "靑 \"당청 세제 이견 없다\"는데... 與 수도권 의원들 \"부동산 정책 조정 필요\"",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVlxTUo2N0ZXcjFPMjlzNkd0Y0JIMzAzVS10Z0gtejM1S1FndDY1YmMwTmpxU0RlenBpa0pjY09GX0ZVZklSYTVoSzhpeGlHM2xEY1M2cmpMZmtzU1BlWVVjVnMtVENsOTFYS0JqWlNfUEtSQU95UUI4dVNXNmNwOVVSb0JzdmdaSVQ2UW54U3I?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:20:33+09:00",
+      "press": "조선일보",
+      "id": "a163e37d13",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "與부동산정책 강온대립…일부 의원 '부동산 실용주의 모임' 결성",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXRXhmOC1xRng5T3hXNE5vMHJCaXdJU21TQThFcFluaE04OTlYdDl6U0tfU2xjeWtDVlB6b0dCbXVDV0wyYmlIaloySW5VbUF5Tkt3QzhKa2s4bmYweHFyddIBYEFVX3lxTFBXRXhmOC1xRng5T3hXNE5vMHJCaXdJU21TQThFcFluaE04OTlYdDl6U0tfU2xjeWtDVlB6b0dCbXVDV0wyYmlIaloySW5VbUF5Tkt3QzhKa2s4bmYweHFydQ?oc=5",
+      "summary": "",
+      "published": "2026-11-11T12:13:25+09:00",
+      "press": "연합뉴스",
+      "id": "ec67f8e2b2",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 \"전월세 상승은 정부 정책 실패…대통령만 몰라\"(종합)",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NaGEtOEt2M1ZhRm9vQ2ZkU3ZTMHpLUVNRZG50WTRUaTBrVkVGWGM2NjdPYjlfVFAwZzRzOFRqRVZRVDdfdVE2Vi1KYWI0MjJFRUxJRkFkTWQtdFMxSmFuZldJWUVCcHR0ZllUSENaSmlIRU96X0pyM9IBeEFVX3lxTE9NaGEtOEt2M1ZhRm9vQ2ZkU3ZTMHpLUVNRZG50WTRUaTBrVkVGWGM2NjdPYjlfVFAwZzRzOFRqRVZRVDdfdVE2Vi1KYWI0MjJFRUxJRkFkTWQtdFMxSmFuZldJWUVCcHR0ZllUSENaSmlIRU96X0pyMw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T15:43:50+09:00",
+      "press": "뉴시스",
+      "id": "de268c8ff9",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "이 대통령 지지율 44%... 서울 34%로 TK 다음으로 낮아 [NBS조사]",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBORXZ4ZkwwVmtpOF9odUJlY2RtVFZ2TWluUGZwdlNxc2t5NHZUMjlKX2RaUS1UWjBQQ2U5VTZhc3dvaVZDSjRVdWRPWlNDdlJkVU5QMU9HOFZsNVBJUjd5UlRmM1VJQmJxcHY0cnRB0gFzQVVfeXFMUEZSbUx1UFlTdzhoX2NrTkVQSndhcU1WVklDZGswTUcyenZKV1ViMy1tQ0I5NjVtR2RVT3E4N2VSU0JnbEpXQWlUVFkySUV6aGViZXgzQ01SOW44OS1aczhRMllCYlo1ZThzam5jTDRkV1Q4aw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T12:15:00+09:00",
+      "press": "한국일보",
+      "id": "a5470733d7",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "친명계 김영진 \"서울 민주당 의원들, 종부세 얘기는 당연\"",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBReHFpWndRN0k0V2ZpY1pFVzZzSzY5N21STE9vY1hJU0N5TTBsRUtNSHRNMVJuVjUtcE1kdlZYYi1DdS1femN2M2FmUHdWYmJHc0ZoSU1iOWtUUXp1S3ZVNTVZWmQ3MDVLZVBDQV9POA?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:52:14+09:00",
+      "press": "조세일보",
+      "id": "e1c6c31e3a",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "국힘 \"부동산 세제 당청 갈등 가관…정책 기조 재검토하라\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13Z0Q4Qk93YVNydlRBUGdsaUNudUJqb3k5REVDbFpra3ZLLXc5d2NEYkpJcmlCNVAtdXZEMmlESDU4b2h0b01VRUhoNWc3Q2pwcmZoMHBwbnV4Yi1MUDlzMNIBYEFVX3lxTE13Z0Q4Qk93YVNydlRBUGdsaUNudUJqb3k5REVDbFpra3ZLLXc5d2NEYkpJcmlCNVAtdXZEMmlESDU4b2h0b01VRUhoNWc3Q2pwcmZoMHBwbnV4Yi1MUDlzMA?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:12:34+09:00",
+      "press": "연합뉴스",
+      "id": "badda4ee77",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "비거주 규제 풀자더니…힘 빠진 與 부동산 토론회",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10dVJhUHl3aVlkM2dkX3JSUUUzNkVOdGNsS0ZNT2liNnJmbld2bWpUMjVFaHJqdGRuejdpNlZ4OERoaGJZeHF6aVBhV3R3alFaTlHSAVNBVV95cUxNU1NUdmF6NVRhMy1BT1JROEY3N3BfMnQxQkhlUDJqbVRkYjdrdlZoS1Rod1N6VlU0bWk4TVNhTVoyQTZ6NzdHaGxrVlVKblNEdWVMMA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T17:45:32+09:00",
+      "press": "서울경제",
+      "id": "d7644af12d",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "\"서울민심 앞세운 부동산 감세 규탄....종부세 기본공제 상향 추진 철회 요구\"",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xMkFhZFR6d0Ywa2pXTXBwWXVueTVfVURTTnMxOFZxSHJaWE1QRHdoVUZ2bXNOcWdoT1lYb3ZVcmZrb0ZSdjMtMm43bk5WMlhPZnJfSl9xY1R3ekNuMlRXUE9TMkQ4cHo3WEE?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:30:24+09:00",
+      "press": "Daily NTN",
+      "id": "e90ff12756",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "대통령 SNS 소통에 국민 절반 “줄여야”…서울 국정 긍정평가 34%",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IVkxoT2pTb0RmcTkydk5YZ0Z4SVdUbDJ0d2RfUjlYNkJlVk9ZVjg1WjJ0eFk2Q1gtQ2dXdFlSYmU0d3UtZlBUX1ZPQzgtTDRDRWVRMGExXzk5X3ZEOXpsZWZKTTRweVZ2dDRhQl9pWQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T16:16:43+09:00",
+      "press": "일요서울i",
+      "id": "8114cd8fe6",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈 “정부 부동산정책은 참사”…청년 관리비 지원 내년 하반기 추진",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42NUtNOXEtRzZ1cWhlSGtvc3pLNUJWQ3BjcXhhak5SSTU3RFdjVXJ2UlJjQ3BoRTlnMkZodEFMdTRMZ01KZjZvWll5emQtemxWRXBpanp2enRlcGhGOEIzLU5hbGY?oc=5",
+      "summary": "",
+      "published": "2026-11-12T17:01:44+09:00",
+      "press": "https://www.ppss.kr/",
+      "id": "bae4347946",
+      "source_id": "gn-policy",
+      "kind": "news"
+    },
+    {
+      "title": "“강남 학원가 월세 400만원 시대”…통학권 실거주 단지 보니",
+      "link": "https://www.mk.co.kr/news/realestate/12206774",
+      "summary": "강남구 평균 월세 419만원·대치동 446만원 서울 평균 237만원 크게 웃돌아 매달 높은 임대료 부담 대신 교육시설 인근 단지 관심최근 주택시장에서 강남 학원가와의 접근성이 좋..",
+      "published": "2026-11-13T18:00:00+09:00",
+      "press": "매일경제 부동산",
+      "id": "b4515fe3b7",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“이제 곳곳서 ‘억소리’ 전쟁”…재초환 분쟁 조짐에 대형 로펌들 TF 가동",
+      "link": "https://www.mk.co.kr/news/realestate/12207634",
+      "summary": "김앤장·태평양·광장 등 올해 전담조직 잇단 구성 부담금 산정·행정소송 대비최근 서울 강남권 재건축 아파트 단지를 대상으로 부담금 부과 절차가 시작되자, 대형 로펌들이 전담 조직을..",
+      "published": "2026-11-13T17:42:10+09:00",
+      "press": "매일경제 부동산",
+      "id": "d0a0febd0a",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“중고거래로 이자 갚던 판교 영끌 부부”…4년 전 13억 아파트, 지금은 25억",
+      "link": "https://www.mk.co.kr/news/society/12206792",
+      "summary": "2022년 금리 급등기에 대출 이자를 감당하기 위해 중고 물품까지 내다 팔았던 이른바 ‘판교 영끌 부부’의 사연이 4년 만에 다시 주목받고 있다. 당시 13억원에 매입한 것으로 알..",
+      "published": "2026-11-13T04:52:31+09:00",
+      "press": "매일경제 부동산",
+      "id": "1b2fe5f0ba",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "\"매물 늘어나 … 내년 수도권 집값 올해보단 덜 오를 것\"",
+      "link": "https://www.mk.co.kr/news/realestate/12206695",
+      "summary": "내년 수도권 주택 매매가격이 연간 3.0% 상승할 것이라는 전망이 나왔다. 다만 높은 대출 금리, 세제정책에 따른 매물 증가 가능성 등으로 인해 올해보다는 상승률이 둔해질 것으로 ..",
+      "published": "2026-11-13T02:38:43+09:00",
+      "press": "매일경제 부동산",
+      "id": "2b50700b67",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강남發 집값 하락세, 한강벨트까지 번졌다",
+      "link": "https://www.mk.co.kr/news/realestate/12206665",
+      "summary": "서울 아파트값이 92주 연속 상승했지만 강남권에서 시작된 하락세가 성동·강동구로 번지고 있다. 마포·동작 등 주요 한강벨트도 상승폭이 둔화됐다. 반면 성북·강북·노원 등 외곽은 오..",
+      "published": "2026-11-13T02:35:26+09:00",
+      "press": "매일경제 부동산",
+      "id": "03bd5906c6",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "‘82억 차익’ 고급주택 이어…BTS 진, 이번엔 한남동 빌딩 매입",
+      "link": "https://www.mk.co.kr/news/realestate/12206614",
+      "summary": "그룹 방탄소년단(BTS) 멤버 진이 서울 용산구 한남동에 위치한 빌딩을 96억원에 매입했다. 해당 건물은 구미현 전 아워홈 회장 일가가 보유하던 건물로 알려졌다. 12일 비즈한국에..",
+      "published": "2026-11-13T02:19:20+09:00",
+      "press": "매일경제 부동산",
+      "id": "30eed07aea",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "김한모 'K디벨로퍼' 승부수 … 맨해튼에 1800억 콘도 착공",
+      "link": "https://www.mk.co.kr/news/realestate/12206605",
+      "summary": "디벨로퍼 HM그룹이 미국 뉴욕시 맨해튼 트라이베카에서 고급 콘도미니엄 개발에 나섰다. HM그룹이 직접 분양까지 맡는 첫 해외 사업으로, 글로벌 확장 움직임에 속도가 붙는 모양새다...",
+      "published": "2026-11-13T02:17:41+09:00",
+      "press": "매일경제 부동산",
+      "id": "46b99b93bc",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "76.2㎿ 규모 해상풍력발전 … 포스코이앤씨, 고창서 착공",
+      "link": "https://www.mk.co.kr/news/realestate/12206604",
+      "summary": "포스코이앤씨가 전북 고창군 앞바다에서 바닷바람으로 재생에너지를 생산하는 '해상풍력발전'(조감도) 공사에 이달부터 착수한다고 12일 밝혔다. 총공사비 약 2974억원이 투입되는 이번..",
+      "published": "2026-11-13T02:17:40+09:00",
+      "press": "매일경제 부동산",
+      "id": "d2a66cad49",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "\"우리도 재개발 끼워줘\" 한강변 곳곳 갈등",
+      "link": "https://www.mk.co.kr/news/realestate/12206600",
+      "summary": "서울 한강변 재개발 사업장에서 정비구역 편입을 둘러싼 주민 갈등이 잇따르고 있다. 지난해 성수전략정비구역에서 인접 아파트 주민들이 재개발 구역에 포함해 달라고 요구한 데 이어 최근..",
+      "published": "2026-11-13T02:17:38+09:00",
+      "press": "매일경제 부동산",
+      "id": "5928fc3177",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“닥치고 공급? 마을부터 지켜달라”…서리풀 2지구 주민들, 정부 속도전에 반발",
+      "link": "https://www.mk.co.kr/news/realestate/12206531",
+      "summary": "정부의 강력한 주택 공급 확대 기조인 이른바 ‘닥치고 공급’ 정책이 현장에서 거센 진통을 겪고 있다. 서울 서초구 서리풀 2지구 주민들과 우면동 성당 신자들이 보상 대신 마을과 종..",
+      "published": "2026-11-13T01:23:53+09:00",
+      "press": "매일경제 부동산",
+      "id": "3fc49a3a3d",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“10년 만의 새 아파트”…계룡건설, ‘엘리프 논산 디에디션’ 13일 견본주택 개관",
+      "link": "https://www.mk.co.kr/news/realestate/12206458",
+      "summary": "교통·교육·생활시설 인접 산단·공원 개발 호재 전용 84㎡ 499가구 규모 23일 특공·24일 1순위 청약오는 13일 충남 논산시 내동에서 10년 만에 새 아파트 ‘엘리프 논산 디..",
+      "published": "2026-11-13T00:52:26+09:00",
+      "press": "매일경제 부동산",
+      "id": "ea4c5c444e",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "3분기 서울 아파트 거래 43.9% 줄어…거래금액도 49.0% 뚝",
+      "link": "https://www.mk.co.kr/news/realestate/12206405",
+      "summary": "서울 아파트 거래 1만2895건으로 43.9%↓ 거래금액도 14조5930억원으로 반토막 전국 부동산 거래금액도 27.2% 감소올해 3분기 서울 아파트 매매거래량이 전분기보다 43..",
+      "published": "2026-11-13T00:06:50+09:00",
+      "press": "매일경제 부동산",
+      "id": "b06671162e",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“이사 갈 집이 없어요”…서울 세입자들 꺼낸 ‘이 카드’",
+      "link": "https://www.mk.co.kr/news/realestate/12206403",
+      "summary": "서울 전세 절반 이상 갱신 비강남권 갱신권 행사 ‘활발’ 동북권 전셋값 상승 영향서울 아파트 전월세 매물 부족 현상이 심화하면서 기존 집주인과 계약을 연장하는 갱신계약 비중이 지난..",
+      "published": "2026-11-13T00:05:57+09:00",
+      "press": "매일경제 부동산",
+      "id": "9b62e57f78",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "공간 리뉴얼 했더니... 청주 CGV 빌딩 공실률 6.45%P↓",
+      "link": "https://www.mk.co.kr/news/realestate/12206364",
+      "summary": "팝업·상업용 부동산 전문 기업 스위트스팟은 자산관리 서비스 액티브PM을 통해 청주 CGV 빌딩의 공실률을 1년 반 만에 6.45%포인트 낮췄다고 12일 밝혔다. 액티브PM은 시설 ..",
+      "published": "2026-11-12T23:35:58+09:00",
+      "press": "매일경제 부동산",
+      "id": "d8cc75a22c",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "건산연 “내년 수도권 집값 3% 오를 것”...올해보단 둔화 전망",
+      "link": "https://www.mk.co.kr/news/realestate/12206260",
+      "summary": "2027년 주택·부동산 경기 전망 전국 전세 가격은 4.5%↑ 예상...상승폭 확대내년 수도권 주택 매매가격이 연간 3.0% 상승할 것이라는 전망이 나왔다. 다만 높은 대출 금리,..",
+      "published": "2026-11-12T23:00:00+09:00",
+      "press": "매일경제 부동산",
+      "id": "31cb9e33eb",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "대학생 만난 오세훈 “내년 하반기 주택 관리비 지원 추진”",
+      "link": "https://www.mk.co.kr/news/realestate/12206261",
+      "summary": "오세훈 서울시장이 “청년 월세 지원을 이어가면서 내년 하반기부터 관리비까지 지원을 추진하겠다”고 12일 밝혔다. 오 시장은 이날 서울 중구 동국대학교 원흥관에서 ‘대학생 주거안정 ..",
+      "published": "2026-11-12T23:00:00+09:00",
+      "press": "매일경제 부동산",
+      "id": "af28eb71bf",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "포스코이앤씨, ‘고창 해상풍력발전’ 이달 착공",
+      "link": "https://www.mk.co.kr/news/realestate/12206263",
+      "summary": "포스코이앤씨는 전북 고창 앞바다에 바닷바람으로 재생에너지를 생산하는 ‘해상풍력발전’ 공사에 11월부터 착수한다고 12일 밝혔다. 총 공사비 약 2974억 원이 투입되는 이번 사업은..",
+      "published": "2026-11-12T22:31:47+09:00",
+      "press": "매일경제 부동산",
+      "id": "059550eba5",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "‘중앙하이츠 구성 플랫폼시티’ 1순위 평균 5.56대 1",
+      "link": "https://www.mk.co.kr/news/realestate/12206231",
+      "summary": "최고 경쟁률 10대 1 18일 당첨자 발표·30일부터 계약CA이앤씨가 경기도 용인시 마북동 일원에 공급한 ‘중앙하이츠 구성 플랫폼시티’가 1순위 청약에서 최고 10대 1, 평균 ..",
+      "published": "2026-11-12T21:20:31+09:00",
+      "press": "매일경제 부동산",
+      "id": "0b0f3ed794",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“여행에서 누리던 웰니스, 이젠 집에서”…‘파크로쉬 서울원’ 선착순 동·호 지정 계약",
+      "link": "https://www.mk.co.kr/news/realestate/12206225",
+      "summary": "파크로쉬 리조트앤웰니스 서비스 고급 주거시설에 접목 전용 70~80㎡ 768가구 규모 입주 연령 제한 없어‘웰니스’는 하나의 유행을 넘어 삶의 방식으로 자리 잡았다. 최근에는 여행..",
+      "published": "2026-11-12T21:07:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "80e7426c4c",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "뉴욕 트라이베카에 깃발 꽂은 HM그룹…1800억 규모 콘도 개발",
+      "link": "https://www.mk.co.kr/news/realestate/12206201",
+      "summary": "부동산 개발업체 HM그룹이 미국 뉴욕 맨해튼 트라이베카에서 고급 콘도미니엄 개발사업에 전격 착수했다. 지난달 공사에 들어간 데 이어 이달 중 뉴욕주 정부에 분양 승인을 위한 공시문..",
+      "published": "2026-11-12T20:22:13+09:00",
+      "press": "매일경제 부동산",
+      "id": "0f6636bbf4",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“열람·발급 무료화 해야”…부동산 등기부 수수료 인상에 공인중개사 반발",
+      "link": "https://www.mk.co.kr/news/realestate/12206190",
+      "summary": "경기 침체로 재정적자 누적 물가상승률 등 반영해 현실화 대법 “특정 집단에 전가 목적 아냐”이달 23일부터 등기부 발급·열람·법인인감증명서 발급 수수료가 400원씩 인상된다. 이번..",
+      "published": "2026-11-12T20:09:59+09:00",
+      "press": "매일경제 부동산",
+      "id": "4cbcc945d3",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“삼전닉스, 이렇게 예쁠 수가”…실적 호조 덕 내년 세수 10배 뛰는 지자체",
+      "link": "https://www.mk.co.kr/news/realestate/12206187",
+      "summary": "내년 납부할 삼성전자 법인지방소득세 화성 1조8700억·평택 1조6000억 추산 반도체 도시들 인프라 투자 기대감 커져반도체 사업장을 둔 경기 남부 지방자치단체들의 곳간이 두둑해..",
+      "published": "2026-11-12T20:07:54+09:00",
+      "press": "매일경제 부동산",
+      "id": "2a3280fc44",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“오늘은 서울시민 내일은 경기도민”…매·전·월 동반상승에 ‘脫서울’ 급증",
+      "link": "https://www.mk.co.kr/news/economy/12206179",
+      "summary": "올해 들어 9월까지 22.3만명 서울에서 경기로 이주 유입 뺀 순이동 약 4만명, 40.3%↑ 서울 매매·전세 동반 상승 여파올해 들어 9월까지 서울에서 경기로 빠져나간 인구가 ..",
+      "published": "2026-11-12T20:04:32+09:00",
+      "press": "매일경제 부동산",
+      "id": "831de3bc96",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "‘삼성전자 후광’도 무색…평택 고덕신도시, 대규모 청약 미달",
+      "link": "https://www.mk.co.kr/news/realestate/12206170",
+      "summary": "최근 경기 평택시 고덕국제신도시에서 신규 분양한 아파트가 대규모 청약 미달 사태를 빚으며 지역 분양시장의 위기감을 높이고 있다. 삼성전자 평택캠퍼스라는 막강한 배후 수요를 등에 안..",
+      "published": "2026-11-12T19:59:03+09:00",
+      "press": "매일경제 부동산",
+      "id": "79deff4cd4",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "GS건설 아파트 커뮤니티 개인정보 유출…과기정통부, ‘1호 직권조사’ 결정",
+      "link": "https://www.mk.co.kr/news/realestate/12206129",
+      "summary": "과학기술정보통신부가 GS건설의 아파트 커뮤니티 시설 예약·관리 시스템에서 발생한 개인정보 유출 사고에 대해 직권조사에 착수한다. 최근 신설된 침해사고 조사 심의위원회가 직권조사를 ..",
+      "published": "2026-11-12T19:34:49+09:00",
+      "press": "매일경제 부동산",
+      "id": "b0ddfb6408",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“밀려나느니 작은 집이라도 있는 게 낫죠”…경기 남부 소형 아파트 신고가 행진",
+      "link": "https://www.mk.co.kr/news/realestate/12206086",
+      "summary": "경기 아파트값 서울 추월 남부권 소형 평형 신고가 내 집 마련 위해 면적 낮춰서울 아파트값이 91주 연속 상승하며 역대 최장 상승 기록하자 경기 남부권으로 매수세가 번지고 있다. ..",
+      "published": "2026-11-12T19:04:36+09:00",
+      "press": "매일경제 부동산",
+      "id": "9b7a9da4fc",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "연 3만5000가구 쓸 전기 만든다…포스코이앤씨, 고창 해상풍력 2974억 투입",
+      "link": "https://www.mk.co.kr/news/realestate/12206072",
+      "summary": "포스코이앤씨가 전북 고창 앞바다에서 바닷바람을 활용해 재생에너지를 생산하는 ‘해상풍력발전’ 공사에 본격 착수한다. 포스코이앤씨는 76.2MW(메가와트) 규모의 ‘고창 해상풍력 프로..",
+      "published": "2026-11-12T18:57:52+09:00",
+      "press": "매일경제 부동산",
+      "id": "e3b593d18d",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“고소 작업 안전하게”…한화 건설부문, OSC 기반 ‘PC 발코니 공법’ 개발",
+      "link": "https://www.mk.co.kr/news/realestate/12206063",
+      "summary": "한화 건설부문이 ‘PC(Precast Concrete·사전 제작 콘크리트) 발코니 접합기술’을 개발하고 지난 11일 실물 목업(매기) 시험시공을 완료했다고 밝혔다. 최근 서울시 등..",
+      "published": "2026-11-12T18:53:07+09:00",
+      "press": "매일경제 부동산",
+      "id": "b1bc87526a",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“세계 최고 권위 어워즈 1위”…DL이앤씨 GTX-A, 대심도 터널 기술로 ‘우뚝’",
+      "link": "https://www.mk.co.kr/news/realestate/12206053",
+      "summary": "DL이앤씨가 시공 주간사로 참여한 수도권광역급행철도(GTX-A)사업이 올해 세계 최고 터널 프로젝트로 선정되며 기술력과 사업 수행 경쟁력을 입증했다. DL이앤씨는 세계 최고 권위의..",
+      "published": "2026-11-12T18:47:32+09:00",
+      "press": "매일경제 부동산",
+      "id": "5dee550e65",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "282세대 디에이치 반포124 추첨제 공략법 [분양나우]",
+      "link": "https://www.mk.co.kr/news/realestate/12206047",
+      "summary": "올해 분양 최대어인 디에이치 반포124의 청약이 한달 앞으로 다가왔습니다. 30평대 기준 30억원대 차익이 예상돼 많은 분들이 기다리고 있는데요. 그 중에서도 가점이 낮아도, 특별..",
+      "published": "2026-11-12T18:41:37+09:00",
+      "press": "매일경제 부동산",
+      "id": "0ec000feb1",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "“협력사 경쟁력 강화 지원”…호반건설, 10년 연속 동반성장지수평가 ‘우수’",
+      "link": "https://www.mk.co.kr/news/realestate/12206014",
+      "summary": "‘호반 오픈이노베이션 위크’ 통해 기술 교류·사업 협력 확대호반건설이 10년 연속 동반성장지수평가에서 ‘우수’ 등급을 획득했다. 호반건설은 동반성장위원회가 지난 11일 발표한 ‘..",
+      "published": "2026-11-12T18:18:48+09:00",
+      "press": "매일경제 부동산",
+      "id": "54d12482dc",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강서구 염창동 동아 59.97㎡ 11억 8500만원 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206006",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 강서구 염창동 동아아파트 전용 59.97㎡가 11억 8,500만 원에 거래되며 최근 3년 내 신고..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "d354c25989",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강동구 천호동 강동역신동아파밀리에 107.34㎡ 16억 8500만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206010",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 강동구 천호동 강동역신동아파밀리에 전용 107.34㎡ 거래가 16억 8,500만 원으로 해당 면적..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "72d83bae75",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "송파구 송파파인타운6단지 84.93㎡ 19억 9천만원 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206009",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 송파구 장지동 송파파인타운6단지 전용 84.93㎡가 19억 9천만원에 거래되며 최근 3년 신고가를..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "7694f2fc6b",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "관악구 관악드림타운 60㎡ 12억 2500만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206008",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 관악구 봉천동 관악드림타운 전용 60㎡ 거래가 12억 2500만원을 기록하며 최근 3년 내 신고가..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "1017e25678",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "구로구 한신 45.563㎡ 6억 1500만원 거래… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206007",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 구로구 구로동 한신 전용 45.563㎡가 6억 1,500만 원에 거래되며 동일 단지·동일 전용면적..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "3705d6c4ac",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강서구 우장산힐스테이트 126.65㎡ 19억 2천만원 거래… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206005",
+      "summary": "MAI 부동산 2026년 11월 11일 국토교통부 실거래가 시스템에 신규 등록된 서울 강서구 내발산동 우장산힐스테이트 전용 126.65㎡가 19억 2,000만 원에 거래되며 최근 ..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "7672c7cbe9",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "노원구 중계동 삼성 59.9㎡ 6억 4천만원 거래… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206004",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 노원구 중계동 삼성 아파트 전용 59.9㎡가 6억 4,000만 원에 거래되며 해당 단지·면적 기준..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "f7231ccd67",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "노원구 월계사슴3단지 49.5㎡ 6억 3천만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206003",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 노원구 월계동 `월계사슴3단지` 전용 49.5㎡가 6억 3천만원에 거래되며 동일 단지·동일 전용면..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "4667ccd182",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "노원구 은빛1단지 49.77㎡ 5억 7900만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206002",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 노원구 상계동 은빛1단지 전용 49.77㎡ 거래가 5억 7,900만 원을 기록하며 동일 단지·동일..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "543de5c99b",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강북구 미아동 삼성래미안트리베라2단지 84.15㎡, 12억 4700만원에 거래… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206001",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 강북구 미아동 삼성래미안트리베라2단지 전용 84.15㎡가 12억 4,700만 원에 거래돼 최근 3..",
+      "published": "2026-11-12T18:15:18+09:00",
+      "press": "매일경제 부동산",
+      "id": "215ec36ead",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "서초구 반포동 반포래미안아이파크 51억 3천만원 거래 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12205995",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 아파트 거래 중 서초구 반포동 반포래미안아이파크 전용 130.92㎡가 51억 3천만원에 거래됐다...",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "c808e81450",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "동대문구 답십리동 동답한신 35.45㎡ 5억 4500만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12205996",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 동대문구 답십리동 동답한신 전용 35.45㎡가 5억 4,500만 원에 거래돼 최근 3년 내 신고가..",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "97ab755d81",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "중랑구 망우동 금호어울림 59.96㎡ 6억 8천만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12205997",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 중랑구 망우동 금호어울림(580) 전용 59.96㎡가 6억 8천만원에 거래되며 최근 3년 내 신고..",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "2d82c47b3b",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "중랑구 신내동 동성아파트 59.4㎡ 6억 4500만원 거래…최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12205998",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 중랑구 신내동 동성아파트 전용 59.4㎡가 6억 4500만원에 거래되며 해당 면적 기준 최근 3년..",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "323d5c8602",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "성북구 종암에스케이 59.86㎡ 10억 1500만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12205999",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 성북구 종암동 종암에스케이 전용 59.86㎡가 10억 1500만원에 거래되며 동일 단지·동일 전용..",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "4bbb120078",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "강북구 미아동 두산위브트레지움 84.97㎡ 11억 3천만원… 최근 3년 신고가 [MAI부동산]",
+      "link": "https://www.mk.co.kr/news/realestate/12206000",
+      "summary": "MAI 부동산 2026년 11월 11일 국토부 실거래가 시스템에 신규 등록된 서울 강북구 미아동 두산위브트레지움 전용 84.97㎡ 거래가 11억 3천만원에 체결돼 최근 3년 내 신..",
+      "published": "2026-11-12T18:15:17+09:00",
+      "press": "매일경제 부동산",
+      "id": "3a40c9b6e4",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "국토부 \"市, 법 근거없는 절차로 공급 발목\"… 서울시 \"지구 지정부터 늦어\"",
+      "link": "https://www.mk.co.kr/news/realestate/12205630",
+      "summary": "서울 도심공공주택복합사업의 사업계획 승인 절차가 지연되는 것을 놓고 국토교통부와 서울시가 책임 공방을 벌이고 있다. 국토부는 서울시가 법적 근거가 없는 사전기획 절차를 운영하면서 ..",
+      "published": "2026-11-12T04:01:00+09:00",
+      "press": "매일경제 부동산",
+      "id": "6074dd5b90",
+      "source_id": "rss-mk",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 거래신청 두달째 증가…강남3구 가격 하락폭 커져",
+      "link": "https://www.yna.co.kr/view/AKR20261112176200004",
+      "summary": "(서울=연합뉴스) 김동규 기자 = 지난달 서울 아파트 토지거래허가 신청 건수가 두 달 연속 증가한 것으로 나타났다.",
+      "published": "2026-11-13T06:00:04+09:00",
+      "press": "연합뉴스 경제",
+      "id": "4ed232ab48",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "'재건축 부담금' 법적 분쟁 조짐에…대형 로펌들 TF 속속 가동",
+      "link": "https://www.yna.co.kr/view/AKR20261112180600004",
+      "summary": "(서울=연합뉴스) 김빛나 기자 = 최근 서울 강남권 재건축 아파트 단지를 대상으로 부담금 부과 절차가 시작되면서 대형 로펌들도 전담 조직을 꾸리...",
+      "published": "2026-11-13T06:00:00+09:00",
+      "press": "연합뉴스 경제",
+      "id": "a43bfda281",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "[게시판] 우리자산신탁, 안양 가로주택정비사업 업무협약",
+      "link": "https://www.yna.co.kr/view/AKR20261112142500002",
+      "summary": "▲ 우리금융그룹 우리자산신탁은 지난 9일 경기 안양시 동안구 관양뉴골든아파트 일원 가로주택정비사업 추진준비위원회와 업무협약(MOU)을 체결했다고...",
+      "published": "2026-11-12T16:26:10+09:00",
+      "press": "연합뉴스 경제",
+      "id": "b4407a0766",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "오세훈, 청년 월세·관리비 지원 약속…\"정부 주택정책 참사\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261112082951004",
+      "summary": "(서울=연합뉴스) 유한주 기자 = 오세훈 서울시장은 12일 대학생들을 만나 청년 주거 안정을 위해 내년 하반기부터 관리비를 지원하겠다고 약속했다...",
+      "published": "2026-11-12T15:47:07+09:00",
+      "press": "연합뉴스 경제",
+      "id": "809bea5738",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "내포 임대아파트 보증금 대출상품 이달 출시…금리 1.7∼2.6%",
+      "link": "https://www.yna.co.kr/view/AKR20261112136900063",
+      "summary": "(홍성=연합뉴스) 김준범 기자 = 충남도가 내포신도시 &apos;도시리브투게더&apos; 공공임대아파트 입주예정자를 위한 임대보증금 대출상품을 이달 중 출시할 예...",
+      "published": "2026-11-12T15:37:08+09:00",
+      "press": "연합뉴스 경제",
+      "id": "c36389f84f",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "[게시판] 국힘 강명구·김장겸, 17일 '청년 내집마련 토론회'",
+      "link": "https://www.yna.co.kr/view/AKR20261112130400001",
+      "summary": "▲ 국민의힘 강명구·김장겸 의원은 오는 17일 오전 10시 국회의원회관 제1세미나실에서 사단법인 부동산금융제도학회(학회장 양창규)와 함께 &apos;청년...",
+      "published": "2026-11-12T15:08:25+09:00",
+      "press": "연합뉴스 경제",
+      "id": "55431837db",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "국토장관 \"재초환, 집값 안정 효과 있지만 재산권 침해도\"(종합)",
+      "link": "https://www.yna.co.kr/view/AKR20261112091251003",
+      "summary": "(세종=연합뉴스) 오진송 기자 = 홍지선 국토교통부 장관은 12일 재건축초과이익환수제(재초환)와 관련해 주택가격 안정 효과와 개인의 재산권 침해...",
+      "published": "2026-11-12T14:08:20+09:00",
+      "press": "연합뉴스 경제",
+      "id": "c1358eec17",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "전남광주 아파트 매매값 소폭 하락 전환",
+      "link": "https://www.yna.co.kr/view/AKR20261112076300054",
+      "summary": "(전남광주=연합뉴스) 전승현 기자 = 최근 소폭 상승과 보합권을 유지하던 전남광주 아파트 매매가격이 소폭 하락으로 전환했다.",
+      "published": "2026-11-12T14:00:07+09:00",
+      "press": "연합뉴스 경제",
+      "id": "9d8ad55f22",
+      "source_id": "rss-yna",
+      "kind": "news"
+    },
+    {
+      "title": "부산 반여동에 259가구 일반 분양… 해운대 ‘진입 사다리’ 관심",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135009149/2",
+      "summary": "DL이앤씨가 이달 중 부산 해운대구 반여동 일원에서 반여4구역 주택재건축 정비사업을 통해 ‘e편한세상 센텀 리버루체’를 분양할 예정이라고 밝혔다. 단지는 지하 3층∼지상 36층, 5개 동, 전용면적 47∼84m², 총 536가구 규모로 조성된다. 이 중 일반 분양은 △47m² 46가구 △59m²A 36가구 △59m²B 84가구 △84m²A 19가구 △84m²B 32가구 △84m²C 42가구 등 수요자 선호도가 높은 중소형 위주 259가구가 공급될 예정이다.센텀2지구 개발-민간공원조성 특례사업 등 기대 e편한세상 센텀 리버루체는 ‘부산형 판교테크노밸리’로 추진되고 있는 ‘센텀2지구 도시첨단산업단지’가 인접해 있다. 해운대구 반여동, 반송동, 석대동 일원 1.912km² 면적에 정보통신기술(ICT), 융합부품소",
+      "published": "2026-11-13T04:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "f14c81700d",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "김포 한강 바로 앞에 2432가구 대단지… 5호선 연장선 예정 호재",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135009220/2",
+      "summary": "주상복합 단지 ‘한강 푸르지오 리버프론트’가 경기 김포시 고촌읍 향산리 일원에 들어선다. 단지는 지하 4층∼지상 최고 38층, 총 12개 동, 전용면적 84∼180㎡ 아파트 2432가구로 구성된다. 여기에 주거형 오피스텔 250실을 비롯해 다채로운 근린생활시설이 함께 어우러지는 대형 복합 단지로 조성된다. 가장 눈길을 끄는 부분은 단연 한강과 접해 있는 입지적 이점이다. 단지가 한강 변에 직접 면해 있어 일부 가구를 빼고는 막힘없는 한강 조망권을 선사한다. 최고 38층 스카이라인을 바탕으로 수도권에서 보기 드문 대규모 한강 조망 랜드마크로 자리매김할 전망이다. 특히 전용 106·122㎡와 펜트하우스 180㎡ 등 중대형 주택형을 한강 변 가까이에 배치해 수변 라이프의 프리미엄을 극대화했다. 현재 잔여 가구에 ",
+      "published": "2026-11-13T04:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "b5fcf24e4b",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "용인 ‘하이닉스 신도시’에 564가구 브랜드 아파트",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135009227/2",
+      "summary": "라온건설이 오는 12월 경기 용인시 처인구에서 ‘용인반도체클러스터 라온프라이빗 파크원’을 분양할 예정이다. 단지는 용인시 처인구 용인반도체클러스터 일반산업단지 D2블록에 위치하며 지하 2층∼지상 20층, 7개 동, 전용 59·84㎡, 총 564가구로 조성된다. 전 가구가 선호도 높은 중소형으로 구성된다. 용인반도체클러스터 라온프라이빗 파크원은 SK하이닉스 등 다수의 반도체 기업을 중심으로 뛰어난 직주 근접성을 갖췄다. 반도체 관련 개발에 따른 수혜가 기대되며 주변 교통 환경도 개선되고 있어 향후 주거 가치는 더욱 높아질 전망이다. 단지가 들어서는 용인반도체클러스터 산업단지는 새로운 주거 생활권으로 평가받고 있다. SK하이닉스를 중심으로 생산시설과 협력 기업이 집중되며 대규모 산업·일자리 기반이 형성되고 있어",
+      "published": "2026-11-13T04:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "8af4c2f709",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "동탄 10분-수서 20분… 평택지제역 생활권에 1098가구",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135009231/2",
+      "summary": "㈜한화 건설부문이 평택지제역 생활권에 들어서는 ‘한화포레나 지제역’의 본보기집을 개관하고 본격적인 분양 일정에 돌입했다. 6일 개관한 견본주택에는 5개 철도 노선 연결이 계획된 평택지제역의 인기를 증명하듯 첫날부터 많은 관람객이 몰려 북적였다. 쌀쌀한 날씨에도 아침부터 어린 자녀를 동반한 젊은 부부부터 중장년층까지 다양한 방문객의 행렬이 이어졌으며 분양 상담을 받거나 유닛을 둘러보는 사람들로 성황을 이뤘다. 특히 한화포레나 지제역은 이날 오후 부동산 플랫폼 ‘호갱노노’에서 실시간 인기 단지 1위를 기록하는 등 수요자들의 관심이 집중됐다. 한화포레나 지제역은 평택의 핵심 교통 거점으로 자리 잡은 평택지제역 생활권에 들어서는 1098가구 브랜드 대단지다. 지하 2층∼지상 최고 27층, 12개 동, 총 1098가",
+      "published": "2026-11-13T04:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "b81d67f764",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "경북도청신도시에 10년 만의 민간분양… 84m²로만 1165가구",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135009187/2",
+      "summary": "대우건설 컨소시엄(대우건설·중흥건설·제일건설)이 이달 경북 예천군 호명읍 경북도청신도시 2단계 B-10블록에 들어서는 ‘경북도청 푸르지오 퍼스티온’을 분양할 예정이다. 단지는 지하 2층∼지상 최고 25층, 12개 동, 전용면적 84㎡ 단일 타입 총 1165가구 규모로 조성된다. 타입별로는 △84m²A 500가구 △84m²B 290가구 △84m²C 146가구 △84m²D 229가구다. 분양가상한제가 적용되며 입주는 2029년 8월 예정이다. 경북도청 푸르지오 퍼스티온은 경북도청신도시 2단계 첫 분양 단지이자 예천·안동 지역에 처음 들어서는 푸르지오 브랜드 아파트다. 2단계 B-10블록과 A-4블록에 걸쳐 총 2408가구 규모로 들어설 ‘푸르지오 브랜드타운’의 마중물 단지로 B-10블록 1165가구를 먼저 선보",
+      "published": "2026-11-13T04:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "d2b5f79369",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "국토장관 “매물 쌓이고 거래 줄어… 집값 하락기 시그널”",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135016637/2",
+      "summary": "홍지선 국토교통부 장관은 12일 “지금 매물이 계속 쌓이고, 거래가 감소하는 상황은 어느 정도 (주택 가격) 하락기에 접어들 수도 있다는 시그널로 볼 수 있다”고 했다. 최근 강남 3구(서초구, 강남구, 송파구) 하락세가 이어지는 상황에서 연말 기준 금리 인상이 있을 경우 서울 집값이 꺾일 수 있다는 취지의 발언으로 해석된다. 홍 장관은 이날 국회에서 열린 국토교통위원회 전체회의에서 “강남 3구는 이미 하락세가 계속 나오고 있고, 서울 외곽 지역도 상승 폭이 둔화됐다”고 밝혔다. 전월세 시장 불안에 대해서는 “충분한 주택 공급이 근본적인 대책이기 때문에 특히 수도권 임대주택 공급을 지속적으로 확충하겠다”고 답했다. 최근 논란이 되는 재건축초과이익환수제에 대해서는 “무조건 옳다, 그르다의 판단은 아니다”라며 ",
+      "published": "2026-11-13T00:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "0f2c6931dc",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "‘인텔 AI 서밋 서울’ 열려",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135016677/2",
+      "summary": "12일 서울 강남구 코엑스에서 열린 ‘2026 인텔 AI 서밋 서울’에서 참석자들이 인공지능(AI) 관련 부스를 지나가고 있다. 인텔코리아는 이번 행사에서 국내 23개 기업과 손잡고 반도체, 소프트웨어, 산업 서비스를 아우르는 AI 기술 협력체를 출범시키겠다고 밝혔다.",
+      "published": "2026-11-13T00:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "5c20cdff11",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "현대차, 소아암 환아 후원금 전달… 전-현직 카마스터 91명 동참",
+      "link": "https://www.donga.com/news/Economy/article/all/20261112/135016681/2",
+      "summary": "현대자동차는 11일 서울 강남구 강남대로 사옥에 있는 UX 스튜디오 서울에서 ‘현대 호프 온 휠스 매칭그랜트 기부금 전달식’을 진행하고 사회공헌재단인 초록우산에 후원금 6212만 원을 전달했다고 12일 밝혔다. 기부금은 현대차 전·현직 카마스터(영업직원) 91명이 모은 기부금 3106만 원에 회사가 같은 금액을 더해 기부하는 방식으로 조성됐다. 이 기부금은 소아암 환아의 치료를 위한 수술비와 진료비, 약제비 등으로 활용될 예정이다. 현대차 측은 “카마스터들의 자발적 참여가 소아암 환아들에게 실질적 도움을 줄 수 있기를 바란다”며 “앞으로도 소아암 환아들의 쾌유와 건강한 미래를 위해 지속적으로 지원해 나갈 것”이라고 밝혔다.",
+      "published": "2026-11-13T00:30:00+09:00",
+      "press": "동아일보 경제",
+      "id": "23b00e4c9b",
+      "source_id": "rss-donga",
+      "kind": "news"
+    },
+    {
+      "title": "“월세 50만원인데 관리비만 20만원”…서울시, 청년 관리비 지원 나선다",
+      "link": "https://www.sedaily.com/article/20113741",
+      "summary": "",
+      "published": "2026-11-13T07:09:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "1e0818ac64",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "억대 재초환 부담금 줄줄이 통지…“산정 방식부터 바꿔야”[집슐랭]",
+      "link": "https://www.sedaily.com/article/20113742",
+      "summary": "",
+      "published": "2026-11-13T07:01:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "caf4c9386c",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "건산연 “내년 수도권 집값 3% 오를 것...올해보다 둔화”",
+      "link": "https://www.sedaily.com/article/20113740",
+      "summary": "",
+      "published": "2026-11-13T06:30:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "e1966ce450",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "稅부담·고금리 파고…성동·강동도 8개월만에 하락 전환 [한강벨트로 번진 집값 하락]",
+      "link": "https://www.sedaily.com/article/20113731",
+      "summary": "",
+      "published": "2026-11-12T18:31:41+09:00",
+      "press": "서울경제 부동산",
+      "id": "a2defcf750",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "[기로에 선 재초환] 깜깜이 부담금 논란…“산정방식 손봐야”",
+      "link": "https://www.sedaily.com/article/20113720",
+      "summary": "",
+      "published": "2026-11-12T18:18:06+09:00",
+      "press": "서울경제 부동산",
+      "id": "141e71bc96",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "국토장관 “재초환, 재산권 침해 소지 있어”",
+      "link": "https://www.sedaily.com/article/20113647",
+      "summary": "",
+      "published": "2026-11-12T17:38:14+09:00",
+      "press": "서울경제 부동산",
+      "id": "6f23ce44ee",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "집 안 사고 전세로 버텼는데 “내년엔 집값보다 더 뛸 수도”…전셋값 4.5% 상승 전망",
+      "link": "https://www.sedaily.com/article/20113639",
+      "summary": "",
+      "published": "2026-11-12T17:25:53+09:00",
+      "press": "서울경제 부동산",
+      "id": "6ffcff7869",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "‘하이테크 강점’ 코오롱글로벌, 3분기 영업익 23%↑",
+      "link": "https://www.sedaily.com/article/20113619",
+      "summary": "",
+      "published": "2026-11-12T16:59:49+09:00",
+      "press": "서울경제 부동산",
+      "id": "9eb580e032",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "알스퀘어, 카드매출 결합한 ‘RA 상권분석’ 도입…입지 분석 넘어 돈의 흐름도 읽어",
+      "link": "https://www.sedaily.com/article/20113617",
+      "summary": "",
+      "published": "2026-11-12T16:58:31+09:00",
+      "press": "서울경제 부동산",
+      "id": "2a5f855be0",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "금호건설 3분기 영업익 222억…전년 대비 44%↑",
+      "link": "https://www.sedaily.com/article/20113574",
+      "summary": "",
+      "published": "2026-11-12T15:59:47+09:00",
+      "press": "서울경제 부동산",
+      "id": "5b3b1e398a",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "국토장관 “재초환, 집값 안정 효과 있지만 재산권 침해도”...정부·여당서도 신중 모드",
+      "link": "https://www.sedaily.com/article/20113515",
+      "summary": "",
+      "published": "2026-11-12T14:51:06+09:00",
+      "press": "서울경제 부동산",
+      "id": "9c80f11141",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "전세사기 피해자 480명 추가 인정…누적 4만2039명",
+      "link": "https://www.sedaily.com/article/20113453",
+      "summary": "",
+      "published": "2026-11-12T13:48:48+09:00",
+      "press": "서울경제 부동산",
+      "id": "c0d273c96c",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "HM그룹, 뉴욕 맨하탄 고급 콘도 착공…첫 해외 직접 분양",
+      "link": "https://www.sedaily.com/article/20113439",
+      "summary": "",
+      "published": "2026-11-12T13:25:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "b2d4b1cef8",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "비거주 규제 완화 물건너가나?…민주당 부동산 토론회 ‘썰렁’",
+      "link": "https://www.sedaily.com/article/20113436",
+      "summary": "",
+      "published": "2026-11-12T13:21:43+09:00",
+      "press": "서울경제 부동산",
+      "id": "ce131515ed",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "‘30억 로또 아파트’ 온다…‘디에이치 반포124’ 12월 분양",
+      "link": "https://www.sedaily.com/article/20113421",
+      "summary": "",
+      "published": "2026-11-12T12:45:29+09:00",
+      "press": "서울경제 부동산",
+      "id": "0362a1e084",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "‘지산 탈출’ 목동 CBS 부지…시니어주택·업무 복합거점으로 바뀐다",
+      "link": "https://www.sedaily.com/article/20113389",
+      "summary": "",
+      "published": "2026-11-12T11:11:12+09:00",
+      "press": "서울경제 부동산",
+      "id": "b2d6acde5b",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "건설산업비전포럼, AI 활용 건설안전 세미나 연다",
+      "link": "https://www.sedaily.com/article/20113359",
+      "summary": "",
+      "published": "2026-11-12T10:43:23+09:00",
+      "press": "서울경제 부동산",
+      "id": "205a2ff34a",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "포스코이앤씨, 고창 해상풍력발전소 이달 착공…2029년 상업발전 목표",
+      "link": "https://www.sedaily.com/article/20113356",
+      "summary": "",
+      "published": "2026-11-12T10:42:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "cb9d82c627",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "한화 건설부문, PC 발코니 접합기술 개발…시공 안전 높여",
+      "link": "https://www.sedaily.com/article/20113350",
+      "summary": "",
+      "published": "2026-11-12T10:35:53+09:00",
+      "press": "서울경제 부동산",
+      "id": "d559c93f67",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "자회사 디폴트 위기에 본사도 불똥…GS건설, 산은과 해법 협의",
+      "link": "https://www.sedaily.com/article/20113201",
+      "summary": "",
+      "published": "2026-11-12T06:48:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "0e8051a756",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "수수료 낮추고 사업기간 줄이고…LH, 공공재개발 22곳 속도전[집슐랭]",
+      "link": "https://www.sedaily.com/article/20113199",
+      "summary": "",
+      "published": "2026-11-12T05:47:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "50afa84b3d",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "홍지선 “착공 일정도 꼼꼼하게 챙길 것”…약수역 도심복합 속도",
+      "link": "https://www.sedaily.com/article/20113207",
+      "summary": "",
+      "published": "2026-11-11T19:36:10+09:00",
+      "press": "서울경제 부동산",
+      "id": "226555a5e8",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "자회사 디폴트 위기에 불똥…채권단과 협의 나선 GS건설",
+      "link": "https://www.sedaily.com/article/20113184",
+      "summary": "",
+      "published": "2026-11-11T18:19:53+09:00",
+      "press": "서울경제 부동산",
+      "id": "f5f4f2c1f2",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "국내 첫 ‘지분적립형’ 특공 흥행…경쟁률 100대 1",
+      "link": "https://www.sedaily.com/article/20113180",
+      "summary": "",
+      "published": "2026-11-11T18:13:44+09:00",
+      "press": "서울경제 부동산",
+      "id": "55eb9324ec",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "인허가·자금 조달 ‘원스톱 지원’…22곳서 3.9만가구 공급 박차",
+      "link": "https://www.sedaily.com/article/20113178",
+      "summary": "",
+      "published": "2026-11-11T18:11:29+09:00",
+      "press": "서울경제 부동산",
+      "id": "af15531ecd",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "KIND, 아일랜드 ESS 사업 협약…유럽 전력시장 공략",
+      "link": "https://www.sedaily.com/article/20112992",
+      "summary": "",
+      "published": "2026-11-11T14:48:27+09:00",
+      "press": "서울경제 부동산",
+      "id": "d543eacbfb",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "옛 가리봉시장 부지에 공공주택 181가구 들어선다",
+      "link": "https://www.sedaily.com/article/20112990",
+      "summary": "",
+      "published": "2026-11-11T14:47:13+09:00",
+      "press": "서울경제 부동산",
+      "id": "2d4d9ddb78",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "선사현대, 리모델링으로 3206가구 탈바꿈…망우동 옛 터미널엔 상생주택",
+      "link": "https://www.sedaily.com/article/20112988",
+      "summary": "",
+      "published": "2026-11-11T14:45:06+09:00",
+      "press": "서울경제 부동산",
+      "id": "6ab60604d7",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "이중근 부영 회장, ‘유엔참전용사 추모의날’ 국민대표로 헌화",
+      "link": "https://www.sedaily.com/article/20112981",
+      "summary": "",
+      "published": "2026-11-11T14:37:38+09:00",
+      "press": "서울경제 부동산",
+      "id": "48b8397ab8",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "흔들리는 ‘대장 아파트’…강남 재건축 지고 준신축이 버틴다",
+      "link": "https://www.sedaily.com/article/20112815",
+      "summary": "",
+      "published": "2026-11-11T11:00:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "6a7ed0a881",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "9월 서울 상업용 빌딩 거래액 ‘반토막’…대형 매매 실종 여파",
+      "link": "https://www.sedaily.com/article/20112589",
+      "summary": "",
+      "published": "2026-11-11T06:40:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "354b4d6a0d",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "직주근접 찾는 3040에 ‘멀티 역세권’ 인기…환승 프리미엄 갖춘 신규 분양 주목",
+      "link": "https://www.sedaily.com/article/20112529",
+      "summary": "",
+      "published": "2026-11-11T06:20:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "f8897ea18e",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "디에이치반포124 분양공고에 ‘통행권’ 명시…입주 후 생길 분쟁 소지 없앤다 [집슐랭]",
+      "link": "https://www.sedaily.com/article/20112591",
+      "summary": "",
+      "published": "2026-11-11T06:00:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "195e46f61a",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "“아파트 청약 당첨되려고 퇴사까지?” 고소득 의사 부부의 황당한 꼼수…354건 무더기 적발",
+      "link": "https://www.sedaily.com/article/20112707",
+      "summary": "",
+      "published": "2026-11-10T21:10:28+09:00",
+      "press": "서울경제 부동산",
+      "id": "65bc8db11c",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "[단독] ‘공공보행로 개방’ 분양공고에 못 박는다",
+      "link": "https://www.sedaily.com/article/20112657",
+      "summary": "",
+      "published": "2026-11-10T18:02:59+09:00",
+      "press": "서울경제 부동산",
+      "id": "d2779a0889",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "중흥토건·SK에코플랜트, ‘송암공원 중흥S-클래스 SK VIEW’ 선착순 계약",
+      "link": "https://www.sedaily.com/article/20112583",
+      "summary": "",
+      "published": "2026-11-10T17:31:54+09:00",
+      "press": "서울경제 부동산",
+      "id": "f24300460e",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "공실 행복주택, 4개월 넘으면 소득·자산 안 본다",
+      "link": "https://www.sedaily.com/article/20112520",
+      "summary": "",
+      "published": "2026-11-10T16:17:41+09:00",
+      "press": "서울경제 부동산",
+      "id": "bcbacae775",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "현대엔지니어링, ‘굿디자인 어워드’서 3개 부문 수상",
+      "link": "https://www.sedaily.com/article/20112515",
+      "summary": "",
+      "published": "2026-11-10T16:07:01+09:00",
+      "press": "서울경제 부동산",
+      "id": "f06d976fd9",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "‘남산 곤돌라 지연’에 오세훈 “국토부가 대통령 거짓말쟁이로 만들어”",
+      "link": "https://www.sedaily.com/article/20112476",
+      "summary": "",
+      "published": "2026-11-10T15:06:00+09:00",
+      "press": "서울경제 부동산",
+      "id": "f516a37cbf",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "성수2지구 재개발 수주 앞둔 DL이앤씨 홍보관 개관",
+      "link": "https://www.sedaily.com/article/20112390",
+      "summary": "",
+      "published": "2026-11-10T13:06:18+09:00",
+      "press": "서울경제 부동산",
+      "id": "c3a1bb3d70",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "서울은 소형, 경기는 국평에 몰려",
+      "link": "https://www.sedaily.com/article/20112387",
+      "summary": "",
+      "published": "2026-11-10T12:58:09+09:00",
+      "press": "서울경제 부동산",
+      "id": "a1519686ae",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "신영씨앤디, 카지노부터 봉안당까지 수주 행진",
+      "link": "https://www.sedaily.com/article/20112352",
+      "summary": "",
+      "published": "2026-11-10T11:14:34+09:00",
+      "press": "서울경제 부동산",
+      "id": "113e1f7cef",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "“재초환 폐지” 서초·강남 10개 재건축조합 탄원",
+      "link": "https://www.sedaily.com/article/20112349",
+      "summary": "",
+      "published": "2026-11-10T11:12:40+09:00",
+      "press": "서울경제 부동산",
+      "id": "519534cc71",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "자녀 위장전입 시킨 3주택자, 의사 부부는 ‘거짓 퇴사’까지…부정청약 354건 적발",
+      "link": "https://www.sedaily.com/article/20112344",
+      "summary": "",
+      "published": "2026-11-10T11:07:59+09:00",
+      "press": "서울경제 부동산",
+      "id": "aaaa1d16f6",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "비거주 공제 ‘14억’ 상향 추진…석 달 만에 3번 뒤집힌 ‘종부세’",
+      "link": "https://www.sedaily.com/article/20112277",
+      "summary": "",
+      "published": "2026-11-10T10:00:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "245ed07e6c",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "1기 신도시 희비 가른 부동산 규제…집값은 분당, 거래는 산본[코주부]",
+      "link": "https://www.sedaily.com/article/20112141",
+      "summary": "",
+      "published": "2026-11-10T06:05:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "1225732656",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "반포현대 재초환 부담금 179억…실제 부과까지 진통 예고[집슐랭]",
+      "link": "https://www.sedaily.com/article/20112145",
+      "summary": "",
+      "published": "2026-11-10T06:00:05+09:00",
+      "press": "서울경제 부동산",
+      "id": "5c6e0d509b",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "사업장 수에 비례하는 과징금 공포…“공급 속도 내려면 족쇄 없애야”",
+      "link": "https://www.sedaily.com/article/20112151",
+      "summary": "",
+      "published": "2026-11-09T18:32:06+09:00",
+      "press": "서울경제 부동산",
+      "id": "ac5ce4b1d9",
+      "source_id": "rss-sedaily",
+      "kind": "news"
+    },
+    {
+      "title": "강남구, 재건축 53곳 속도전…2030년 2만7330세대 목표",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hODc4dWpwNG5MVW1MNko1T0FKcUQ4S21QcDZvTWNndm1ld25kdU5LR2tZbVlwWXVkYjJzTUJPVlhLSUx1TzBfYXExbDMxN0Z1OXNvQ1ZkcjRzY3RuYnNVdkRvVGo4cUYxOUM3a2gzakhwOXPSAXdBVV95cUxOd3BPdUdiMWh4TzczT1NVY3VHcE5xV2F5WW0zX1RXalNBOVgzMWVuMl9mS1VNWFJiTlN3eEk4azJHSnhUQkVjTjBNb19rZklSRU1rVTllcHZFVHduUFFhbjdFQ2w5N0kxQ01GeGxJZXZlaHV5dGZKcw?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:54:03+09:00",
+      "press": "핀포인트뉴스",
+      "id": "4ee703a80a",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "김현기 서울 강남구청장, 재건축 혁신사례 발표…추진위 승인 30일→10일로 단축",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPQlltUF9DMFc1ZjJNeEhwMXUwOHdMM3NTLXdOMHE4WVF0bWlhcDk0NERTbHE4Um9LTW4wUVh4cU9PaC1uWENPanJpSFVhUjdCZVNVVkNvVXptM1pyNFZfbmZ0S0gyRjQtb2kxQUpzak41ZDFjOHBNNkN4WGRMR2Z5NzJGd3dIMHNiSDNtajBNbVZRSzUyUzVzTk5Sai1Ic3RoRFhXSE45S0EwX3g4N0d0VUllZVJGZkRRSlA0bWlxcHhrU2pBekh1ZEVydksxdFFlamN5U0o2bW1mNjhCTHBWUUZ0bEw2UmtadVQwYl85SmZRc2YxdEpadGhnZFlYM2duWXlOWXFWNHJhZUZwdzRRX0N2SzJKb2U3RzlIN3dEbDNpRUk?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:44:00+09:00",
+      "press": "데일리안",
+      "id": "c63021124d",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "안철수 \"재초환, 재건축 사디스트가 만든 법…폐지해야\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5tV2VYanlacG5ZVkgwcm8zcmdxdEFMeDNQNnFOdlN0X2xLZ0ZxWU1HWnEzN2ZGTlV1czVTVGprZkt6OGt0QjRZaVY2SGtmTzVwZ25uN0VxNkRLVmVJcHM5LXhTWDJmNlBGeVpmM0xwOWplbkpJX2pKMtIBeEFVX3lxTE5tV2VYanlacG5ZVkgwcm8zcmdxdEFMeDNQNnFOdlN0X2xLZ0ZxWU1HWnEzN2ZGTlV1czVTVGprZkt6OGt0QjRZaVY2SGtmTzVwZ25uN0VxNkRLVmVJcHM5LXhTWDJmNlBGeVpmM0xwOWplbkpJX2pKMg?oc=5",
+      "summary": "",
+      "published": "2026-11-11T10:14:22+09:00",
+      "press": "뉴시스",
+      "id": "4b8b5a06ba",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "조합장·실무자·전문가와 한자리에… 김현기 강남구청장, 재건축 해법 찾는다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQRjBYVmh5bTUxazFXcFJEdi02ZzY2VHRIRmRQdlJDWl84b210dWM4S21pVV9sNWlPZ3lrb2xsZWJGLXVMU2tUamI0MnVuZDZKenpTQm5oTkp2TU16WVpEUjh4QWxRTUZrYzgyQ05CNGI?oc=5",
+      "summary": "",
+      "published": "2026-11-11T09:05:00+09:00",
+      "press": "하우징타임즈",
+      "id": "9d8f31bf2f",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "은마 4.6억·반포 7억 '부담금 폭탄'...강남 재건축 조합, 국토부에 2차 탄원서 제출하며 집단 반발",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjMnVBNzRDcFVxclpGRE00VHNaT3JzQlF3VXpsVlMxTGg1Q0N0cTExd3FIejVHY3pfZ1VPRjVidHdfYkZaSW5JcXZ4ZEdKamZsblFrUlcwQ3ViMlRUbU8xaV84UmNvb2lPa0YtREtn0gFuQVVfeXFMUGMydUE3NENwVXFyWkZETTRUc1pPcnNCUXdVemxWUzFMaDVDQ3RxMTF3cUh6NUdjel9nVU9GNWJ0d19iRlpJbklxdnhkR0pqZmxuUWtSVzBDdWIyVFRtTzFpXzhSY29vaU9rRi1ES2c?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:08:30+09:00",
+      "press": "인천매거진",
+      "id": "8211a43c1c",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "은마 재건축 부담금 1인당 4억 6천만 원 #딜라이브뉴스 #shorts",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uQlhhY3BjRmx1TEhxWUdxdG1qTjB5Z1Bjc3JvbGUwLW9PTzd5RVU0SUlZZXJKN1Q5eXhEVjVoTmtTWkNTNDR5a0c2QnNvdVNIRUQ5SDhKbzdsdjk2ejZCRTVVZWF2Zw?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:38:44+09:00",
+      "press": "딜라이브뉴스",
+      "id": "f7be705678",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "[단독] 노량진 재개발 공사비, 강남 넘어섰다…1인당 추가부담 10억 넘기기도",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VcTV6dEgwQ1FvS04yNTBmZk9oOXdZNzBzSGJqUHFPZUlsRlp3UVdNUG14cWVYcGRhV21YcGpoVW1QT3pFZkJXQWJmZ1FDMENRZnZmM3N4WUc?oc=5",
+      "summary": "",
+      "published": "2026-11-11T17:33:46+09:00",
+      "press": "매일경제",
+      "id": "6033d07585",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "은마 4억6334만원·반포현대 2억2000만원…재초환 부과 시한도 논란",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5sTVcteU5nU2ZfaEJQNjNyNTBQb1N2MVhvWldmeHdYSUhDMWIxQmhERmZYR3Jwa2huRFl1amJObjhFR2JCMEZCOUpYWDlsSWgzOW9EdGgzc1gtbVVZMUVQN0FySW1lS1VmYzM4dkR2RXY?oc=5",
+      "summary": "",
+      "published": "2026-11-11T06:33:54+09:00",
+      "press": "비즈중앙",
+      "id": "6d7a1c38b1",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "은마 재건축 부담금 2조원 추산…최종액 미정",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YWHRvRW56aV90SmRIX0YtS09qMm1TT2tveGppX21XQlFvak13d3Bxd0k5WTkzcnU1ZG9ya1ZzSjY2MGpuX1MtdmRsZFF6S1RvODcycHhQLXVXUEUya2NDUHJKRFVGMUpYb1R2YQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T13:53:12+09:00",
+      "press": "스페셜경제",
+      "id": "40c71982f0",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "강남권 10개 재건축 조합 재초환 폐지 탄원…서초구 “부과기한 해석도 13일까지” 요청",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEUWRWWmRSRkQzMmRqTUgxc08yVnBHT0dzSFNRSGIyQkJEZlRjTWdKb3RQeV9nX0RGVExNVVNDbTlnWTlQdXhybjJuVV8xS0h2b1HSAVNBVV95cUxQUzlaTVRKeVdyM1JaUTlrcm9Iakw1Smtsa052M3R6bThnZm83RFNBN2xRVmJkMkY4U1MxeHdleE9GQ0YzbVdNTU10b0hNT1NOSEZ1UQ?oc=5",
+      "summary": "",
+      "published": "2026-11-10T11:12:40+09:00",
+      "press": "서울경제",
+      "id": "a008b44aa8",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "[단독] 강남구청 “개포현대2차 희림 설계안, 법적 위반 없다”…해안건축 ‘네거티브’ 판정패",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04SkFFYU1yRm9KaTNQVTVlS3J2VjlvX3lVMEZPWU5DamFwWEl2TmZZbTZSZVBGWXFlQ1FvS1dLSDJkNlNha0JkSWRhUlNVUHNHcktQWjdxZW9COGNEZ1JHOWpiQl9VUkxOYnJ3Z213?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:52:14+09:00",
+      "press": "알파경제",
+      "id": "5c32e292e7",
+      "source_id": "gn-gangnam-gu",
+      "kind": "news"
+    },
+    {
+      "title": "서울시 및 자치구 도시계획 관련 주요 열람공고 및 결정고시(9월 3주)",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhOE5VVlZudHZLWEZQakxRSGpkSjg4alNMdDVuaWZtamFMcU8xemVOS0JEb2RmRUUwVldPZ290M1ZPeExYNkJtRUNfWXdGQVY0azM4UEdtSG1qVG5uTlhv?oc=5",
+      "summary": "",
+      "published": "2026-11-10T17:00:00+09:00",
+      "press": "분야별정보",
+      "id": "24fb192005",
+      "source_id": "gn-gaepo-jungbi",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토지거래허가 신청 2개월 연속 반등… 한강벨트 ‘상승’ vs 강남3구 ‘하락’ 디커플링 심화",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UNHlBY2F0VE05VVd4NVVJUnFsWTZpRXl0ck5Za0publNlMUkwSmY0V1FDUnlXSi1ZMndINWZzekNiRVloVm1wZGJVS2xYZm1YNXh3YlVncEJ0Si1wbi15R0tpVmtocktfdDlQTzd5eVU?oc=5",
+      "summary": "",
+      "published": "2026-11-13T08:19:15+09:00",
+      "press": "미디어써치",
+      "id": "acb4a61c4a",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토허 신청 두 달 연속 증가…강남3구 가격 하락폭 확대",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1WmVudWNiOXUzN2o1dk50SEthYi1ZVVYxYWxXQ24xajJiMkp4WElLTEJyMjJBczFmQmR2c3BEWDhKa21JcE9zbWkzRllMZXpuZTdkU0ZNVWNubV9PUWVFaGhlYTc?oc=5",
+      "summary": "",
+      "published": "2026-11-13T09:02:48+09:00",
+      "press": "서울경제TV",
+      "id": "aac1a25660",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토지거래허가 신청 4월 대비 '반토막'…가격 0.5% 상승",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9saGZqZEJNbm9Nb1A1eWRXY1ZxRVQ4Z0hJT1BCakMtSzRhRlNPSmZiWHVubEctcEw3UUNFR1E1T2tqMEJCZkJjM1lhM1VySmJLSUZzTTBXd3kxVGM?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:00:00+09:00",
+      "press": "뉴스1",
+      "id": "04e2481180",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "서울 아파트 토허 신청 2개월 연속 증가…한강벨트 1.04% 올라 강남과 ‘디커플링’ [부동산360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rMlJscEtvZDRta0tlVEJqZlRLRi1jZENWSWhtWWlIcGs2MHM4eWhVcDlKbFA0X1RMNUgwUjczYVJZRzM3TDctQkM2MDZXaXJzeWtJVzdB?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:00:00+09:00",
+      "press": "헤럴드경제",
+      "id": "2230efa118",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "누군가는 사고, 누군가는 물려받는다 [김효선의 부동산이지!]",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOeG5YRUJOTGNXSlNmVU1KMi14UFVnMUdFNmF5TjRBNlhjNU42cFA0bWxmV0Q5VXFuX3czWWp0S0haTUgxLWJ5bXBzYmJqNXRqdzdBYzdOMlVqUQ?oc=5",
+      "summary": "",
+      "published": "2026-11-13T06:30:08+09:00",
+      "press": "한국경제",
+      "id": "b674aa2280",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "살던 집 재계약 46.5%…서울 강남은 갱신권 덜 썼다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ydzI0UzByODhsdnJ4UTQ0dmFGS0syaTRDZkt5Sk52YUJFQjNQOVdjMWV3N3FDbGVDRmxTMUIwUkVlblJ3UHNPc2hUaHVZSVk3ZVo0REFoNDVtamZCRjlselhyZzFuLTQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T08:15:00+09:00",
+      "press": "자본시장뉴스",
+      "id": "d048d6c642",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "전월세 매물 품귀 여파…비강남이 계약갱신청구권 더 사용",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iUlJiMlhGRGxVdWdaU015ak05N3R1Z2ItRFk2dE16SFo2SHV2a3NGck4zYmlyeW5oR0lfNE1QaEJTV1ZtS2otdGVTTmIzbEx5cVoyaExpYllkV3JsUWlnYTVPQnMyNDRf?oc=5",
+      "summary": "",
+      "published": "2026-11-12T07:21:00+09:00",
+      "press": "매일경제TV",
+      "id": "fd688ca1cc",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "[위클리오늘] 서울 아파트 전월세 재계약 46.5%…강북은 갱신권, 강남은 합의갱신 늘어",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YLUt6VTNIbTJUel9vWFEyUHhLUlFBeEJTZXhHaEdEb3Vxbjk4WkFrRk82eG1QOXRfTXZXLWM1bEVmb1ZkMU1VMzhXTV8wNnROWGhWbDhoZGIxS0tHSmxWMDlfRkFyVE41b2NRaEMxcw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:08:40+09:00",
+      "press": "위클리오늘",
+      "id": "ae03dd96ce",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "\"전월세 물건 품귀\"... 계약갱신청구권 비강남이 많이 사용했다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NcEhTSzVSdUZrOWozUHR0OE1yTy1HT1ZwX0xlWVRtdmxYWjNYUjNKSlFCYk9nWTdMTWNrMklfLUtJcWlKakJiOFB5V1h5VW1PWUxuSHJIRHBMQ0J4aHdPTV9KSEpVeU9VYmRYSmZWaVXSAXBBVV95cUxPTXBIU0s1UnVGazlqM1B0dDhNck8tR09WcF9MZVlUbXZsWFozWFIzSkpRQmJPZ1k3TE1jazJJXy1LSXFpSmpCYjhQeVdYeVVtT1lMbkhySERwTENCeGh3T01fSkhKVXlPVWJkWEpmVmlV?oc=5",
+      "summary": "",
+      "published": "2026-11-12T11:12:32+09:00",
+      "press": "글로벌경제신문",
+      "id": "7f5f02dcba",
+      "source_id": "gn-togeo",
+      "kind": "news"
+    },
+    {
+      "title": "강남구 집값은 내리는데 전세는 상승…매매·전세 엇갈린 주택시장",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FcENtbl9BaE8yYzFma0hmOHIwMkJqSUlnbTBlX0RFRlZacHpQSDRaRTVKRjQ3N2FUMEZUbndObWtlS0hJbU1Uck9hR3Y0SFNIWm9fUg?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:33:32+09:00",
+      "press": ":: 위즈경제 ::",
+      "id": "dd9a2c50ac",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "국세청장 후보, 강남 살며 강북 임대…해외파견‧세종발령 등으로 불가피",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nb0lneTFENmZuQmNLOVAxdTBrdmxJblNwUlJibXFIbl9vUjlqeXpnUmRCMmxTMEpBWW9PV0lHYjk2WGk1cDZ4MEdVVW1YbVBpeGthZGRZdElUaXJ3VFQtSWlBYw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T19:13:03+09:00",
+      "press": "조세금융신문",
+      "id": "50ddaeef48",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "씨 마른 전세탓에…비강남권, 계약갱신권 더 많이 써",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPc0JYdEJKTVFabGxXSjZvOFFrSjFYbGxmU2pmcFpONnllNjNwOXduUl9BNVpRZ2xjeU51bl9iTjd3R3RGYjIxNXAtZk92YjVKb0F0MTFlbkxHUHZWUTZ3bUVyaUFzX1FaWUd2Mk1WSTZFWmR1anhSUG1uNlRHcmlSUHdBNzctYjdZOURLOTJtM2t0SDFMMDFDTm0zZDkyUXhnU3BEaDJWOUZqRmZhUjg0Vm1fel9aLTlQUFJreUFOZ3NPNnVhLXVyS20xcFNmMlpacURqTktNbGR3VGFvX0pGb05xNlN5WU1ja295M2wtbFI4Q2NGYlNpMi1QVFBzR05yY0NZZHZwdm91T0RCVXdJNGtkR3dSeU5TNEI4dmdka016N3Z5VW40VGc2NmhJYlAwVmJlSkwxdmhWVjZTZEJwY0YwbnpWQQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T11:13:33+09:00",
+      "press": "중앙신문",
+      "id": "d77afde78b",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "서울 집값 92주 연속 상승 … 노도강, 매매·전세 모두 '초강세'",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaUJTMU1pTlE5U3lFR2NZWm9TcTl4MzhvcHZwOUFKSnJ1M0F6YzZ1UGRVTEx3SXZBOHAtZE4xS2tVT1dScXVkdkVFUkhmXzBfMHhlbE9PeGZVN2FqdTdPM3hKNkRwc0pLbnNWeTcwSU1oTEtlX0pWc3hTNFBIRTVzedIBgAFBVV95cUxOaUJTMU1pTlE5U3lFR2NZWm9TcTl4MzhvcHZwOUFKSnJ1M0F6YzZ1UGRVTEx3SXZBOHAtZE4xS2tVT1dScXVkdkVFUkhmXzBfMHhlbE9PeGZVN2FqdTdPM3hKNkRwc0pLbnNWeTcwSU1oTEtlX0pWc3hTNFBIRTVzeQ?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:48:00+09:00",
+      "press": "뉴데일리",
+      "id": "8b86b22b22",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "성동구도 꺾였다…강남發 집값 하락 강북 북상하나",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zRTA2bk1rZmIzQjFncnlGMFZ5RC1xOTdOakpmeUNmRkNIalRCYnhwMDNUa1c2a1RUY01JVmJacE9ndmx4Z0x4RGR4YmFWSWlOam53?oc=5",
+      "summary": "",
+      "published": "2026-11-13T09:01:56+09:00",
+      "press": "경제타임스",
+      "id": "7e7aa3fe5f",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "국힘 안상훈 \"국세청장 후보, 강남 살며 강북집 전세‥자기모순\"",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnQmdCc0oybXpVVVlvbjZLRThfX3g5RlFNbWNIMHB5UGRldXctdlFxX1JpYWZIOVVDaGR3VXkzZ2RfX0o1ZFkyc09kRlVUem80Tm1kWXREUjZkdlJVSEVxUDhwMXNFcE1YMTlyYUwyX19fSzJXZzFYS9IBeEFVX3lxTFBnQmdCc0oybXpVVVlvbjZLRThfX3g5RlFNbWNIMHB5UGRldXctdlFxX1JpYWZIOVVDaGR3VXkzZ2RfX0o1ZFkyc09kRlVUem80Tm1kWXREUjZkdlJVSEVxUDhwMXNFcE1YMTlyYUwyX19fSzJXZzFYSw?oc=5",
+      "summary": "",
+      "published": "2026-11-12T14:27:39+09:00",
+      "press": "MBC 뉴스",
+      "id": "f0ca6283bf",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "野안상훈 \"국세청장 후보, 강남살며 강북집 임대…비거주 1주택\"",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fNXZyQXBzTldvZHN4Yy1pT3dyZDV0bkRNVXcyckdrVHVObHBzdDB5Q2JlbDlUdWdyYWVUTktGR2Rjd0ItLVlZeXRrNWY3aWF5b2IwWGp4Tk5mbmfSAWBBVV95cUxPSkphTTR2VjNwbFZqLVNCVjFSc2YtMjM2REZkLUs1NEVQb1dBQ0lpVnBjcGpqNnJQY2VaNDI3TkhFQ1pkWVJvZHN4Q2Z2ejcyTFU0c1VoOXppMUlQU0tZQWo?oc=5",
+      "summary": "",
+      "published": "2026-11-12T10:37:15+09:00",
+      "press": "연합뉴스",
+      "id": "1faf7f6792",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "장특공제 정부안대로면 양도세 7억↑…여당 완화론에 강남 집주인 촉각",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yd2s1eENlWjZ3X05fdjZINmlKc0VSOG03WHlUUmJSUXI5WmNSc1lvYWtVd2hfb3lFdHc0WjZMNjdMckVkMkxzcjhNbTZtOW1YNklSOFNYTVFnSVU?oc=5",
+      "summary": "",
+      "published": "2026-11-11T05:20:00+09:00",
+      "press": "뉴스1",
+      "id": "83326815b2",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "서울 전세 시장, 강북 전셋값 폭등에 갱신권 사용률 급증…강남과 대조적 현상",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qOVY2ajFWSDhqUUF5cXYyNlozSWRZYTZIbGFIME5qTkdQWVBVaU5mVlNnTG55LWFoWTB2NnJ5aUFYQ1pGaGU5WDVpQjE3bFJIZ1JLeW1jelhHM2w0RS1lcGlhZEp0WWtX?oc=5",
+      "summary": "",
+      "published": "2026-11-12T07:01:18+09:00",
+      "press": "공감신문",
+      "id": "516d49c516",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "‘쫓겨나느니 빚내서 산다’… 강남 얼어붙자 외곽 터진 ‘생존 매수’",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ITnpadXBsS2lJZnFPMlAydTBEUHdJU1pTZGlfSlZCU2hFWnNxeXdQU1RZVmJsa1VPdjVjbTVZeHpFMGlvOFE0TlgyMnF6c1VHbzNxZ3drTG_SAVRBVV95cUxNcGk3T2xPUWpRd3g3Q3hzb3N5Wl9nWmxvZUVWd1g1S1EzNC1CLTVKbzlRb3JoLUp0Y3FjdHpycEowcTZITnVxWlN1NEEySlJkd0Vmd1Y?oc=5",
+      "summary": "",
+      "published": "2026-11-10T14:05:47+09:00",
+      "press": "세계일보",
+      "id": "c37677969f",
+      "source_id": "gn-jeonse",
+      "kind": "news"
+    },
+    {
+      "title": "\"밥 주는 아파트 뜬다\"…하이엔드 단지 '식사 서비스' 경쟁",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXemxRa1ZYYmRhNWFqbnV1bUVGR1BId1UwSG1vT3VnUHlnTzZFRDFNVjhGenJmLTZrU1BaeXJ5djk1U3g5N0t5b1dtaFY3cVRoaWNNbE5nLU4wZw?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:12:38+09:00",
+      "press": "파이낸셜뉴스",
+      "id": "dc4b4d8f9d",
+      "source_id": "gn-gaepo-forest",
+      "kind": "news"
+    },
+    {
+      "title": "식사 서비스가 결정짓는 하이엔드 주거단지…‘밥 잘 주는’ 신규 분양 단지는?",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05cHhzRjQ4T2lLZFMxOVNaTkctUWZwNEpsT1Iydm9xRnNoaE51NFVreV9ic1dvT2xUc29fM1h6Nk1nTHhDZ3FlWmN5UVMweFR1bnFQRmpWUmp6ZjZ3MnhHNUc2N28?oc=5",
+      "summary": "",
+      "published": "2026-11-11T11:19:51+09:00",
+      "press": "매일일보",
+      "id": "2a4f5b8f51",
+      "source_id": "gn-gaepo-forest",
+      "kind": "news"
+    },
+    {
+      "title": "’밥 잘 주는’ 신규 분양 단지 어디?…‘식사서비스’가 결정하는 진정한 하이엔드 주거단지 '눈길'",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95ZmNQTl9fOU5ualZwaVhFcmZqVnY0WEU2OUpMYVN0Ry1XNFJpaXRYakNBWTVDT0M5N0hLOE9INE9ZY2V5R2d0S0YzenZ6TldFODM3UWQ5dEFVdVE?oc=5",
+      "summary": "",
+      "published": "2026-11-10T10:08:09+09:00",
+      "press": "뉴스스페이스",
+      "id": "c35499cc9e",
+      "source_id": "gn-gaepo-forest",
+      "kind": "news"
+    },
+    {
+      "title": "하이엔드 주거단지 경쟁력, 식사 서비스로 확대…신규 공급 단지는?",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OcmxQWGFyOUs0eTFLbUVHazRDMEdOX3QzWTZreUZGVU96U3JMWFVyRU10MmNvSVF4c29NcUdwMEFqcGllU3Y0VjFSRzJaWDIwTXRLa1NlbkppMUNxbkxvcWV0Q0FhUkstLUo4MndMNA?oc=5",
+      "summary": "",
+      "published": "2026-11-11T09:36:31+09:00",
+      "press": "비즈트리뷴",
+      "id": "e7ba42510e",
+      "source_id": "gn-gaepo-forest",
+      "kind": "news"
+    },
+    {
+      "title": "“부동산 손님 90%가 삼전 직원”… ‘삼성 특구’ 동탄 올 21% 급등",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ySUVkYWx0UW5RQ2pKY1diZFB4Tm1tX0gtLTFrLTZyQnFpOVhtd3BpbF9XNHhJZjdjYmVYY09JeVdya2d1dEl6cExHXzRGSTI3?oc=5",
+      "summary": "",
+      "published": "2026-11-10T09:22:10+09:00",
+      "press": "문화일보",
+      "id": "992c26188d",
+      "source_id": "gn-gaepo-forest",
+      "kind": "news"
+    }
+  ],
+  "deals": [],
+  "log": [
+    {
+      "source": "gn-gaepo",
+      "ok": true,
+      "count": 14
+    },
+    {
+      "source": "gn-gaepo-rebuild",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "gn-blesstige",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "gn-gangnam-price",
+      "ok": true,
+      "count": 33
+    },
+    {
+      "source": "gn-gangnam-apt",
+      "ok": true,
+      "count": 76
+    },
+    {
+      "source": "gn-policy",
+      "ok": true,
+      "count": 24
+    },
+    {
+      "source": "nv-gaepo",
+      "ok": false,
+      "error": "네이버 키 없음 (건너뜀)"
+    },
+    {
+      "source": "nv-gangnam",
+      "ok": false,
+      "error": "네이버 키 없음 (건너뜀)"
+    },
+    {
+      "source": "rss-hankyung",
+      "ok": false,
+      "error": "403 Client Error: Forbidden for url: https://www.hankyung.com/feed/realestate"
+    },
+    {
+      "source": "rss-mk",
+      "ok": true,
+      "count": 48
+    },
+    {
+      "source": "rss-yna",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "rss-donga",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "rss-sedaily",
+      "ok": true,
+      "count": 48
+    },
+    {
+      "source": "gn-gangnam-gu",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "gn-gaepo-jungbi",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "gn-togeo",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "gn-jeonse",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "gn-ilwon",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "gn-honors",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "gn-gaepo-xi",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "gn-gaepo-forest",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "gn-firstier",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "molit",
+      "ok": false,
+      "error": "공공데이터 키 없음 (건너뜀)"
+    }
+  ]
+}
