@@ -298,9 +298,8 @@ def build_prompt(cfg: dict, day: str, cands: list[dict], deals: list[dict], stat
         f"오늘은 {day}이다.\n\n[학습 기록]\n{feedback_block(stats)}\n\n"
         + ("[최근 7일 동안 이미 올린 글 — 같은 사건·같은 소재는 고르지 않는다. 후속 보도라면 새로 밝혀진 사실이 있을 때만 고르고, 그 새 사실을 중심으로 쓴다]\n"
            + "\n".join(recent_topics(day)) + "\n\n" if recent_topics(day) else "")
-        + 
-        + daily_extras(day) + "\n\n" +
-        f"[후보 자료]\n{json.dumps(blocks, ensure_ascii=False, indent=1)}\n{deal_note}\n\n"
+        + daily_extras(day) + "\n\n"
+        + f"[후보 자료]\n{json.dumps(blocks, ensure_ascii=False, indent=1)}\n{deal_note}\n\n"
         "후보 중 정확히 3편을 골라 posts 배열에 담아라. 가장 추천하는 글을 첫 번째에 둔다."
     )
 
